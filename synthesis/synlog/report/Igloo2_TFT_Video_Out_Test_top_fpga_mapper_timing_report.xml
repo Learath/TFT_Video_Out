@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/Igloo2_TFT_Video_Out_Test_top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>107.5 MHz</data>
+<data>0.693</data>
+</row>
+<row>
+<data>Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>400.2 MHz</data>
+<data>7.501</data>
+</row>
+<row>
+<data>Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>153.9 MHz</data>
+<data>2.274</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

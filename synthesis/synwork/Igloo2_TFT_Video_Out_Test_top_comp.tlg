@@ -1,0 +1,679 @@
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd":17:7:17:35|Synthesizing work.igloo2_tft_video_out_test_top.rtl 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":35:7:35:16|Synthesizing work.patterngen.behavioral 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd":28:7:28:14|Synthesizing work.xcounter.behavioral 
+Post processing for work.xcounter.behavioral
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd":28:7:28:14|Synthesizing work.xcounter.behavioral 
+Post processing for work.xcounter.behavioral
+Post processing for work.patterngen.behavioral
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd":20:7:20:31|Synthesizing work.igloo2_tft_video_out_test.rtl 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":779:10:779:17|Synthesizing smartfusion2.sysreset.syn_black_box 
+Post processing for smartfusion2.sysreset.syn_black_box
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd":17:7:17:36|Synthesizing work.igloo2_tft_video_out_test_hpms.rtl 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box 
+Post processing for smartfusion2.outbuf.syn_black_box
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":503:10:503:20|Synthesizing smartfusion2.outbuf_diff.syn_black_box 
+Post processing for smartfusion2.outbuf_diff.syn_black_box
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box 
+Post processing for smartfusion2.bibuf.syn_black_box
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box 
+Post processing for smartfusion2.inbuf.syn_black_box
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch 
+Post processing for work.mss_010.def_arch
+Post processing for work.igloo2_tft_video_out_test_hpms.rtl
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd":8:7:8:44|Synthesizing work.igloo2_tft_video_out_test_fabosc_0_osc.def_arch 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box 
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/SgCore/OSC/1.0.102/osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch 
+Post processing for work.rcosc_25_50mhz.def_arch
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/SgCore/OSC/1.0.102/osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch 
+Post processing for work.rcosc_25_50mhz_fab.def_arch
+Post processing for work.igloo2_tft_video_out_test_fabosc_0_osc.def_arch
+@W: CL240 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd":16:10:16:19|XTLOSC_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd":15:10:15:19|XTLOSC_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd":14:10:14:23|RCOSC_1MHZ_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd":13:10:13:23|RCOSC_1MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl 
+Post processing for work.coreresetp.rtl
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1495:8:1495:9|Pruning register count_sdif3_2(12 downto 0)  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1471:8:1471:9|Pruning register count_sdif2_2(12 downto 0)  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1447:8:1447:9|Pruning register count_sdif1_2(12 downto 0)  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1423:8:1423:9|Pruning register count_sdif0_2(12 downto 0)  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1395:8:1395:9|Pruning register count_sdif3_enable_rcosc_2  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1395:8:1395:9|Pruning register count_sdif2_enable_rcosc_2  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1395:8:1395:9|Pruning register count_sdif1_enable_rcosc_2  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1395:8:1395:9|Pruning register count_sdif0_enable_rcosc_2  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1395:8:1395:9|Pruning register count_sdif3_enable_q1_2  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1395:8:1395:9|Pruning register count_sdif2_enable_q1_2  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1395:8:1395:9|Pruning register count_sdif1_enable_q1_2  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1395:8:1395:9|Pruning register count_sdif0_enable_q1_2  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1311:8:1311:9|Pruning register count_sdif3_enable_3  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1252:8:1252:9|Pruning register count_sdif2_enable_3  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1193:8:1193:9|Pruning register count_sdif1_enable_3  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1134:8:1134:9|Pruning register count_sdif0_enable_3  
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1.
+@W: CL190 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1376:8:1376:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1059:8:1059:9|Pruning register release_ext_reset  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1376:8:1376:9|Pruning register EXT_RESET_OUT_int  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1376:8:1376:9|Pruning register sm2_state(2 downto 0)  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":792:8:792:9|Pruning register sm2_areset_n_q1  
+@W: CL169 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":792:8:792:9|Pruning register sm2_areset_n_clk_base  
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":26:7:26:17|Synthesizing work.coreconfigp.rtl 
+Post processing for work.coreconfigp.rtl
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":34:7:34:17|Synthesizing coreahblite_lib.coreahblite.coreahblite_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":33:7:33:28|Synthesizing coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavestage.vhd":32:7:32:28|Synthesizing coreahblite_lib.coreahblite_slavestage.trans 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":30:7:30:30|Synthesizing coreahblite_lib.coreahblite_slavearbiter.coreahblite_slavearbiter_arch 
+@W: CD604 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":392:12:392:25|OTHERS clause is not synthesized 
+Post processing for coreahblite_lib.coreahblite_slavearbiter.coreahblite_slavearbiter_arch
+Post processing for coreahblite_lib.coreahblite_slavestage.trans
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":33:7:33:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch 
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":325:8:325:17|Signal sdataready in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":326:8:326:13|Signal shresp in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":327:8:327:16|Signal hrdata_s0 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":327:20:327:31|Signal hreadyout_s0 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":328:8:328:16|Signal hrdata_s1 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":328:20:328:31|Signal hreadyout_s1 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":329:8:329:16|Signal hrdata_s2 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":329:20:329:31|Signal hreadyout_s2 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":330:8:330:16|Signal hrdata_s3 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":330:20:330:31|Signal hreadyout_s3 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":331:8:331:16|Signal hrdata_s4 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":331:20:331:31|Signal hreadyout_s4 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":332:8:332:16|Signal hrdata_s5 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":332:20:332:31|Signal hreadyout_s5 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":333:8:333:16|Signal hrdata_s6 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":333:20:333:31|Signal hreadyout_s6 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":334:8:334:16|Signal hrdata_s7 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":334:20:334:31|Signal hreadyout_s7 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":335:8:335:16|Signal hrdata_s8 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":335:20:335:31|Signal hreadyout_s8 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":336:8:336:16|Signal hrdata_s9 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":336:20:336:31|Signal hreadyout_s9 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":337:8:337:17|Signal hrdata_s10 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":337:20:337:32|Signal hreadyout_s10 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":338:8:338:17|Signal hrdata_s11 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":338:20:338:32|Signal hreadyout_s11 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":339:8:339:17|Signal hrdata_s12 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":339:20:339:32|Signal hreadyout_s12 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":340:8:340:17|Signal hrdata_s13 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":340:20:340:32|Signal hreadyout_s13 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":341:8:341:17|Signal hrdata_s14 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":341:20:341:32|Signal hreadyout_s14 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":342:8:342:17|Signal hrdata_s15 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":342:20:342:32|Signal hreadyout_s15 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":343:8:343:17|Signal hrdata_s16 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":343:20:343:32|Signal hreadyout_s16 in the sensitivity list is not used in the process
+@W: CD604 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":623:12:623:25|OTHERS clause is not synthesized 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":31:7:31:32|Synthesizing coreahblite_lib.coreahblite_defaultslavesm.coreahblite_defaultslavesm_arch 
+@W: CD604 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":65:12:65:25|OTHERS clause is not synthesized 
+Post processing for coreahblite_lib.coreahblite_defaultslavesm.coreahblite_defaultslavesm_arch
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":59:7:59:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch 
+Post processing for coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch
+Post processing for coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":630:8:630:9|Sharing sequential element addrRegSMCurrentState.
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":33:7:33:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch 
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":327:8:327:16|Signal hrdata_s0 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":327:20:327:31|Signal hreadyout_s0 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":328:8:328:16|Signal hrdata_s1 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":328:20:328:31|Signal hreadyout_s1 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":329:8:329:16|Signal hrdata_s2 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":329:20:329:31|Signal hreadyout_s2 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":330:8:330:16|Signal hrdata_s3 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":330:20:330:31|Signal hreadyout_s3 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":331:8:331:16|Signal hrdata_s4 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":331:20:331:31|Signal hreadyout_s4 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":332:8:332:16|Signal hrdata_s5 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":332:20:332:31|Signal hreadyout_s5 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":333:8:333:16|Signal hrdata_s6 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":333:20:333:31|Signal hreadyout_s6 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":334:8:334:16|Signal hrdata_s7 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":334:20:334:31|Signal hreadyout_s7 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":335:8:335:16|Signal hrdata_s8 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":335:20:335:31|Signal hreadyout_s8 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":336:8:336:16|Signal hrdata_s9 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":336:20:336:31|Signal hreadyout_s9 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":337:8:337:17|Signal hrdata_s10 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":337:20:337:32|Signal hreadyout_s10 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":338:8:338:17|Signal hrdata_s11 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":338:20:338:32|Signal hreadyout_s11 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":339:8:339:17|Signal hrdata_s12 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":339:20:339:32|Signal hreadyout_s12 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":340:8:340:17|Signal hrdata_s13 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":340:20:340:32|Signal hreadyout_s13 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":341:8:341:17|Signal hrdata_s14 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":341:20:341:32|Signal hreadyout_s14 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":342:8:342:17|Signal hrdata_s15 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":342:20:342:32|Signal hreadyout_s15 in the sensitivity list is not used in the process
+@W: CD604 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":623:12:623:25|OTHERS clause is not synthesized 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":59:7:59:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch 
+Post processing for coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch
+Post processing for coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":630:8:630:9|Sharing sequential element addrRegSMCurrentState.
+Post processing for coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch
+Post processing for coreahblite_lib.coreahblite.coreahblite_arch
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":34:7:34:17|Synthesizing coreahblite_lib.coreahblite.coreahblite_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":33:7:33:28|Synthesizing coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":33:7:33:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch 
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":325:8:325:17|Signal sdataready in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":326:8:326:13|Signal shresp in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":327:8:327:16|Signal hrdata_s0 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":327:20:327:31|Signal hreadyout_s0 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":328:8:328:16|Signal hrdata_s1 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":328:20:328:31|Signal hreadyout_s1 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":329:8:329:16|Signal hrdata_s2 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":329:20:329:31|Signal hreadyout_s2 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":330:8:330:16|Signal hrdata_s3 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":330:20:330:31|Signal hreadyout_s3 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":331:8:331:16|Signal hrdata_s4 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":331:20:331:31|Signal hreadyout_s4 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":332:8:332:16|Signal hrdata_s5 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":332:20:332:31|Signal hreadyout_s5 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":333:8:333:16|Signal hrdata_s6 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":333:20:333:31|Signal hreadyout_s6 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":334:8:334:16|Signal hrdata_s7 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":334:20:334:31|Signal hreadyout_s7 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":335:8:335:16|Signal hrdata_s8 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":335:20:335:31|Signal hreadyout_s8 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":336:8:336:16|Signal hrdata_s9 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":336:20:336:31|Signal hreadyout_s9 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":337:8:337:17|Signal hrdata_s10 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":337:20:337:32|Signal hreadyout_s10 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":338:8:338:17|Signal hrdata_s11 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":338:20:338:32|Signal hreadyout_s11 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":339:8:339:17|Signal hrdata_s12 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":339:20:339:32|Signal hreadyout_s12 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":340:8:340:17|Signal hrdata_s13 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":340:20:340:32|Signal hreadyout_s13 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":341:8:341:17|Signal hrdata_s14 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":341:20:341:32|Signal hreadyout_s14 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":342:8:342:17|Signal hrdata_s15 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":342:20:342:32|Signal hreadyout_s15 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":343:8:343:17|Signal hrdata_s16 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":343:20:343:32|Signal hreadyout_s16 in the sensitivity list is not used in the process
+@W: CD604 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":623:12:623:25|OTHERS clause is not synthesized 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":59:7:59:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch 
+Post processing for coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch
+Post processing for coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":630:8:630:9|Sharing sequential element addrRegSMCurrentState.
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":33:7:33:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch 
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":328:8:328:16|Signal hrdata_s1 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":328:20:328:31|Signal hreadyout_s1 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":329:8:329:16|Signal hrdata_s2 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":329:20:329:31|Signal hreadyout_s2 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":330:8:330:16|Signal hrdata_s3 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":330:20:330:31|Signal hreadyout_s3 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":331:8:331:16|Signal hrdata_s4 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":331:20:331:31|Signal hreadyout_s4 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":332:8:332:16|Signal hrdata_s5 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":332:20:332:31|Signal hreadyout_s5 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":333:8:333:16|Signal hrdata_s6 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":333:20:333:31|Signal hreadyout_s6 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":334:8:334:16|Signal hrdata_s7 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":334:20:334:31|Signal hreadyout_s7 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":335:8:335:16|Signal hrdata_s8 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":335:20:335:31|Signal hreadyout_s8 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":336:8:336:16|Signal hrdata_s9 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":336:20:336:31|Signal hreadyout_s9 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":337:8:337:17|Signal hrdata_s10 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":337:20:337:32|Signal hreadyout_s10 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":338:8:338:17|Signal hrdata_s11 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":338:20:338:32|Signal hreadyout_s11 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":339:8:339:17|Signal hrdata_s12 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":339:20:339:32|Signal hreadyout_s12 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":340:8:340:17|Signal hrdata_s13 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":340:20:340:32|Signal hreadyout_s13 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":341:8:341:17|Signal hrdata_s14 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":341:20:341:32|Signal hreadyout_s14 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":342:8:342:17|Signal hrdata_s15 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":342:20:342:32|Signal hreadyout_s15 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":343:8:343:17|Signal hrdata_s16 in the sensitivity list is not used in the process
+@W: CD434 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":343:20:343:32|Signal hreadyout_s16 in the sensitivity list is not used in the process
+@W: CD604 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":623:12:623:25|OTHERS clause is not synthesized 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":59:7:59:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch 
+Post processing for coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch
+Post processing for coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":630:8:630:9|Sharing sequential element addrRegSMCurrentState.
+Post processing for coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch
+Post processing for coreahblite_lib.coreahblite.coreahblite_arch
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":53:7:53:22|Synthesizing work.coreconfigmaster.rtl 
+@W: CD604 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":405:24:405:37|OTHERS clause is not synthesized 
+@W: CD604 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":489:36:489:49|OTHERS clause is not synthesized 
+Post processing for work.coreconfigmaster.rtl
+@W: CL190 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":628:8:628:9|Optimizing register bit HTRANS_int(0) to a constant 0
+@W: CL260 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":628:8:628:9|Pruning register bit 0 of HTRANS_int(1 downto 0)  
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd":8:7:8:42|Synthesizing work.igloo2_tft_video_out_test_ccc_0_fccc.def_arch 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":787:10:787:12|Synthesizing smartfusion2.ccc.syn_black_box 
+Post processing for smartfusion2.ccc.syn_black_box
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":569:10:569:12|Synthesizing smartfusion2.gnd.syn_black_box 
+Post processing for smartfusion2.gnd.syn_black_box
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":575:10:575:12|Synthesizing smartfusion2.vcc.syn_black_box 
+Post processing for smartfusion2.vcc.syn_black_box
+Post processing for work.igloo2_tft_video_out_test_ccc_0_fccc.def_arch
+Post processing for work.igloo2_tft_video_out_test.rtl
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd":26:7:26:14|Synthesizing work.debounce.behavioural 
+Post processing for work.debounce.behavioural
+Post processing for work.igloo2_tft_video_out_test_top.rtl
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":628:8:628:9|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 29 reachable states with original encodings of:
+   000000
+   000001
+   000010
+   000011
+   000100
+   000101
+   000110
+   000111
+   001001
+   001010
+   001011
+   001100
+   001101
+   001110
+   001111
+   010000
+   010001
+   010010
+   010011
+   010100
+   010101
+   010110
+   100000
+   100001
+   100010
+   100011
+   100100
+   100101
+   100110
+@W: CL246 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":53:8:53:17|Input port bits 16 to 1 of sdataready(16 downto 0) are unused 
+@W: CL246 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":54:8:54:13|Input port bits 16 to 1 of shresp(16 downto 0) are unused 
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":75:8:75:16|Input HRDATA_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":76:8:76:19|Input HREADYOUT_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":77:8:77:16|Input HRDATA_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":78:8:78:19|Input HREADYOUT_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":79:8:79:16|Input HRDATA_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":80:8:80:19|Input HREADYOUT_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":81:8:81:16|Input HRDATA_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":82:8:82:19|Input HREADYOUT_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":87:8:87:17|Input HRDATA_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":88:8:88:20|Input HREADYOUT_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":89:8:89:17|Input HRDATA_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":90:8:90:20|Input HREADYOUT_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":91:8:91:17|Input HRDATA_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":92:8:92:20|Input HREADYOUT_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":93:8:93:17|Input HRDATA_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":94:8:94:20|Input HREADYOUT_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":95:8:95:17|Input HRDATA_S16 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":96:8:96:20|Input HREADYOUT_S16 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":53:8:53:17|Input SDATAREADY is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":54:8:54:13|Input SHRESP is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":75:8:75:16|Input HRDATA_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":76:8:76:19|Input HREADYOUT_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":77:8:77:16|Input HRDATA_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":78:8:78:19|Input HREADYOUT_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":79:8:79:16|Input HRDATA_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":80:8:80:19|Input HREADYOUT_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":81:8:81:16|Input HRDATA_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":82:8:82:19|Input HREADYOUT_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":87:8:87:17|Input HRDATA_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":88:8:88:20|Input HREADYOUT_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":89:8:89:17|Input HRDATA_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":90:8:90:20|Input HREADYOUT_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":91:8:91:17|Input HRDATA_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":92:8:92:20|Input HREADYOUT_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":93:8:93:17|Input HRDATA_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":94:8:94:20|Input HREADYOUT_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":95:8:95:17|Input HRDATA_S16 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":96:8:96:20|Input HREADYOUT_S16 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":61:8:61:16|Input HWDATA_M1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":70:8:70:16|Input HWDATA_M2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":79:8:79:16|Input HWDATA_M3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":94:8:94:16|Input HRDATA_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":95:8:95:19|Input HREADYOUT_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":96:8:96:15|Input HRESP_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":105:8:105:16|Input HRDATA_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":106:8:106:19|Input HREADYOUT_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":107:8:107:15|Input HRESP_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":116:8:116:16|Input HRDATA_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":117:8:117:19|Input HREADYOUT_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":118:8:118:15|Input HRESP_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":127:8:127:16|Input HRDATA_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":128:8:128:19|Input HREADYOUT_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":129:8:129:15|Input HRESP_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":138:8:138:16|Input HRDATA_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":139:8:139:19|Input HREADYOUT_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":140:8:140:15|Input HRESP_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":149:8:149:16|Input HRDATA_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":150:8:150:19|Input HREADYOUT_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":151:8:151:15|Input HRESP_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":160:8:160:16|Input HRDATA_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":161:8:161:19|Input HREADYOUT_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":162:8:162:15|Input HRESP_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":171:8:171:16|Input HRDATA_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":172:8:172:19|Input HREADYOUT_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":173:8:173:15|Input HRESP_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":182:8:182:16|Input HRDATA_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":183:8:183:19|Input HREADYOUT_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":184:8:184:15|Input HRESP_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":193:8:193:17|Input HRDATA_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":194:8:194:20|Input HREADYOUT_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":195:8:195:16|Input HRESP_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":204:8:204:17|Input HRDATA_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":205:8:205:20|Input HREADYOUT_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":206:8:206:16|Input HRESP_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":215:8:215:17|Input HRDATA_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":216:8:216:20|Input HREADYOUT_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":217:8:217:16|Input HRESP_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":226:8:226:17|Input HRDATA_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":227:8:227:20|Input HREADYOUT_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":228:8:228:16|Input HRESP_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":237:8:237:17|Input HRDATA_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":238:8:238:20|Input HREADYOUT_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":239:8:239:16|Input HRESP_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":248:8:248:17|Input HRDATA_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":249:8:249:20|Input HREADYOUT_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":250:8:250:16|Input HRESP_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":259:8:259:17|Input HRDATA_S16 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":260:8:260:20|Input HREADYOUT_S16 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":261:8:261:16|Input HRESP_S16 is unused
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":131:0:131:8|Input port bit 0 of htrans_m0(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":142:0:142:8|Input port bit 0 of htrans_m1(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":153:0:153:8|Input port bit 0 of htrans_m2(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":164:0:164:8|Input port bit 0 of htrans_m3(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":174:0:174:7|Input port bit 1 of hresp_s0(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":187:0:187:7|Input port bit 1 of hresp_s1(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":200:0:200:7|Input port bit 1 of hresp_s2(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":213:0:213:7|Input port bit 1 of hresp_s3(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":226:0:226:7|Input port bit 1 of hresp_s4(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":239:0:239:7|Input port bit 1 of hresp_s5(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":252:0:252:7|Input port bit 1 of hresp_s6(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":265:0:265:7|Input port bit 1 of hresp_s7(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":278:0:278:7|Input port bit 1 of hresp_s8(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":291:0:291:7|Input port bit 1 of hresp_s9(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":304:0:304:8|Input port bit 1 of hresp_s10(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":317:0:317:8|Input port bit 1 of hresp_s11(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":330:0:330:8|Input port bit 1 of hresp_s12(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":343:0:343:8|Input port bit 1 of hresp_s13(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":356:0:356:8|Input port bit 1 of hresp_s14(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":369:0:369:8|Input port bit 1 of hresp_s15(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":382:0:382:8|Input port bit 1 of hresp_s16(1 downto 0) is unused 
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":134:0:134:8|Input HBURST_M0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":135:0:135:7|Input HPROT_M0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":145:0:145:8|Input HBURST_M1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":146:0:146:7|Input HPROT_M1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":156:0:156:8|Input HBURST_M2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":157:0:157:7|Input HPROT_M2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":167:0:167:8|Input HBURST_M3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":168:0:168:7|Input HPROT_M3 is unused
+@W: CL246 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":53:8:53:17|Input port bits 15 to 0 of sdataready(16 downto 0) are unused 
+@W: CL246 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":54:8:54:13|Input port bits 15 to 0 of shresp(16 downto 0) are unused 
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":75:8:75:16|Input HRDATA_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":76:8:76:19|Input HREADYOUT_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":77:8:77:16|Input HRDATA_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":78:8:78:19|Input HREADYOUT_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":79:8:79:16|Input HRDATA_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":80:8:80:19|Input HREADYOUT_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":81:8:81:16|Input HRDATA_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":82:8:82:19|Input HREADYOUT_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":87:8:87:17|Input HRDATA_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":88:8:88:20|Input HREADYOUT_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":89:8:89:17|Input HRDATA_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":90:8:90:20|Input HREADYOUT_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":91:8:91:17|Input HRDATA_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":92:8:92:20|Input HREADYOUT_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":93:8:93:17|Input HRDATA_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":94:8:94:20|Input HREADYOUT_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":53:8:53:17|Input SDATAREADY is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":54:8:54:13|Input SHRESP is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":75:8:75:16|Input HRDATA_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":76:8:76:19|Input HREADYOUT_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":77:8:77:16|Input HRDATA_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":78:8:78:19|Input HREADYOUT_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":79:8:79:16|Input HRDATA_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":80:8:80:19|Input HREADYOUT_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":81:8:81:16|Input HRDATA_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":82:8:82:19|Input HREADYOUT_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":87:8:87:17|Input HRDATA_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":88:8:88:20|Input HREADYOUT_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":89:8:89:17|Input HRDATA_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":90:8:90:20|Input HREADYOUT_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":91:8:91:17|Input HRDATA_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":92:8:92:20|Input HREADYOUT_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":93:8:93:17|Input HRDATA_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":94:8:94:20|Input HREADYOUT_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":95:8:95:17|Input HRDATA_S16 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":96:8:96:20|Input HREADYOUT_S16 is unused
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Trying to extract state machine for register arbRegSMCurrentState
+Extracted state machine for register arbRegSMCurrentState
+State machine has 16 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+   1110
+   1111
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":61:8:61:16|Input HWDATA_M1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":70:8:70:16|Input HWDATA_M2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":79:8:79:16|Input HWDATA_M3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":83:8:83:16|Input HRDATA_S0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":84:8:84:19|Input HREADYOUT_S0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":85:8:85:15|Input HRESP_S0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":94:8:94:16|Input HRDATA_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":95:8:95:19|Input HREADYOUT_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":96:8:96:15|Input HRESP_S1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":105:8:105:16|Input HRDATA_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":106:8:106:19|Input HREADYOUT_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":107:8:107:15|Input HRESP_S2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":116:8:116:16|Input HRDATA_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":117:8:117:19|Input HREADYOUT_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":118:8:118:15|Input HRESP_S3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":127:8:127:16|Input HRDATA_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":128:8:128:19|Input HREADYOUT_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":129:8:129:15|Input HRESP_S4 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":138:8:138:16|Input HRDATA_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":139:8:139:19|Input HREADYOUT_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":140:8:140:15|Input HRESP_S5 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":149:8:149:16|Input HRDATA_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":150:8:150:19|Input HREADYOUT_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":151:8:151:15|Input HRESP_S6 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":160:8:160:16|Input HRDATA_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":161:8:161:19|Input HREADYOUT_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":162:8:162:15|Input HRESP_S7 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":171:8:171:16|Input HRDATA_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":172:8:172:19|Input HREADYOUT_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":173:8:173:15|Input HRESP_S8 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":182:8:182:16|Input HRDATA_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":183:8:183:19|Input HREADYOUT_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":184:8:184:15|Input HRESP_S9 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":193:8:193:17|Input HRDATA_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":194:8:194:20|Input HREADYOUT_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":195:8:195:16|Input HRESP_S10 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":204:8:204:17|Input HRDATA_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":205:8:205:20|Input HREADYOUT_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":206:8:206:16|Input HRESP_S11 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":215:8:215:17|Input HRDATA_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":216:8:216:20|Input HREADYOUT_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":217:8:217:16|Input HRESP_S12 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":226:8:226:17|Input HRDATA_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":227:8:227:20|Input HREADYOUT_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":228:8:228:16|Input HRESP_S13 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":237:8:237:17|Input HRDATA_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":238:8:238:20|Input HREADYOUT_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":239:8:239:16|Input HRESP_S14 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":248:8:248:17|Input HRDATA_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":249:8:249:20|Input HREADYOUT_S15 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":250:8:250:16|Input HRESP_S15 is unused
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":131:0:131:8|Input port bit 0 of htrans_m0(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":142:0:142:8|Input port bit 0 of htrans_m1(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":153:0:153:8|Input port bit 0 of htrans_m2(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":164:0:164:8|Input port bit 0 of htrans_m3(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":174:0:174:7|Input port bit 1 of hresp_s0(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":187:0:187:7|Input port bit 1 of hresp_s1(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":200:0:200:7|Input port bit 1 of hresp_s2(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":213:0:213:7|Input port bit 1 of hresp_s3(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":226:0:226:7|Input port bit 1 of hresp_s4(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":239:0:239:7|Input port bit 1 of hresp_s5(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":252:0:252:7|Input port bit 1 of hresp_s6(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":265:0:265:7|Input port bit 1 of hresp_s7(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":278:0:278:7|Input port bit 1 of hresp_s8(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":291:0:291:7|Input port bit 1 of hresp_s9(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":304:0:304:8|Input port bit 1 of hresp_s10(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":317:0:317:8|Input port bit 1 of hresp_s11(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":330:0:330:8|Input port bit 1 of hresp_s12(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":343:0:343:8|Input port bit 1 of hresp_s13(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":356:0:356:8|Input port bit 1 of hresp_s14(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":369:0:369:8|Input port bit 1 of hresp_s15(1 downto 0) is unused 
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":382:0:382:8|Input port bit 1 of hresp_s16(1 downto 0) is unused 
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":134:0:134:8|Input HBURST_M0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":135:0:135:7|Input HPROT_M0 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":145:0:145:8|Input HBURST_M1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":146:0:146:7|Input HPROT_M1 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":156:0:156:8|Input HBURST_M2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":157:0:157:7|Input HPROT_M2 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":167:0:167:8|Input HBURST_M3 is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":168:0:168:7|Input HPROT_M3 is unused
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":517:8:517:9|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":96:4:96:12|Input CLK_LTSSM is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":123:4:123:12|Input FPLL_LOCK is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":126:4:126:18|Input SDIF0_SPLL_LOCK is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":135:4:135:18|Input SDIF1_SPLL_LOCK is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":139:4:139:18|Input SDIF2_SPLL_LOCK is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":143:4:143:18|Input SDIF3_SPLL_LOCK is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":157:4:157:13|Input SDIF0_PSEL is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":158:4:158:15|Input SDIF0_PWRITE is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":159:4:159:15|Input SDIF0_PRDATA is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":160:4:160:13|Input SDIF1_PSEL is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":161:4:161:15|Input SDIF1_PWRITE is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":162:4:162:15|Input SDIF1_PRDATA is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":163:4:163:13|Input SDIF2_PSEL is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":164:4:164:15|Input SDIF2_PWRITE is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":165:4:165:15|Input SDIF2_PRDATA is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":166:4:166:13|Input SDIF3_PSEL is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":167:4:167:15|Input SDIF3_PWRITE is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":168:4:168:15|Input SDIF3_PRDATA is unused
+@W: CL159 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd":10:10:10:12|Input XTL is unused
+@W: CL247 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd":26:8:26:25|Input port bit 0 of fic_0_ahb_s_htrans(1 downto 0) is unused 
+@W: CL279 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Pruning register bits 7 to 2 of pixel_r(7 downto 0)  

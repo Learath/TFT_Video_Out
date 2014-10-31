@@ -1,0 +1,209 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.4 (Version 11.4.0.112)
+Date: Thu Oct 30 01:18:25 2014
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | IGLOO2         |
+| Device                         | M2GL010T       |
+| Package                        | 484 FBGA       |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
++--------------------------------+----------------+
+
+Source Files
++---------+--------------------------------------------------------------------------------------+
+| Topcell | Igloo2_TFT_Video_Out_Test_top                                                        |
+| Format  | EDIF                                                                                 |
+| Source  | /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn |
++---------+--------------------------------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+------+
+| Merge User SDC file(s) with Existing Timing Constraints | true |
+| Abort Compile if errors are found in PDC file(s)        | true |
+| Limit the number of high fanout nets to display to      | 10   |
++---------------------------------------------------------+------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1085 | 12084 | 8.98       |
+| DFF                       | 603  | 12084 | 4.99       |
+| I/O Register              | 0    | 693   | 0.00       |
+| User I/O                  | 59   | 231   | 25.54      |
+| -- Single-ended I/O       | 57   | 231   | 24.68      |
+| -- Differential I/O Pairs | 1    | 115   | 0.87       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 0    | 21    | 0.00       |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Global               | 7    | 8     | 87.50      |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| SERDESIF Blocks           | 0    | 1     | 0.00       |
+| -- SERDESIF Lanes         | 0    | 4     | 0.00       |
+| HPMS                      | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 1085 | 603 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 1085 | 603 |
++--------------------------+------+-----+
+
+HPMS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| SPI           | 0    | 1     |
+| MDDR          | 1    | 1     |
+| HPDMA         | 0    | 1     |
+| PDMA          | 0    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the HPMS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 8      | 1    |
+| 9      | 1    |
+| 13     | 1    |
+| 16     | 2    |
+| 17     | 2    |
+| 21     | 1    |
+| 23     | 1    |
+| Total  | 9    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 35           | 0           | 0               |
+| Bidirectional I/O             | 20           | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 1            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++------------------------------+--------+--------+-------+--------+---------------+
+| I/O Standard                 | Vddi   | Vref   | Input | Output | Bidirectional |
++------------------------------+--------+--------+-------+--------+---------------+
+| LVCMOS25                     |  2.50v |  N/A   |  1    |  8     |  0            |
+| LPDDRI (Input/Bidirectional) |  1.80v |  1.00v |  1    |  0     |  20           |
+| LPDDRI (Output)              |  1.80v |  N/A   |  0    |  29    |  0            |
++------------------------------+--------+--------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  50   | 84.75%     |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  9    | 15.25%     |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+----------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                 |
++--------+---------+----------------------------------------------------------------------------------------------------------------------+
+| 510    | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0_FAB_CCC_GL0                                                                      |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1                                                           |
+|        |         | Source: NETLIST                                                                                                      |
+| 458    | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/HPMS_READY                                                                       |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3D17/U0_RGB1                                  |
+|        |         | Source: NETLIST                                                                                                      |
+| 77     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0_APB_S_PRESET_N                                                     |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST_RNI67N2/U0_RGB1                  |
+|        |         | Source: NETLIST                                                                                                      |
+| 75     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0_APB_S_PCLK                                                         |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                                      |
+| 20     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_clk_base_0                                             |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_clk_base_RNIE6L5/U0_RGB1                               |
+|        |         | Source: NETLIST                                                                                                      |
+| 20     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_O2F                                                      |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                                     |
+|        |         | Source: NETLIST                                                                                                      |
+| 18     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc_0                                                |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc_RNIK6M4/U0_RGB1                                  |
+|        |         | Source: NETLIST                                                                                                      |
++--------+---------+----------------------------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                        |
++--------+---------+---------------------------------------------------------------------------------------------+
+| 66     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/HREADY_i_3                                              |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterstage_0/HREADY_M_iv      |
+| 52     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/count[1]                                 |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/count[1]                                 |
+| 52     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[21]                                |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[21]                                |
+| 49     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/un1_d_HWRITE_0_sqmuxa_1_0                |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/un1_d_HWRITE_0_sqmuxa_1_0                |
+| 42     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterRegAddrSel               |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterstage_0/masterRegAddrSel |
+| 39     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[10]                                |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[10]                                |
+| 37     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/N_198                                    |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/opcode_0_a3_0_0_a2                       |
+| 36     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/slavestage_16/hsel2            |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/slavestage_16/hsel2            |
+| 36     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[8]                                 |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[8]                                 |
+| 36     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[7]                                 |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[7]                                 |
++--------+---------+---------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                        |
++--------+---------+---------------------------------------------------------------------------------------------+
+| 66     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/HREADY_i_3                                              |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterstage_0/HREADY_M_iv      |
+| 52     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/count[1]                                 |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/count[1]                                 |
+| 52     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[21]                                |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[21]                                |
+| 49     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/un1_d_HWRITE_0_sqmuxa_1_0                |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/un1_d_HWRITE_0_sqmuxa_1_0                |
+| 42     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterRegAddrSel               |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterstage_0/masterRegAddrSel |
+| 39     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[10]                                |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[10]                                |
+| 37     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/N_198                                    |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/opcode_0_a3_0_0_a2                       |
+| 36     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/slavestage_16/hsel2            |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/slavestage_16/hsel2            |
+| 36     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[8]                                 |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[8]                                 |
+| 36     | INT_NET | Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[7]                                 |
+|        |         | Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[7]                                 |
++--------+---------+---------------------------------------------------------------------------------------------+
+

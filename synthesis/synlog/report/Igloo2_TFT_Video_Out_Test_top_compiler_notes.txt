@@ -1,0 +1,64 @@
+@N|Running in 64-bit mode
+@N: CD720 :"/opt/microsemi/Libero_v11.4/Synplify/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd":17:7:17:35|Top entity is set to Igloo2_TFT_Video_Out_Test_top.
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd":17:7:17:35|Synthesizing work.igloo2_tft_video_out_test_top.rtl 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":35:7:35:16|Synthesizing work.patterngen.behavioral 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd":28:7:28:14|Synthesizing work.xcounter.behavioral 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd":28:7:28:14|Synthesizing work.xcounter.behavioral 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd":20:7:20:31|Synthesizing work.igloo2_tft_video_out_test.rtl 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":779:10:779:17|Synthesizing smartfusion2.sysreset.syn_black_box 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd":17:7:17:36|Synthesizing work.igloo2_tft_video_out_test_hpms.rtl 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":503:10:503:20|Synthesizing smartfusion2.outbuf_diff.syn_black_box 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd":8:7:8:44|Synthesizing work.igloo2_tft_video_out_test_fabosc_0_osc.def_arch 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/SgCore/OSC/1.0.102/osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/SgCore/OSC/1.0.102/osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl 
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1.
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":26:7:26:17|Synthesizing work.coreconfigp.rtl 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":34:7:34:17|Synthesizing coreahblite_lib.coreahblite.coreahblite_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":33:7:33:28|Synthesizing coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavestage.vhd":32:7:32:28|Synthesizing coreahblite_lib.coreahblite_slavestage.trans 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":30:7:30:30|Synthesizing coreahblite_lib.coreahblite_slavearbiter.coreahblite_slavearbiter_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":33:7:33:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":31:7:31:32|Synthesizing coreahblite_lib.coreahblite_defaultslavesm.coreahblite_defaultslavesm_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":59:7:59:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch 
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":630:8:630:9|Sharing sequential element addrRegSMCurrentState.
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":33:7:33:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":59:7:59:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch 
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":630:8:630:9|Sharing sequential element addrRegSMCurrentState.
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":34:7:34:17|Synthesizing coreahblite_lib.coreahblite.coreahblite_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":33:7:33:28|Synthesizing coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":33:7:33:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":59:7:59:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch 
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":630:8:630:9|Sharing sequential element addrRegSMCurrentState.
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":33:7:33:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":59:7:59:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch 
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":630:8:630:9|Sharing sequential element addrRegSMCurrentState.
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":53:7:53:22|Synthesizing work.coreconfigmaster.rtl 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd":8:7:8:42|Synthesizing work.igloo2_tft_video_out_test_ccc_0_fccc.def_arch 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":787:10:787:12|Synthesizing smartfusion2.ccc.syn_black_box 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":569:10:569:12|Synthesizing smartfusion2.gnd.syn_black_box 
+@N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":575:10:575:12|Synthesizing smartfusion2.vcc.syn_black_box 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd":26:7:26:14|Synthesizing work.debounce.behavioural 
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":628:8:628:9|Trying to extract state machine for register state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Trying to extract state machine for register arbRegSMCurrentState
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":517:8:517:9|Trying to extract state machine for register state
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state
+

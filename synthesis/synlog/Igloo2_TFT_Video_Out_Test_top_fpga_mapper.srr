@@ -1,0 +1,742 @@
+Synopsys Generic Technology Mapper, Version mapact, Build 004R, Built May 28 2014 15:36:08
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09M-SP1-1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":652:8:652:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.SDIF_RELEASED_q1 reduced to a combinational gate by constant propagation 
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":630:8:630:9|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.masterRegAddrSel is always 0, optimizing ...
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":703:8:703:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF0_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":719:8:719:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF1_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":735:8:735:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF2_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":751:8:751:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF3_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":703:8:703:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF0_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":719:8:719:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF1_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":735:8:735:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF2_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":751:8:751:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF3_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":781:8:781:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm1_areset_n_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":703:8:703:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF0_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":719:8:719:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF1_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":735:8:735:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF2_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":751:8:751:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.SDIF3_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":237:8:237:9|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHTRANS of view:PrimLib.dffre(prim) in hierarchy view:work.Igloo2_TFT_Video_Out_Test(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavestage.vhd":123:8:123:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_0.masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:work.Igloo2_TFT_Video_Out_Test(rtl) because there are no references to its outputs 
+@N: BN115 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":182:31:182:43|Removing instance left_shift_counter of view:work.xcounterZ1_left_shift_counter(behavioral) because there are no references to its outputs 
+@N: BN115 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":199:31:199:43|Removing instance down_shift_counter of view:work.xcounterZ0_down_shift_counter(behavioral) because there are no references to its outputs 
+@N: BN115 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":143:25:143:37|Removing instance line_counter of view:work.xcounterZ0_line_counter(behavioral) because there are no references to its outputs 
+@N: BN115 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":125:26:125:38|Removing instance pixel_counter of view:work.xcounterZ1_pixel_counter(behavioral) because there are no references to its outputs 
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":894:8:894:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif3_areset_n_rcosc_q1,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif2_areset_n_rcosc_q1
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":883:8:883:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif2_areset_n_rcosc_q1,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif1_areset_n_rcosc_q1
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":872:8:872:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif1_areset_n_rcosc_q1,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":850:8:850:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_areset_n_rcosc_q1,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":883:8:883:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif2_areset_n_rcosc,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":894:8:894:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif3_areset_n_rcosc,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":872:8:872:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif1_areset_n_rcosc,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":861:8:861:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif0_areset_n_rcosc,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1495:8:1495:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif3_core,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif2_core
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1471:8:1471:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif2_core,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif1_core
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1447:8:1447:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif1_core,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif0_core
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1544:8:1544:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif3_core_q1,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif2_core_q1
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1544:8:1544:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif2_core_q1,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif1_core_q1
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1544:8:1544:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif1_core_q1,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif0_core_q1
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1544:8:1544:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif3_core_clk_base,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif2_core_clk_base
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1544:8:1544:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif2_core_clk_base,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif1_core_clk_base
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1544:8:1544:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif1_core_clk_base,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif0_core_clk_base
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MO129 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":781:8:781:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm1_areset_n_clk_base reduced to a combinational gate by constant propagation
+@W: MO129 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1331:8:1331:9|Sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.RESET_N_F2M_int reduced to a combinational gate by constant propagation
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 143MB)
+
+@N:"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd":62:3:62:4|Found counter in view:work.DEBOUNCE(behavioural) inst q_reg[15:0]
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":237:8:237:9|Removing sequential instance CoreAHBLite_1.matrix4x16.masterstage_0.regHSIZE[2] in hierarchy view:work.Igloo2_TFT_Video_Out_Test(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Removing sequential instance CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[0] in hierarchy view:work.Igloo2_TFT_Video_Out_Test(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Removing sequential instance CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[2] in hierarchy view:work.Igloo2_TFT_Video_Out_Test(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Removing sequential instance CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[4] in hierarchy view:work.Igloo2_TFT_Video_Out_Test(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Removing sequential instance CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[6] in hierarchy view:work.Igloo2_TFT_Video_Out_Test(rtl) because there are no references to its outputs 
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":237:8:237:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.regHADDR[31],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.regHADDR[28]
+Encoding state machine state[0:28] (view:work.CoreConfigMaster(rtl))
+original code -> new code
+   000000 -> 00000000000000000000000000001
+   000001 -> 00000000000000000000000000010
+   000010 -> 00000000000000000000000000100
+   000011 -> 00000000000000000000000001000
+   000100 -> 00000000000000000000000010000
+   000101 -> 00000000000000000000000100000
+   000110 -> 00000000000000000000001000000
+   000111 -> 00000000000000000000010000000
+   001001 -> 00000000000000000000100000000
+   001010 -> 00000000000000000001000000000
+   001011 -> 00000000000000000010000000000
+   001100 -> 00000000000000000100000000000
+   001101 -> 00000000000000001000000000000
+   001110 -> 00000000000000010000000000000
+   001111 -> 00000000000000100000000000000
+   010000 -> 00000000000001000000000000000
+   010001 -> 00000000000010000000000000000
+   010010 -> 00000000000100000000000000000
+   010011 -> 00000000001000000000000000000
+   010100 -> 00000000010000000000000000000
+   010101 -> 00000000100000000000000000000
+   010110 -> 00000001000000000000000000000
+   100000 -> 00000010000000000000000000000
+   100001 -> 00000100000000000000000000000
+   100010 -> 00001000000000000000000000000
+   100011 -> 00010000000000000000000000000
+   100100 -> 00100000000000000000000000000
+   100101 -> 01000000000000000000000000000
+   100110 -> 10000000000000000000000000000
+@N:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":628:8:628:9|Found counter in view:work.CoreConfigMaster(rtl) inst pause_count[4:0]
+@N: MF179 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":523:21:523:46|Found 32 bit by 32 bit '==' comparator, 'un1_rdata'
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":628:8:628:9|Removing sequential instance HSIZE_int[2] in hierarchy view:work.CoreConfigMaster(rtl) because there are no references to its outputs 
+Encoding state machine arbRegSMCurrentState[0:15] (view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_slave_arbiter(coreahblite_slavearbiter_arch))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[0] is always 0, optimizing ...
+@W: MO161 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[2] is always 1, optimizing ...
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[3] is always 0, optimizing ...
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[4] is always 0, optimizing ...
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[7] is always 0, optimizing ...
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[8] is always 0, optimizing ...
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[11] is always 0, optimizing ...
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[12] is always 0, optimizing ...
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[15] is always 0, optimizing ...
+@W: MO197 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|FSM register arbRegSMCurrentState[1] removed due to constant propagation
+@W: MO197 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|FSM register arbRegSMCurrentState[5] removed due to constant propagation
+@W: MO197 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|FSM register arbRegSMCurrentState[9] removed due to constant propagation
+@W: MO197 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|FSM register arbRegSMCurrentState[13] removed due to constant propagation
+Encoding state machine arbRegSMCurrentState[0:15] (view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_slave_arbiter_2(coreahblite_slavearbiter_arch))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[3] is always 0, optimizing ...
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[7] is always 0, optimizing ...
+@W: MO160 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Register bit arbRegSMCurrentState[11] is always 0, optimizing ...
+Encoding state machine state[0:2] (view:work.CoreConfigP(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[11] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[18] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[19] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[20] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[21] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[22] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[23] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[24] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[25] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[26] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[27] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[28] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[29] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[30] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[31] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[31],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[30]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[30],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[29]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[29],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[28]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[28],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[27]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[27],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[26]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[26],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[25]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[25],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[24]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[24],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[23]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[23],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[22]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[22],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[21]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[21],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[20]
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[20],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[19]
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing sequential instance FIC_2_APB_M_PRDATA_0[19] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[16] in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":622:8:622:9|Removing instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[18],  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[17]
+Encoding state machine sm0_state[0:6] (view:work.CoreResetP(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1519:8:1519:9|Found counter in view:work.CoreResetP(rtl) inst count_ddr[13:0]
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":341:8:341:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.paddr[14] in hierarchy view:work.Igloo2_TFT_Video_Out_Test_top(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":237:8:237:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.regHADDR[28] in hierarchy view:work.Igloo2_TFT_Video_Out_Test_top(rtl) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 156MB peak: 157MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 153MB peak: 157MB)
+
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[6] in hierarchy view:work.Igloo2_TFT_Video_Out_Test_top(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[10] in hierarchy view:work.Igloo2_TFT_Video_Out_Test_top(rtl) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[14] in hierarchy view:work.Igloo2_TFT_Video_Out_Test_top(rtl) because there are no references to its outputs 
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 146MB peak: 157MB)
+
+@N: FX404 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":230:8:230:11|Found addmux in view:work.Igloo2_TFT_Video_Out_Test_top(rtl) inst Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.d_bytecount_i_m2[15:0] from Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.un1_bytecount_3[15:0] 
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 145MB peak: 157MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 152MB peak: 157MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 152MB peak: 157MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 152MB peak: 157MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:20s; Memory used current: 191MB peak: 193MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:20s		   -24.48ns		1076 /       592
+   2		0h:00m:21s		   -24.54ns		1078 /       592
+------------------------------------------------------------
+
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":628:8:628:9|Instance "Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int[0]" with 5 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":628:8:628:9|Instance "Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.state[21]" with 58 loads replicated 2 times to improve timing 
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Instance "Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[15]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Instance "Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[1]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Instance "Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[3]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Instance "Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[5]" with 5 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Instance "Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[12]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Instance "Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[14]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Instance "Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[13]" with 4 loads replicated 1 times to improve timing 
+@N: FX271 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":299:8:299:9|Instance "Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[11]" with 4 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 8 Registers via timing driven replication
+Added 8 LUTs via timing driven replication
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:23s		   -13.33ns		1105 /       603
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:23s		   -13.33ns		1105 /       603
+------------------------------------------------------------
+
+@N: FP130 |Promoting Net Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_173 
+@N: FP130 |Promoting Net Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_174 
+@N: FP130 |Promoting Net Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_175 
+@N: FP130 |Promoting Net Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_176 
+@N: FP130 |Promoting Net Igloo2_TFT_Video_Out_Test_0.HPMS_READY on CLKINT  I_177 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:24s; Memory used current: 158MB peak: 193MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:24s; Memory used current: 158MB peak: 193MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 530 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 75 clock pin(s) of sequential element(s)
+0 instances converted, 75 sequential instances remain driven by gated/generated clocks
+
+================================================================================== Non-Gated/Non-Generated Clocks ==================================================================================
+Clock Tree ID     Driving Element                                                      Drive Element Type     Fanout     Sample Instance                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0002       Igloo2_TFT_Video_Out_Test_0.CCC_0.GL0_INST                           CLKINT                 510        Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST
+@K:CKID0003       Igloo2_TFT_Video_Out_Test_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB_CLKINT     CLKINT                 20         Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[13]                     
+====================================================================================================================================================================================================
+================================================================================================================================== Gated/Generated Clocks ==================================================================================================================================
+Clock Tree ID     Driving Element                                                                 Drive Element Type     Fanout     Sample Instance                                                                 Explanation                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     MSS_010                75         Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     No generated or derived clock directive on output of sequential instance
+============================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 153MB peak: 193MB)
+
+Writing EDIF Netlist and constraint files
+@W: MT558 |Unable to locate source for clock Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL2_net_inferred_clock. Clock will not be forward annotated
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+I-2013.09M-SP1-1 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:26s; Memory used current: 154MB peak: 193MB)
+
+@W: MT246 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd":1945:0:1945:11|Blackbox SYSRESET is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.FIC_2_APB_M_PCLK"
+
+@W: MT420 |Found inferred clock Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:Igloo2_TFT_Video_Out_Test_0.FABOSC_0.RCOSC_25_50MHZ_CCC"
+
+@W: MT420 |Found inferred clock Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:Igloo2_TFT_Video_Out_Test_0.CCC_0.GL0_net"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Oct 30 01:18:00 2014
+#
+
+
+Top view:               Igloo2_TFT_Video_Out_Test_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.693
+
+                                                                             Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                                               Frequency     Frequency     Period        Period        Slack     Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     107.5 MHz     10.000        9.307         0.693     inferred     Inferred_clkgroup_0
+Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     400.2 MHz     10.000        2.499         7.501     inferred     Inferred_clkgroup_2
+Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock               100.0 MHz     153.9 MHz     10.000        6.499         2.274     inferred     Inferred_clkgroup_1
+System                                                                       100.0 MHz     NA            10.000        NA            NA        system       system_clkgroup    
+===============================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                                  Ending                                                                    |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               |  10.000      0.693  |  No paths    -      |  No paths    -      |  No paths    -    
+Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock            |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock            Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock            Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock            |  10.000      3.501  |  No paths    -      |  5.000       2.854  |  5.000       2.274
+Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  10.000      7.501  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                       Starting                                                                                                                            Arrival          
+Instance                                                                               Reference                                                       Type        Pin                Net                                  Time        Slack
+                                                                                       Clock                                                                                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST            Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_FM0_READYOUT     CoreAHBLite_1_AHBmslave16_HREADY     2.915       0.693
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[11]     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  SDATASELInt[11]                      0.094       1.573
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[7]      Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  SDATASELInt[7]                       0.094       1.763
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[12]     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  SDATASELInt[12]                      0.094       1.808
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[13]     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  SDATASELInt[13]                      0.094       1.875
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[1]      Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  SDATASELInt[1]                       0.094       1.900
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[14]     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  SDATASELInt[14]                      0.094       1.918
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[8]      Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  SDATASELInt[8]                       0.094       1.947
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.masterstage_0.SDATASELInt[9]      Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  SDATASELInt[9]                       0.094       2.014
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.bytecount[8]                                Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  bytecount[8]                         0.076       2.029
+============================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                 Starting                                                                                             Required          
+Instance                                                         Reference                                                       Type     Pin     Net                 Time         Slack
+                                                                 Clock                                                                                                                  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count[1]              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_count[1]          9.778        0.693
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int[31]         Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_HADDR[31]         9.778        0.802
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int[0]          Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_HADDR[0]          9.778        0.808
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int_fast[0]     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_HADDR_fast[0]     9.778        0.808
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int[2]          Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_HADDR[2]          9.778        0.873
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int[5]          Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_HADDR[5]          9.778        0.873
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int[9]          Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_HADDR[9]          9.778        0.873
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int[10]         Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_HADDR[10]         9.778        0.873
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int[12]         Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_HADDR[12]         9.778        0.873
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.HADDR_int[18]         Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       d_HADDR[18]         9.778        0.873
+========================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      9.085
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.693
+
+    Number of logic level(s):                7
+    Starting point:                          Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST / F_FM0_READYOUT
+    Ending point:                            Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count[1] / D
+    The start point is clocked by            Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                                 Pin                Pin               Arrival     No. of    
+Name                                                                                               Type        Name               Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST                        MSS_010     F_FM0_READYOUT     Out     2.915     2.915       -         
+CoreAHBLite_1_AHBmslave16_HREADY                                                                   Net         -                  -       0.994     -           20        
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.slavestage_16.masterDataInProg_RNI937S[0]     CFG3        C                  In      -         3.909       -         
+Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.slavestage_16.masterDataInProg_RNI937S[0]     CFG3        Y                  Out     0.200     4.108       -         
+un1_state_31_i_i_a2_0_d_1_0_1                                                                      Net         -                  -       0.811     -           17        
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNITHHQA[0]                                       CFG3        A                  In      -         4.920       -         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNITHHQA[0]                                       CFG3        Y                  Out     0.087     5.007       -         
+d_m2_e_1                                                                                           Net         -                  -       0.622     -           4         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNIOOC0O[0]                                       CFG4        C                  In      -         5.629       -         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNIOOC0O[0]                                       CFG4        Y                  Out     0.200     5.829       -         
+d_m2_e_2_0                                                                                         Net         -                  -       0.483     -           1         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNID2MUO[0]                                       CFG4        B                  In      -         6.312       -         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNID2MUO[0]                                       CFG4        Y                  Out     0.143     6.455       -         
+d_m2_e_2_2                                                                                         Net         -                  -       0.548     -           2         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNO_5[1]                                          CFG4        D                  In      -         7.003       -         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNO_5[1]                                          CFG4        Y                  Out     0.411     7.414       -         
+d_count_0_o2_0_1_2[1]                                                                              Net         -                  -       0.483     -           1         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNO_2[1]                                          CFG4        D                  In      -         7.897       -         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNO_2[1]                                          CFG4        Y                  Out     0.384     8.281       -         
+N_445                                                                                              Net         -                  -       0.483     -           1         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNO[1]                                            CFG3        C                  In      -         8.765       -         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count_RNO[1]                                            CFG3        Y                  Out     0.182     8.947       -         
+d_count[1]                                                                                         Net         -                  -       0.138     -           1         
+Igloo2_TFT_Video_Out_Test_0.ConfigMaster_0.count[1]                                                SLE         D                  In      -         9.085       -         
+==========================================================================================================================================================================
+Total path delay (propagation time + setup) of 9.307 is 4.744(51.0%) logic and 4.562(49.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                          Starting                                                                                                       Arrival          
+Instance                                                  Reference                                                                    Type     Pin     Net              Time        Slack
+                                                          Clock                                                                                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[3]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[3]     0.094       7.501
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[7]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[7]     0.094       7.515
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[1]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[1]     0.076       7.553
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[0]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[0]     0.094       7.699
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[2]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[2]     0.094       7.729
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[6]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[6]     0.094       7.743
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[5]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[5]     0.094       7.780
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[4]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[4]     0.094       7.795
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[8]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[8]     0.094       7.807
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[9]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[9]     0.094       7.845
+==========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                           Starting                                                                                                          Required          
+Instance                                                   Reference                                                                    Type     Pin     Net                 Time         Slack
+                                                           Clock                                                                                                                               
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[13]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[13]     9.778        7.501
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[12]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[12]     9.778        7.515
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[11]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[11]     9.778        7.530
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[10]     Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[10]     9.778        7.544
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.ddr_settled       Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      EN      un13_count_ddr      9.707        7.553
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[9]      Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[9]      9.778        7.558
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[8]      Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[8]      9.778        7.699
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[7]      Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[7]      9.778        7.713
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[6]      Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[6]      9.778        7.727
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[5]      Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[5]      9.778        7.741
+===============================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      2.277
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 7.501
+
+    Number of logic level(s):                7
+    Starting point:                          Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[3] / Q
+    Ending point:                            Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[13] / D
+    The start point is clocked by            Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                             Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[3]            SLE      Q        Out     0.094     0.094       -         
+count_ddr[3]                                                     Net      -        -       0.637     -           3         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry_1[12]     ARI1     D        In      -         0.732       -         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry_1[12]     ARI1     FCO      Out     0.439     1.171       -         
+count_ddr_cry_1_FCO[12]                                          Net      -        -       0.000     -           1         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry_3[12]     ARI1     FCI      In      -         1.171       -         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry_3[12]     ARI1     FCO      Out     0.014     1.185       -         
+count_ddr_cry_3_FCO[12]                                          Net      -        -       0.000     -           1         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry[9]        ARI1     FCI      In      -         1.185       -         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry[9]        ARI1     FCO      Out     0.014     1.199       -         
+count_ddr_cry[9]                                                 Net      -        -       0.000     -           1         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry[10]       ARI1     FCI      In      -         1.199       -         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry[10]       ARI1     FCO      Out     0.014     1.214       -         
+count_ddr_cry[10]                                                Net      -        -       0.000     -           1         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry[11]       ARI1     FCI      In      -         1.214       -         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry[11]       ARI1     FCO      Out     0.014     1.228       -         
+count_ddr_cry[11]                                                Net      -        -       0.000     -           1         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry[12]       ARI1     FCI      In      -         1.228       -         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_cry[12]       ARI1     FCO      Out     0.014     1.242       -         
+count_ddr_cry[12]                                                Net      -        -       0.000     -           1         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_s[13]         ARI1     FCI      In      -         1.242       -         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_s[13]         ARI1     S        Out     0.063     1.305       -         
+count_ddr_s[13]                                                  Net      -        -       0.971     -           1         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[13]           SLE      D        In      -         2.277       -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 2.499 is 0.890(35.6%) logic and 1.609(64.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                Starting                                                                                                                                              Arrival          
+Instance                                                                        Reference                                                          Type        Pin                        Net                                         Time        Slack
+                                                                                Clock                                                                                                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.psel                                  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          psel                                        0.076       2.274
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.state[1]                              Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          state[1]                                    0.076       2.854
+Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PREADY         CORECONFIGP_0_MDDR_APBmslave_PREADY         4.963       3.501
+Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[12]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[12]     5.000       3.526
+Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[5]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[5]      4.932       3.555
+Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[10]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[10]     4.959       3.567
+Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[6]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[6]      4.923       3.603
+Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[2]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[2]      4.916       3.610
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.paddr[13]                             Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          paddr[13]                                   0.094       3.611
+Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[15]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[15]     4.902       3.624
+=======================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                      Starting                                                                                          Required          
+Instance                                                              Reference                                                          Type     Pin     Net           Time         Slack
+                                                                      Clock                                                                                                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[0]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[0]     4.778        2.274
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[1]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[1]     4.778        2.274
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[5]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[5]     4.778        2.274
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[2]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[2]     4.778        2.341
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[3]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[3]     4.778        2.341
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[4]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[4]     4.778        2.341
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[6]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[6]     4.778        2.341
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[7]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[7]     4.778        2.341
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[8]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[8]     4.778        2.341
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[9]     Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[9]     4.778        2.341
+==========================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.778
+
+    - Propagation time:                      2.504
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.274
+
+    Number of logic level(s):                2
+    Starting point:                          Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.psel / Q
+    Ending point:                            Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[0] / D
+    The start point is clocked by            Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock [falling] on pin CLK
+    The end   point is clocked by            Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                 Pin      Pin               Arrival     No. of    
+Name                                                                  Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.psel                        SLE      Q        Out     0.076     0.076       -         
+psel                                                                  Net      -        -       0.858     -           6         
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.MDDR_PSEL_0_0_a3            CFG3     A        In      -         0.934       -         
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.MDDR_PSEL_0_0_a3            CFG3     Y        Out     0.067     1.001       -         
+CORECONFIGP_0_MDDR_APBmslave_PSELx                                    Net      -        -       0.993     -           18        
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.prdata_0_iv_0[0]            CFG4     D        In      -         1.994       -         
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.prdata_0_iv_0[0]            CFG4     Y        Out     0.372     2.366       -         
+prdata[0]                                                             Net      -        -       0.138     -           1         
+Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[0]     SLE      D        In      -         2.504       -         
+================================================================================================================================
+Total path delay (propagation time + setup) of 2.726 is 0.737(27.1%) logic and 1.988(72.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for Igloo2_TFT_Video_Out_Test_top 
+
+Mapping to part: m2gl010tfbga484-1
+Cell usage:
+CCC             1 use
+CLKINT          7 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+CFG1           5 uses
+CFG2           196 uses
+CFG3           185 uses
+CFG4           559 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           137 uses
+
+
+Sequential Cells: 
+SLE            603 uses
+
+DSP Blocks:    0
+
+I/O ports: 60
+I/O primitives: 59
+BIBUF          20 uses
+INBUF          2 uses
+OUTBUF         35 uses
+OUTBUF_DIFF    1 use
+SYSRESET       1 use
+
+
+Global Clock Buffers: 7
+
+
+Total LUTs:    1082
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:27s; Memory used current: 55MB peak: 193MB)
+
+Process took 0h:00m:27s realtime, 0h:00m:27s cputime
+# Thu Oct 30 01:18:00 2014
+
+###########################################################]

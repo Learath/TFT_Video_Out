@@ -1,0 +1,1078 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2GL010TFBGA484-1 (Microsemi)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   Igloo2_TFT_Video_Out_Test_top   ########
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      603                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test_top:	603 (32.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        945                100 %                
+ARI1       137                100 %                
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test_top:	1082 (57.55 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test_top:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test_top:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     7                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test_top:	7 (0.37 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       60                 100 %                
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test_top:	60 (3.19 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   DEBOUNCE   ########
+Instance path:   Igloo2_TFT_Video_Out_Test_top.DEBOUNCE       
+==============================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      19                 3.15 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test_top.DEBOUNCE:	19 (1.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        3                  0.3170 %             
+ARI1       17                 12.4 %               
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test_top.DEBOUNCE:	20 (1.06 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test_top.DEBOUNCE:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test_top.DEBOUNCE:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test_top.DEBOUNCE:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test_top.DEBOUNCE:	0 (0.00 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   Igloo2_TFT_Video_Out_Test   ########
+Instance path:   Igloo2_TFT_Video_Out_Test_top.Igloo2_TFT_Video_Out_Test       
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      583                96.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test_top.Igloo2_TFT_Video_Out_Test:	583 (31.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        942                99.7 %               
+ARI1       120                87.6 %               
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test_top.Igloo2_TFT_Video_Out_Test:	1062 (56.49 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test_top.Igloo2_TFT_Video_Out_Test:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test_top.Igloo2_TFT_Video_Out_Test:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     7                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test_top.Igloo2_TFT_Video_Out_Test:	7 (0.37 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       51                 85 %                 
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test_top.Igloo2_TFT_Video_Out_Test:	51 (2.71 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0   ########
+Instance path:   Igloo2_TFT_Video_Out_Test.CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0           
+================================================================================================================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      74                 12.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test.CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0:	74 (3.94 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        151                16 %                 
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test.CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0:	151 (8.03 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test.CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test.CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test.CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test.CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0   ########                                                                                                                                                      
+Instance path:   CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0
+=====================================================================================================================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      74                 12.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0:	74 (3.94 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        151                16 %                 
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0:	151 (8.03 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MASTERSTAGE_1_1_85_65536   ########     
+Instance path:   COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_MASTERSTAGE_1_1_85_65536
+===============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      57                 9.45 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_MASTERSTAGE_1_1_85_65536:	57 (3.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        59                 6.24 %               
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_MASTERSTAGE_1_1_85_65536:	59 (3.14 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_MASTERSTAGE_1_1_85_65536:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_MASTERSTAGE_1_1_85_65536:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_MASTERSTAGE_1_1_85_65536:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_MASTERSTAGE_1_1_85_65536:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1   ########
+Instance path:   COREAHBLITE_MASTERSTAGE_1_1_85_65536.COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1
+===================================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.1660 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MASTERSTAGE_1_1_85_65536.COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1:	1 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        26                 2.75 %               
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_1_1_85_65536.COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1:	26 (1.38 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block COREAHBLITE_MASTERSTAGE_1_1_85_65536.COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block COREAHBLITE_MASTERSTAGE_1_1_85_65536.COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block COREAHBLITE_MASTERSTAGE_1_1_85_65536.COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block COREAHBLITE_MASTERSTAGE_1_1_85_65536.COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_slavestage_16   ########     
+Instance path:   COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_SLAVESTAGE_slavestage_16
+===============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 2.82 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_SLAVESTAGE_slavestage_16:	17 (0.90 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        92                 9.74 %               
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_SLAVESTAGE_slavestage_16:	92 (4.89 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_SLAVESTAGE_slavestage_16:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_SLAVESTAGE_slavestage_16:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_SLAVESTAGE_slavestage_16:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0.COREAHBLITE_SLAVESTAGE_slavestage_16:	0 (0.00 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_slave_arbiter_2   ########
+Instance path:   COREAHBLITE_SLAVESTAGE_slavestage_16.COREAHBLITE_SLAVEARBITER_slave_arbiter_2
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      13                 2.16 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_slavestage_16.COREAHBLITE_SLAVEARBITER_slave_arbiter_2:	13 (0.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        19                 2.01 %               
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_slavestage_16.COREAHBLITE_SLAVEARBITER_slave_arbiter_2:	19 (1.01 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block COREAHBLITE_SLAVESTAGE_slavestage_16.COREAHBLITE_SLAVEARBITER_slave_arbiter_2:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block COREAHBLITE_SLAVESTAGE_slavestage_16.COREAHBLITE_SLAVEARBITER_slave_arbiter_2:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block COREAHBLITE_SLAVESTAGE_slavestage_16.COREAHBLITE_SLAVEARBITER_slave_arbiter_2:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block COREAHBLITE_SLAVESTAGE_slavestage_16.COREAHBLITE_SLAVEARBITER_slave_arbiter_2:	0 (0.00 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   CoreConfigMaster   ########
+Instance path:   Igloo2_TFT_Video_Out_Test.CoreConfigMaster           
+======================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      384                63.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test.CoreConfigMaster:	384 (20.43 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        681                72.1 %               
+ARI1       104                75.9 %               
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test.CoreConfigMaster:	785 (41.76 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test.CoreConfigMaster:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test.CoreConfigMaster:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test.CoreConfigMaster:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test.CoreConfigMaster:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreConfigP   ########
+Instance path:   Igloo2_TFT_Video_Out_Test.CoreConfigP           
+=================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      74                 12.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test.CoreConfigP:	74 (3.94 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        58                 6.14 %               
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test.CoreConfigP:	58 (3.09 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test.CoreConfigP:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test.CoreConfigP:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test.CoreConfigP:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test.CoreConfigP:	0 (0.00 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP   ########
+Instance path:   Igloo2_TFT_Video_Out_Test.CoreResetP           
+================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      51                 8.46 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test.CoreResetP:	51 (2.71 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        18                 1.9 %                
+ARI1       16                 11.7 %               
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test.CoreResetP:	34 (1.81 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test.CoreResetP:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test.CoreResetP:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  42.9 %               
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test.CoreResetP:	3 (0.16 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test.CoreResetP:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Igloo2_TFT_Video_Out_Test_CCC_0_FCCC   ########
+Instance path:   Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_CCC_0_FCCC           
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      0                  0 %                  
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_CCC_0_FCCC:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        0                  0 %                  
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_CCC_0_FCCC:	0 (0.00 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_CCC_0_FCCC:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_CCC_0_FCCC:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  14.3 %               
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_CCC_0_FCCC:	1 (0.05 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_CCC_0_FCCC:	0 (0.00 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC   ########
+Instance path:   Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC           
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      0                  0 %                  
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        0                  0 %                  
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC:	0 (0.00 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  14.3 %               
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC:	1 (0.05 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Igloo2_TFT_Video_Out_Test_HPMS   ########
+Instance path:   Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_HPMS           
+====================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      0                  0 %                  
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_HPMS:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        34                 3.6 %                
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_HPMS:	34 (1.81 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_HPMS:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_HPMS:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  28.6 %               
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_HPMS:	2 (0.11 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       50                 83.3 %               
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test.Igloo2_TFT_Video_Out_Test_HPMS:	50 (2.66 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   patternGen   ########
+Instance path:   Igloo2_TFT_Video_Out_Test_top.patternGen       
+================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.1660 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Igloo2_TFT_Video_Out_Test_top.patternGen:	1 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+CFG        0                  0 %                  
+ARI1       0                  0 %                  
+BUFFER     0                  0 %                  
+===================================================
+Total COMBINATIONAL LOGIC in the block Igloo2_TFT_Video_Out_Test_top.patternGen:	0 (0.00 % Utilization)
+
+
+DSP
+***
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     0                  0 %                  
+=================================================
+Total DSP in the block Igloo2_TFT_Video_Out_Test_top.patternGen:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1KX18     0                  0 %                  
+RAM64X18     0                  0 %                  
+=====================================================
+Total MEMORY ELEMENTS in the block Igloo2_TFT_Video_Out_Test_top.patternGen:	0 (0.00 % Utilization)
+
+
+GLOBAL BUFFERS
+**************
+
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     0                  0 %                  
+===================================================
+Total GLOBAL BUFFERS in the block Igloo2_TFT_Video_Out_Test_top.patternGen:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       0                  0 %                  
+=================================================
+Total IO PADS in the block Igloo2_TFT_Video_Out_Test_top.patternGen:	0 (0.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,162 @@
+
+fsm_encoding {1062886281} onehot
+
+fsm_state_encoding {1062886281} s0 {00000000000000000000000000001}
+
+fsm_state_encoding {1062886281} s1 {00000000000000000000000000010}
+
+fsm_state_encoding {1062886281} s2 {00000000000000000000000000100}
+
+fsm_state_encoding {1062886281} s3 {00000000000000000000000001000}
+
+fsm_state_encoding {1062886281} s4 {00000000000000000000000010000}
+
+fsm_state_encoding {1062886281} s5 {00000000000000000000000100000}
+
+fsm_state_encoding {1062886281} s6 {00000000000000000000001000000}
+
+fsm_state_encoding {1062886281} s7 {00000000000000000000010000000}
+
+fsm_state_encoding {1062886281} s9 {00000000000000000000100000000}
+
+fsm_state_encoding {1062886281} s10 {00000000000000000001000000000}
+
+fsm_state_encoding {1062886281} s11 {00000000000000000010000000000}
+
+fsm_state_encoding {1062886281} s12 {00000000000000000100000000000}
+
+fsm_state_encoding {1062886281} s13 {00000000000000001000000000000}
+
+fsm_state_encoding {1062886281} s14 {00000000000000010000000000000}
+
+fsm_state_encoding {1062886281} s15 {00000000000000100000000000000}
+
+fsm_state_encoding {1062886281} s16 {00000000000001000000000000000}
+
+fsm_state_encoding {1062886281} s17 {00000000000010000000000000000}
+
+fsm_state_encoding {1062886281} s18 {00000000000100000000000000000}
+
+fsm_state_encoding {1062886281} s19 {00000000001000000000000000000}
+
+fsm_state_encoding {1062886281} s20 {00000000010000000000000000000}
+
+fsm_state_encoding {1062886281} s21 {00000000100000000000000000000}
+
+fsm_state_encoding {1062886281} s22 {00000001000000000000000000000}
+
+fsm_state_encoding {1062886281} p0 {00000010000000000000000000000}
+
+fsm_state_encoding {1062886281} p1 {00000100000000000000000000000}
+
+fsm_state_encoding {1062886281} p2 {00001000000000000000000000000}
+
+fsm_state_encoding {1062886281} p3 {00010000000000000000000000000}
+
+fsm_state_encoding {1062886281} p4 {00100000000000000000000000000}
+
+fsm_state_encoding {1062886281} p5 {01000000000000000000000000000}
+
+fsm_state_encoding {1062886281} p6 {10000000000000000000000000000}
+
+fsm_registers {1062886281} {state[0]}  {state[1]}  {state[2]}  {state[3]}  {state[4]}  {state[5]}  {state[6]}  {state[7]}  {state[8]}  {state[9]}  {state[10]}  {state[11]}  {state[12]}  {state[13]}  {state[14]}  {state[15]}  {state[16]}  {state[17]}  {state[18]}  {state[19]}  {state[20]}  {state[21]}  {state[22]}  {state[23]}  {state[24]}  {state[25]}  {state[26]}  {state[27]}  {state[28]} 
+
+fsm_encoding {1739983992} onehot
+
+fsm_state_encoding {1739983992} m0extend {0000000000000001}
+
+fsm_state_encoding {1739983992} m0done {0000000000000010}
+
+fsm_state_encoding {1739983992} m0lock {0000000000000100}
+
+fsm_state_encoding {1739983992} m0lockextend {0000000000001000}
+
+fsm_state_encoding {1739983992} m1extend {0000000000010000}
+
+fsm_state_encoding {1739983992} m1done {0000000000100000}
+
+fsm_state_encoding {1739983992} m1lock {0000000001000000}
+
+fsm_state_encoding {1739983992} m1lockextend {0000000010000000}
+
+fsm_state_encoding {1739983992} m2extend {0000000100000000}
+
+fsm_state_encoding {1739983992} m2done {0000001000000000}
+
+fsm_state_encoding {1739983992} m2lock {0000010000000000}
+
+fsm_state_encoding {1739983992} m2lockextend {0000100000000000}
+
+fsm_state_encoding {1739983992} m3extend {0001000000000000}
+
+fsm_state_encoding {1739983992} m3done {0010000000000000}
+
+fsm_state_encoding {1739983992} m3lock {0100000000000000}
+
+fsm_state_encoding {1739983992} m3lockextend {1000000000000000}
+
+fsm_registers {1739983992} {arbRegSMCurrentState[0]}  {arbRegSMCurrentState[1]}  {arbRegSMCurrentState[2]}  {arbRegSMCurrentState[3]}  {arbRegSMCurrentState[4]}  {arbRegSMCurrentState[5]}  {arbRegSMCurrentState[6]}  {arbRegSMCurrentState[7]}  {arbRegSMCurrentState[8]}  {arbRegSMCurrentState[9]}  {arbRegSMCurrentState[10]}  {arbRegSMCurrentState[11]}  {arbRegSMCurrentState[12]}  {arbRegSMCurrentState[13]}  {arbRegSMCurrentState[14]}  {arbRegSMCurrentState[15]} 
+
+fsm_encoding {1739983992} onehot
+
+fsm_state_encoding {1739983992} m0extend {0000000000000001}
+
+fsm_state_encoding {1739983992} m0done {0000000000000010}
+
+fsm_state_encoding {1739983992} m0lock {0000000000000100}
+
+fsm_state_encoding {1739983992} m0lockextend {0000000000001000}
+
+fsm_state_encoding {1739983992} m1extend {0000000000010000}
+
+fsm_state_encoding {1739983992} m1done {0000000000100000}
+
+fsm_state_encoding {1739983992} m1lock {0000000001000000}
+
+fsm_state_encoding {1739983992} m1lockextend {0000000010000000}
+
+fsm_state_encoding {1739983992} m2extend {0000000100000000}
+
+fsm_state_encoding {1739983992} m2done {0000001000000000}
+
+fsm_state_encoding {1739983992} m2lock {0000010000000000}
+
+fsm_state_encoding {1739983992} m2lockextend {0000100000000000}
+
+fsm_state_encoding {1739983992} m3extend {0001000000000000}
+
+fsm_state_encoding {1739983992} m3done {0010000000000000}
+
+fsm_state_encoding {1739983992} m3lock {0100000000000000}
+
+fsm_state_encoding {1739983992} m3lockextend {1000000000000000}
+
+fsm_registers {1739983992} {arbRegSMCurrentState[0]}  {arbRegSMCurrentState[1]}  {arbRegSMCurrentState[2]}  {arbRegSMCurrentState[3]}  {arbRegSMCurrentState[4]}  {arbRegSMCurrentState[5]}  {arbRegSMCurrentState[6]}  {arbRegSMCurrentState[7]}  {arbRegSMCurrentState[8]}  {arbRegSMCurrentState[9]}  {arbRegSMCurrentState[10]}  {arbRegSMCurrentState[11]}  {arbRegSMCurrentState[12]}  {arbRegSMCurrentState[13]}  {arbRegSMCurrentState[14]}  {arbRegSMCurrentState[15]} 
+
+fsm_encoding {1151785173} sequential
+
+fsm_state_encoding {1151785173} s0 {00}
+
+fsm_state_encoding {1151785173} s1 {01}
+
+fsm_state_encoding {1151785173} s2 {10}
+
+fsm_registers {1151785173} {state[1]}  {state[0]} 
+
+fsm_encoding {201059810598} onehot
+
+fsm_state_encoding {201059810598} s0 {0000001}
+
+fsm_state_encoding {201059810598} s1 {0000010}
+
+fsm_state_encoding {201059810598} s2 {0000100}
+
+fsm_state_encoding {201059810598} s3 {0001000}
+
+fsm_state_encoding {201059810598} s4 {0010000}
+
+fsm_state_encoding {201059810598} s5 {0100000}
+
+fsm_state_encoding {201059810598} s6 {1000000}
+
+fsm_registers {201059810598} {sm0_state[0]}  {sm0_state[1]}  {sm0_state[2]}  {sm0_state[3]}  {sm0_state[4]}  {sm0_state[5]}  {sm0_state[6]} 

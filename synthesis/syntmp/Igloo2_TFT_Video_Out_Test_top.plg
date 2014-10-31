@@ -1,0 +1,47 @@
+@P:  Worst Slack : 0.693
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 107.5 MHz
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 9.307
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 0.693
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency : 400.2 MHz
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period : 2.499
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period : 10.000
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack : 7.501
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Frequency : 153.9 MHz
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Period : 6.499
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Requested Period : 10.000
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Slack : 2.274
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P:  Worst Slack(min analysis) : 0.278
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency(min analysis) : 107.5 MHz
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period(min analysis) : 9.307
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock - Slack(min analysis) : 0.693
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency(min analysis) : 400.2 MHz
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period(min analysis) : 2.499
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack(min analysis) : 7.501
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Frequency(min analysis) : 153.9 MHz
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Period(min analysis) : 6.499
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock - Slack(min analysis) : 2.274
+@P:  System - Estimated Frequency(min analysis) : NA
+@P:  System - Requested Frequency(min analysis) : 100.0 MHz
+@P:  System - Estimated Period(min analysis) : NA
+@P:  System - Requested Period(min analysis) : 10.000
+@P:  System - Slack(min analysis) : NA
+@P: Igloo2_TFT_Video_Out_Test_top Part : m2gl010tfbga484-1
+@P: Igloo2_TFT_Video_Out_Test_top Register bits  : 603 
+@P: Igloo2_TFT_Video_Out_Test_top DSP Blocks  : 0
+@P: Igloo2_TFT_Video_Out_Test_top I/O primitives : 59
+@P:  CPU Time : 0h:00m:27s

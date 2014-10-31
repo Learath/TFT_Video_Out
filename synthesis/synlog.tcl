@@ -1,0 +1,1 @@
+run_tcl -fg Igloo2_TFT_Video_Out_Test_top_syn.tcl

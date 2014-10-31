@@ -1,0 +1,24 @@
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 530 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 75 clock pin(s) of sequential element(s)
+0 instances converted, 75 sequential instances remain driven by gated/generated clocks
+
+================================================================================== Non-Gated/Non-Generated Clocks ==================================================================================
+Clock Tree ID     Driving Element                                                      Drive Element Type     Fanout     Sample Instance                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0002       Igloo2_TFT_Video_Out_Test_0.CCC_0.GL0_INST                           CLKINT                 510        Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST
+@K:CKID0003       Igloo2_TFT_Video_Out_Test_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB_CLKINT     CLKINT                 20         Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[13]                     
+====================================================================================================================================================================================================
+================================================================================================================================== Gated/Generated Clocks ==================================================================================================================================
+Clock Tree ID     Driving Element                                                                 Drive Element Type     Fanout     Sample Instance                                                                 Explanation                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     MSS_010                75         Igloo2_TFT_Video_Out_Test_0.Igloo2_TFT_Video_Out_Test_HPMS_0.MSS_ADLIB_INST     No generated or derived clock directive on output of sequential instance
+============================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

@@ -1,0 +1,30 @@
+#Build: Synplify Pro I-2013.09M-SP1-1 , Build 034R, Jan 17 2014
+#install: /opt/microsemi/Libero_v11.4/Synplify
+#OS: Linux 
+#Hostname: server.pelagiris.org
+
+#Implementation: synthesis
+
+$ Start of Compile
+#Thu Oct 30 01:04:48 2014
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 078R, built Jan 13 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"/opt/microsemi/Libero_v11.4/Synplify/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd":17:7:17:35|Top entity is set to Igloo2_TFT_Video_Out_Test_top.
+@E: CD255 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":56:67:56:67|No identifier "maximum" in scope
+@E: CD415 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":124:30:124:30|Expecting keyword is
+@E: CD632 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":142:29:142:29|duplicate entity name work
+@E: CD632 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":181:35:181:35|duplicate entity name work
+@E: CD632 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":198:35:198:35|duplicate entity name work
+5 errors parsing file /home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd
+@END
+5 errors parsing file /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd
+@END
+@E|Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Oct 30 01:04:49 2014
+
+###########################################################]

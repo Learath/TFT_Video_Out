@@ -1,0 +1,7 @@
+@E: CD255 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":56:67:56:67|No identifier "maximum" in scope
+@E: CD415 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":124:30:124:30|Expecting keyword is
+@E: CD632 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":142:29:142:29|duplicate entity name work
+@E: CD632 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":181:35:181:35|duplicate entity name work
+@E: CD632 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":198:35:198:35|duplicate entity name work
+@E|Parse errors encountered - exiting
+

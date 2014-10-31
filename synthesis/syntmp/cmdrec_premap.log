@@ -1,0 +1,14 @@
+/opt/microsemi/Libero_v11.4/Synplify/bin/m_generic  -prodtype  synplify_pro  -encrypt  -pro  -rundir  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis  -part M2GL010T  -package FBGA484  -grade -1   -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000   -opcond COMWC  -report_path 0  -RWCheckOnRam 0    -summaryfile /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/report/Igloo2_TFT_Video_Out_Test_top_premap.xml -top_level_module  work.Igloo2_TFT_Video_Out_Test_top  -oedif  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn  -conchk_prepass  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top_cck_prepass.rpt  -freq 100.000  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_comp.srs  -flow prepass  -gcc_prepass  -osrd  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd  -qsap  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap  -devicelib  /opt/microsemi/Libero_v11.4/Synplify/lib/generic/igloo2.v  -ologparam  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/syntmp/Igloo2_TFT_Video_Out_Test_top.plg  -osyn  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd  -prjdir  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/  -prjname  Igloo2_TFT_Video_Out_Test_top_syn  -log  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/Igloo2_TFT_Video_Out_Test_top_premap.srr 
+rc:1 success:1
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn|o|0|0
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top_cck_prepass.rpt|o|0|0
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_comp.srs|i|1414646248|301909
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd|o|1414646252|356491
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap|o|1414646253|54301
+/opt/microsemi/Libero_v11.4/Synplify/lib/generic/igloo2.v|i|1389720135|15419
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/syntmp/Igloo2_TFT_Video_Out_Test_top.plg|o|1414646250|0
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd|o|1414646252|356491
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/Igloo2_TFT_Video_Out_Test_top_premap.srr|o|1414646253|36931
+/opt/microsemi/Libero_v11.4/Synplify/bin/m_generic|i|1401316484|345
+/opt/microsemi/Libero_v11.4/Synplify/linux/m_generic|i|1401316696|33255896
+/opt/microsemi/Libero_v11.4/Synplify/linux_a_64/m_generic|i|1401316699|35245000
