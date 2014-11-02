@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Thu Oct 30 00:45:53 2014
+-- Created by SmartDesign Sun Nov  2 01:27:02 2014
 -- Version: v11.4 11.4.0.112
 ----------------------------------------------------------------------
 
@@ -22,6 +22,7 @@ entity Igloo2_TFT_Video_Out_Test_top is
         MDDR_DQS_TMATCH_0_IN  : in    std_logic;
         SWITCH                : in    std_logic;
         -- Outputs
+        CLK_o                 : out   std_logic;
         MDDR_ADDR             : out   std_logic_vector(15 downto 0);
         MDDR_BA               : out   std_logic_vector(2 downto 0);
         MDDR_CAS_N            : out   std_logic;
@@ -34,7 +35,11 @@ entity Igloo2_TFT_Video_Out_Test_top is
         MDDR_RAS_N            : out   std_logic;
         MDDR_RESET_N          : out   std_logic;
         MDDR_WE_N             : out   std_logic;
-        PIXEL_o               : out   std_logic_vector(7 downto 0);
+        backlight_en          : out   std_logic;
+        h_sync_o              : out   std_logic;
+        pixel_o_0             : out   std_logic_vector(23 downto 0);
+        reset_o               : out   std_logic;
+        v_sync_o              : out   std_logic;
         -- Inouts
         MDDR_DM_RDQS          : inout std_logic_vector(1 downto 0);
         MDDR_DQ               : inout std_logic_vector(15 downto 0);
@@ -58,6 +63,27 @@ component DEBOUNCE
         SWITCH    : in  std_logic;
         -- Outputs
         INTERRUPT : out std_logic
+        );
+end component;
+-- frameBuffer
+component frameBuffer
+    -- Port list
+    port(
+        -- Inputs
+        CLK_i        : in  std_logic;
+        enable       : in  std_logic;
+        h_sync_i     : in  std_logic;
+        input_valid  : in  std_logic;
+        pixel_i      : in  std_logic_vector(23 downto 0);
+        reset_i      : in  std_logic;
+        v_sync_i     : in  std_logic;
+        -- Outputs
+        CLK_o        : out std_logic;
+        backlight_en : out std_logic;
+        h_sync_o     : out std_logic;
+        pixel_o      : out std_logic_vector(23 downto 0);
+        reset_o      : out std_logic;
+        v_sync_o     : out std_logic
         );
 end component;
 -- Igloo2_TFT_Video_Out_Test
@@ -126,7 +152,10 @@ end component;
 ----------------------------------------------------------------------
 -- Signal declarations
 ----------------------------------------------------------------------
+signal backlight_en_net_0                      : std_logic;
+signal CLK_o_net_0                             : std_logic;
 signal DEBOUNCE_0_INTERRUPT                    : std_logic;
+signal h_sync_o_net_0                          : std_logic;
 signal Igloo2_TFT_Video_Out_Test_0_FAB_CCC_GL0 : std_logic;
 signal MDDR_ADDR_net_0                         : std_logic_vector(15 downto 0);
 signal MDDR_BA_net_0                           : std_logic_vector(2 downto 0);
@@ -140,7 +169,15 @@ signal MDDR_ODT_net_0                          : std_logic;
 signal MDDR_RAS_N_net_0                        : std_logic;
 signal MDDR_RESET_N_net_0                      : std_logic;
 signal MDDR_WE_N_net_0                         : std_logic;
-signal PIXEL_o_net_0                           : std_logic_vector(7 downto 0);
+signal patternGen_0_ENDframe_o                 : std_logic;
+signal patternGen_0_ENDline_o                  : std_logic;
+signal patternGen_0_PIXEL_o                    : std_logic_vector(7 downto 0);
+signal patternGen_0_VALID_o                    : std_logic;
+signal patternGen_1_PIXEL_o                    : std_logic_vector(7 downto 0);
+signal patternGen_2_PIXEL_o                    : std_logic_vector(7 downto 0);
+signal pixel_o_0_net_0                         : std_logic_vector(23 downto 0);
+signal reset_o_net_0                           : std_logic;
+signal v_sync_o_net_0                          : std_logic;
 signal MDDR_DQS_TMATCH_0_OUT_net_1             : std_logic;
 signal MDDR_CAS_N_net_1                        : std_logic;
 signal MDDR_CLK_net_1                          : std_logic;
@@ -151,14 +188,22 @@ signal MDDR_ODT_net_1                          : std_logic;
 signal MDDR_RAS_N_net_1                        : std_logic;
 signal MDDR_RESET_N_net_1                      : std_logic;
 signal MDDR_WE_N_net_1                         : std_logic;
+signal CLK_o_net_1                             : std_logic;
+signal reset_o_net_1                           : std_logic;
+signal backlight_en_net_1                      : std_logic;
+signal h_sync_o_net_1                          : std_logic;
+signal v_sync_o_net_1                          : std_logic;
 signal MDDR_ADDR_net_1                         : std_logic_vector(15 downto 0);
 signal MDDR_BA_net_1                           : std_logic_vector(2 downto 0);
-signal PIXEL_o_net_1                           : std_logic_vector(7 downto 0);
+signal pixel_o_0_net_1                         : std_logic_vector(23 downto 0);
+signal pixel_i_net_0                           : std_logic_vector(23 downto 0);
 ----------------------------------------------------------------------
 -- TiedOff Signals
 ----------------------------------------------------------------------
 signal VCC_net                                 : std_logic;
 signal SEL_i_const_net_0                       : std_logic_vector(2 downto 0);
+signal SEL_i_const_net_1                       : std_logic_vector(2 downto 0);
+signal SEL_i_const_net_2                       : std_logic_vector(2 downto 0);
 signal AMBA_MASTER_0_HADDR_M0_const_net_0      : std_logic_vector(31 downto 0);
 signal AMBA_MASTER_0_HTRANS_M0_const_net_0     : std_logic_vector(1 downto 0);
 signal GND_net                                 : std_logic;
@@ -173,6 +218,8 @@ begin
 ----------------------------------------------------------------------
  VCC_net                             <= '1';
  SEL_i_const_net_0                   <= B"000";
+ SEL_i_const_net_1                   <= B"000";
+ SEL_i_const_net_2                   <= B"000";
  AMBA_MASTER_0_HADDR_M0_const_net_0  <= B"00000000000000000000000000000000";
  AMBA_MASTER_0_HTRANS_M0_const_net_0 <= B"00";
  GND_net                             <= '0';
@@ -203,12 +250,26 @@ begin
  MDDR_RESET_N                <= MDDR_RESET_N_net_1;
  MDDR_WE_N_net_1             <= MDDR_WE_N_net_0;
  MDDR_WE_N                   <= MDDR_WE_N_net_1;
+ CLK_o_net_1                 <= CLK_o_net_0;
+ CLK_o                       <= CLK_o_net_1;
+ reset_o_net_1               <= reset_o_net_0;
+ reset_o                     <= reset_o_net_1;
+ backlight_en_net_1          <= backlight_en_net_0;
+ backlight_en                <= backlight_en_net_1;
+ h_sync_o_net_1              <= h_sync_o_net_0;
+ h_sync_o                    <= h_sync_o_net_1;
+ v_sync_o_net_1              <= v_sync_o_net_0;
+ v_sync_o                    <= v_sync_o_net_1;
  MDDR_ADDR_net_1             <= MDDR_ADDR_net_0;
  MDDR_ADDR(15 downto 0)      <= MDDR_ADDR_net_1;
  MDDR_BA_net_1               <= MDDR_BA_net_0;
  MDDR_BA(2 downto 0)         <= MDDR_BA_net_1;
- PIXEL_o_net_1               <= PIXEL_o_net_0;
- PIXEL_o(7 downto 0)         <= PIXEL_o_net_1;
+ pixel_o_0_net_1             <= pixel_o_0_net_0;
+ pixel_o_0(23 downto 0)      <= pixel_o_0_net_1;
+----------------------------------------------------------------------
+-- Concatenation assignments
+----------------------------------------------------------------------
+ pixel_i_net_0 <= ( patternGen_2_PIXEL_o & patternGen_1_PIXEL_o & patternGen_0_PIXEL_o );
 ----------------------------------------------------------------------
 -- Component instances
 ----------------------------------------------------------------------
@@ -222,21 +283,40 @@ DEBOUNCE_0 : DEBOUNCE
         -- Outputs
         INTERRUPT => DEBOUNCE_0_INTERRUPT 
         );
+-- frameBuffer_2
+frameBuffer_2 : frameBuffer
+    port map( 
+        -- Inputs
+        CLK_i        => Igloo2_TFT_Video_Out_Test_0_FAB_CCC_GL0,
+        reset_i      => DEBOUNCE_0_INTERRUPT,
+        enable       => VCC_net,
+        h_sync_i     => patternGen_0_ENDline_o,
+        v_sync_i     => patternGen_0_ENDframe_o,
+        input_valid  => patternGen_0_VALID_o,
+        pixel_i      => pixel_i_net_0,
+        -- Outputs
+        CLK_o        => CLK_o_net_0,
+        reset_o      => reset_o_net_0,
+        backlight_en => backlight_en_net_0,
+        h_sync_o     => h_sync_o_net_0,
+        v_sync_o     => v_sync_o_net_0,
+        pixel_o      => pixel_o_0_net_0 
+        );
 -- Igloo2_TFT_Video_Out_Test_0
 Igloo2_TFT_Video_Out_Test_0 : Igloo2_TFT_Video_Out_Test
     port map( 
         -- Inputs
         MDDR_DQS_TMATCH_0_IN        => MDDR_DQS_TMATCH_0_IN,
         FAB_RESET_N                 => VCC_net,
+        AMBA_MASTER_0_HWRITE_M0     => GND_net, -- tied to '0' from definition
+        AMBA_MASTER_0_HMASTLOCK_M0  => GND_net, -- tied to '0' from definition
+        DEVRST_N                    => DEVRST_N,
         AMBA_MASTER_0_HADDR_M0      => AMBA_MASTER_0_HADDR_M0_const_net_0, -- tied to X"0" from definition
         AMBA_MASTER_0_HTRANS_M0     => AMBA_MASTER_0_HTRANS_M0_const_net_0, -- tied to X"0" from definition
-        AMBA_MASTER_0_HWRITE_M0     => GND_net, -- tied to '0' from definition
         AMBA_MASTER_0_HSIZE_M0      => AMBA_MASTER_0_HSIZE_M0_const_net_0, -- tied to X"0" from definition
         AMBA_MASTER_0_HBURST_M0     => AMBA_MASTER_0_HBURST_M0_const_net_0, -- tied to X"0" from definition
         AMBA_MASTER_0_HPROT_M0      => AMBA_MASTER_0_HPROT_M0_const_net_0, -- tied to X"0" from definition
         AMBA_MASTER_0_HWDATA_M0     => AMBA_MASTER_0_HWDATA_M0_const_net_0, -- tied to X"0" from definition
-        AMBA_MASTER_0_HMASTLOCK_M0  => GND_net, -- tied to '0' from definition
-        DEVRST_N                    => DEVRST_N,
         -- Outputs
         MDDR_DQS_TMATCH_0_OUT       => MDDR_DQS_TMATCH_0_OUT_net_0,
         MDDR_CAS_N                  => MDDR_CAS_N_net_0,
@@ -248,19 +328,19 @@ Igloo2_TFT_Video_Out_Test_0 : Igloo2_TFT_Video_Out_Test
         MDDR_RAS_N                  => MDDR_RAS_N_net_0,
         MDDR_RESET_N                => MDDR_RESET_N_net_0,
         MDDR_WE_N                   => MDDR_WE_N_net_0,
-        MDDR_ADDR                   => MDDR_ADDR_net_0,
-        MDDR_BA                     => MDDR_BA_net_0,
         POWER_ON_RESET_N            => OPEN,
         INIT_DONE                   => OPEN,
-        AMBA_MASTER_0_HRDATA_M0     => OPEN,
         AMBA_MASTER_0_HREADY_M0     => OPEN,
-        AMBA_MASTER_0_HRESP_M0      => OPEN,
         HPMS_DDR_FIC_SUBSYSTEM_CLK  => OPEN,
         HPMS_DDR_FIC_SUBSYSTEM_LOCK => OPEN,
         DDR_READY                   => OPEN,
         FAB_CCC_GL0                 => Igloo2_TFT_Video_Out_Test_0_FAB_CCC_GL0,
         HPMS_READY                  => OPEN,
         COMM_BLK_INT                => OPEN,
+        MDDR_ADDR                   => MDDR_ADDR_net_0,
+        MDDR_BA                     => MDDR_BA_net_0,
+        AMBA_MASTER_0_HRDATA_M0     => OPEN,
+        AMBA_MASTER_0_HRESP_M0      => OPEN,
         HPMS_INT_M2F                => OPEN,
         -- Inouts
         MDDR_DM_RDQS                => MDDR_DM_RDQS,
@@ -273,13 +353,41 @@ patternGen_0 : patternGen
         -- Inputs
         CLK_i      => Igloo2_TFT_Video_Out_Test_0_FAB_CCC_GL0,
         RST_i      => DEBOUNCE_0_INTERRUPT,
-        SEL_i      => SEL_i_const_net_0,
         CLKen_i    => VCC_net,
+        SEL_i      => SEL_i_const_net_0,
+        -- Outputs
+        VALID_o    => patternGen_0_VALID_o,
+        ENDline_o  => patternGen_0_ENDline_o,
+        ENDframe_o => patternGen_0_ENDframe_o,
+        PIXEL_o    => patternGen_0_PIXEL_o 
+        );
+-- patternGen_1
+patternGen_1 : patternGen
+    port map( 
+        -- Inputs
+        CLK_i      => Igloo2_TFT_Video_Out_Test_0_FAB_CCC_GL0,
+        RST_i      => DEBOUNCE_0_INTERRUPT,
+        CLKen_i    => VCC_net,
+        SEL_i      => SEL_i_const_net_1,
         -- Outputs
         VALID_o    => OPEN,
         ENDline_o  => OPEN,
         ENDframe_o => OPEN,
-        PIXEL_o    => PIXEL_o_net_0 
+        PIXEL_o    => patternGen_1_PIXEL_o 
+        );
+-- patternGen_2
+patternGen_2 : patternGen
+    port map( 
+        -- Inputs
+        CLK_i      => Igloo2_TFT_Video_Out_Test_0_FAB_CCC_GL0,
+        RST_i      => DEBOUNCE_0_INTERRUPT,
+        CLKen_i    => VCC_net,
+        SEL_i      => SEL_i_const_net_2,
+        -- Outputs
+        VALID_o    => OPEN,
+        ENDline_o  => OPEN,
+        ENDframe_o => OPEN,
+        PIXEL_o    => patternGen_2_PIXEL_o 
         );
 
 end RTL;

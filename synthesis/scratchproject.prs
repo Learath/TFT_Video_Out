@@ -24,6 +24,7 @@ add_file -vhdl -lib COREAHBLITE_LIB "/home/nick/src/Igloo2_TFT_Video_Out_test/co
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd"
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd"
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd"
+add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/frameBuffer.vhd"
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd"
 
 

@@ -435,13 +435,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1414644355"
-SIZE="7439"
+TIME="1414909625"
+SIZE="8324"
 ENDFILE
 VALUE "<project>/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd,hdl"
 STATE="utd"
-TIME="1414644353"
-SIZE="13843"
+TIME="1414909622"
+SIZE="18406"
 PARENT="<project>/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -457,8 +457,8 @@ SIZE="2923"
 ENDFILE
 VALUE "<project>/hdl/frameBuffer.vhd,hdl"
 STATE="utd"
-TIME="1414773220"
-SIZE="4855"
+TIME="1414909072"
+SIZE="6545"
 ENDFILE
 VALUE "<project>/hdl/patternGen.vhd,hdl"
 STATE="utd"
@@ -524,7 +524,7 @@ SIZE="3588"
 ENDFILE
 VALUE "<project>/simulation/subsystem.bfm,sim"
 STATE="utd"
-TIME="1414644356"
+TIME="1414909625"
 SIZE="1214"
 PARENT="<project>/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.cxf"
 ENDFILE
@@ -534,23 +534,18 @@ TIME="1414360623"
 SIZE="520"
 PARENT="<project>/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.cxf"
 ENDFILE
-VALUE "<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.edn,syn_edn"
-STATE="utd"
-TIME="1414646280"
-SIZE="1416966"
-ENDFILE
 VALUE "<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.so,so"
 STATE="utd"
 TIME="1414646279"
 SIZE="262"
 ENDFILE
 VALUE "<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.vhd,syn_hdl"
-STATE="utd"
+STATE="ood"
 TIME="1414646285"
 SIZE="774026"
 ENDFILE
 VALUE "<project>/synthesis/Igloo2_TFT_Video_Out_Test_top_sdc.sdc,syn_sdc"
-STATE="utd"
+STATE="ood"
 TIME="1414646280"
 SIZE="1461"
 ENDFILE
@@ -625,8 +620,8 @@ VALUE "<project>/simulation/subsystem.bfm,sim"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.edn,syn_edn)=StateSuccess
+ideSYNTHESIS(<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.edn,syn_edn)=StateFailure
+ideSYNTHESIS(<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.vm,syn_vm)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -634,12 +629,6 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-LIST PinReports
-VALUE "<project>/designer/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top_pinrpt_name.rpt,log"
-VALUE "<project>/designer/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top_pinrpt_number.rpt,log"
-VALUE "<project>/designer/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top_bankrpt.rpt,log"
-VALUE "<project>/designer/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top_ioff.xml,log"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -785,8 +774,8 @@ ENDLIST
 ENDLIST
 LIST "Igloo2_TFT_Video_Out_Test_top::work"
 LIST Impl1
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.edn,syn_edn)=StateSuccess
+ideSYNTHESIS(<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.edn,syn_edn)=StateFailure
+ideSYNTHESIS(<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.vm,syn_vm)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -808,8 +797,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Synthesize:Igloo2_TFT_Video_Out_Test_top.srr
+HDL;hdl/frameBuffer.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;Igloo2_TFT_Video_Out_Test_top;0
+ACTIVEVIEW;hdl/frameBuffer.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "CoreConfigMaster::work","component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd","FALSE","FALSE"
@@ -847,6 +840,7 @@ SUBBLOCK "MSS_010::work","component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_T
 ENDLIST
 LIST "Igloo2_TFT_Video_Out_Test_top::work","component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd","TRUE","FALSE"
 SUBBLOCK "DEBOUNCE::work","hdl/Debounce.vhd","FALSE","FALSE"
+SUBBLOCK "frameBuffer::work","hdl/frameBuffer.vhd","FALSE","FALSE"
 SUBBLOCK "Igloo2_TFT_Video_Out_Test::work","component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd","TRUE","FALSE"
 SUBBLOCK "patternGen::work","hdl/patternGen.vhd","FALSE","FALSE"
 ENDLIST

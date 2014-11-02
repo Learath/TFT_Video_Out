@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <SynplifyOutput>
-	<result>Success</result>
-	<design>Igloo2_TFT_Video_Out_Test_top</design>
-	<target_edif>/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn</target_edif>
+	<result>Failure</result>
+	<details>View log file for error messages</details>
 </SynplifyOutput>
