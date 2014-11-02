@@ -1,11 +1,12 @@
 #--  Synopsys, Inc.
 #--  Version I-2013.09M-SP1-1 
 #--  Project file /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/run_options.txt
-#--  Written on Sun Nov  2 11:12:46 2014
+#--  Written on Sun Nov  2 12:31:19 2014
 
 
 #project files
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd"
+add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/frameBuffer.vhd"
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd"
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd"
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd"
@@ -26,7 +27,6 @@ add_file -vhdl -lib COREAHBLITE_LIB "/home/nick/src/Igloo2_TFT_Video_Out_test/co
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd"
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd"
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd"
-add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/frameBuffer.vhd"
 add_file -vhdl -lib work "/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd"
 
 

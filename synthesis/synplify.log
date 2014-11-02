@@ -1,7 +1,7 @@
 
 Starting:    /opt/microsemi/Libero_v11.4/Synplify/linux_a_64/mbin/synbatch
 Install:     /opt/microsemi/Libero_v11.4/Synplify
-Date:        Sun Nov  2 11:12:46 2014
+Date:        Sun Nov  2 12:31:19 2014
 Version:     I-2013.09M-SP1-1 
 
 Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log Igloo2_TFT_Video_Out_Test_top_syn.tcl

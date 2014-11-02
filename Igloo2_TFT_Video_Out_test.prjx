@@ -457,8 +457,8 @@ SIZE="2923"
 ENDFILE
 VALUE "<project>/hdl/frameBuffer.vhd,hdl"
 STATE="utd"
-TIME="1414909072"
-SIZE="6545"
+TIME="1414944761"
+SIZE="7031"
 ENDFILE
 VALUE "<project>/hdl/patternGen.vhd,hdl"
 STATE="utd"
@@ -536,8 +536,8 @@ PARENT="<project>/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video
 ENDFILE
 VALUE "<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.so,so"
 STATE="utd"
-TIME="1414646279"
-SIZE="262"
+TIME="1414909847"
+SIZE="154"
 ENDFILE
 VALUE "<project>/synthesis/Igloo2_TFT_Video_Out_Test_top.vhd,syn_hdl"
 STATE="ood"
@@ -551,12 +551,12 @@ SIZE="1461"
 ENDFILE
 VALUE "<project>/synthesis/Igloo2_TFT_Video_Out_Test_top_syn.prj,prj"
 STATE="utd"
-TIME="1414646282"
-SIZE="4540"
+TIME="1414944765"
+SIZE="4342"
 ENDFILE
 VALUE "<project>/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_comp.so,so"
 STATE="utd"
-TIME="1414645550"
+TIME="1414909846"
 SIZE="154"
 ENDFILE
 ENDLIST
@@ -727,8 +727,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="/opt/microsemi/Libero_v11.4/Synplify/bin/synplify_pro"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -736,8 +736,8 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="/opt/microsemi/Libero_v11.4/Model/modeltech/linuxacoem/vsim"
-PARAM="-l testbench_presynth_simulation.log -c"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -797,12 +797,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Synthesize:Igloo2_TFT_Video_Out_Test_top.srr
-HDL;hdl/frameBuffer.vhd;0
 StartPage;StartPage;0
-SmartDesign;Igloo2_TFT_Video_Out_Test_top;0
-ACTIVEVIEW;hdl/frameBuffer.vhd
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "CoreConfigMaster::work","component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd","FALSE","FALSE"
