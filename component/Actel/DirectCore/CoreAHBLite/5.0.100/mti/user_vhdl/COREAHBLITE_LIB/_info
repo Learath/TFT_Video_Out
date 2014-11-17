@@ -12,7 +12,7 @@ Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 32
-Z7 !s110 1414360627
+Z7 !s110 1414976076
 !i10b 1
 Z8 OW;C;10.3a;59
 Z9 w1295277819
@@ -361,7 +361,7 @@ R16
 Pcomponents
 R6
 R5
-Z49 w1414360627
+Z49 w1414976076
 Z50 d/home/nick/src/Igloo2_TFT_Video_Out_test/simulation
 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/components.vhd
 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/components.vhd
@@ -371,286 +371,52 @@ VzGIlX`GP;PO0BBAGUf>bQ1
 !s100 k[@iK6?K:WcbV]=Y<zUba2
 R8
 31
-Z51 !s110 1414646222
+Z51 !s110 1416227942
 !i10b 1
-!s108 1414646222.235539
+!s108 1416227941.999335
 !s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/components.vhd|
 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/components.vhd|
 !i113 1
 Z52 o-93 -explicit -work COREAHBLITE_LIB -O0
-Ecoreahblite
-R49
-R4
-R6
-R5
-R50
-Z53 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd
-Z54 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd
-l0
-L34
-VJi?bZzlSgo`A[]4XacMXY2
-!s100 2`Dgf2DL=3P^[861P_Li^0
-R8
-31
-R51
-!i10b 1
-Z55 !s108 1414646222.109959
-Z56 !s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd|
-Z57 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd|
-!i113 1
-R52
-Acoreahblite_arch
-R4
-R6
-R5
-DEx4 work 11 coreahblite 0 22 Ji?bZzlSgo`A[]4XacMXY2
-l881
-L396
-VU_CnE9YGF[lnX_<9JW2IP0
-!s100 a4FzAgmFB[4oDVY3fY1;S2
-R8
-31
-R51
-!i10b 1
-R55
-R56
-R57
-!i113 1
-R52
 Ecoreahblite_addrdec
 R49
-Z58 DPx4 work 19 coreahblite_support 0 22 ?BTcW4]GaBg=ImzIk@;lV3
+Z53 DPx4 work 19 coreahblite_support 0 22 ?BTcW4]GaBg=ImzIk@;lV3
 R4
 R6
 R5
 R50
-Z59 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd
-Z60 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd
+Z54 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd
+Z55 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd
 l0
 L59
 VMVC]d4A?`QXJ0BE=LdC^Y2
 !s100 >^gY^6DmkkPbE^?W`8Mj72
 R8
 31
-Z61 !s110 1414646221
+R51
 !i10b 1
-Z62 !s108 1414646221.162394
-Z63 !s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd|
-Z64 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd|
+Z56 !s108 1416227942.071662
+Z57 !s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd|
+Z58 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd|
 !i113 1
 R52
 Acoreahblite_addrdec_arch
-R58
+R53
 R4
 R6
 R5
-DEx4 work 19 coreahblite_addrdec 0 22 MVC]d4A?`QXJ0BE=LdC^Y2
+Z59 DEx4 work 19 coreahblite_addrdec 0 22 MVC]d4A?`QXJ0BE=LdC^Y2
 l111
 L75
-V9hdeLQ5L73Kz^NSeC[>?D1
-!s100 ^@NZCg5GYCKUV6A?ajGgg2
+Z60 V9hdeLQ5L73Kz^NSeC[>?D1
+Z61 !s100 ^@NZCg5GYCKUV6A?ajGgg2
 R8
 31
-R61
+R51
 !i10b 1
-R62
-R63
-R64
-!i113 1
-R52
-Ecoreahblite_defaultslavesm
-R49
-R4
-R6
-R5
-R50
-Z65 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd
-Z66 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd
-l0
-L31
-Vl?U>Kf]hBUEm3BSzIO<gQ0
-!s100 k0USdj8GOH:X2kTcz`YXi2
-R8
-31
-R61
-!i10b 1
-Z67 !s108 1414646221.256030
-Z68 !s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd|
-Z69 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd|
-!i113 1
-R52
-Acoreahblite_defaultslavesm_arch
-R4
-R6
-R5
-DEx4 work 26 coreahblite_defaultslavesm 0 22 l?U>Kf]hBUEm3BSzIO<gQ0
-l48
-L41
-V[cZoYn>RT2iez1iNWKC2Y0
-!s100 KSXgM6H_`>3dgVdJXQEn00
-R8
-31
-R61
-!i10b 1
-R67
-R68
-R69
-!i113 1
-R52
-Ecoreahblite_masterstage
-R49
-R4
-R6
-R5
-R50
-Z70 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd
-Z71 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd
-l0
-L33
-VY2]]j<W4aWB9ZQGMY`P=`2
-!s100 WicSlXcQ:3ANjVd8fef2c3
-R8
-31
-R61
-!i10b 1
-Z72 !s108 1414646221.333731
-Z73 !s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd|
-Z74 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd|
-!i113 1
-R52
-Acoreahblite_masterstage_arch
-R4
-R6
-R5
-DEx4 work 23 coreahblite_masterstage 0 22 Y2]]j<W4aWB9ZQGMY`P=`2
-l195
-L100
-VFfgY?lDlKenQ2>MmA[PEP2
-!s100 JN>nc@mXz0PIB97m2z9lM1
-R8
-31
-R61
-!i10b 1
-R72
-R73
-R74
-!i113 1
-R52
-Ecoreahblite_matrix4x16
-R49
-R4
-R6
-R5
-R50
-Z75 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd
-Z76 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd
-l0
-L33
-VIQT9RWlMW3IVzITOL@55G1
-!s100 Bg]Bac]MZ>FPD=EPcbfGo2
-R8
-31
-R61
-!i10b 1
-Z77 !s108 1414646221.603502
-Z78 !s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd|
-Z79 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd|
-!i113 1
-R52
-Acoreahblite_matrix4x16_arch
-R4
-R6
-R5
-DEx4 work 22 coreahblite_matrix4x16 0 22 IQT9RWlMW3IVzITOL@55G1
-l2037
-L273
-V[nTcc8d>BYKjP^odXdXgY0
-!s100 :Wgn2gk4aLkm[GbS;cW_e1
-R8
-31
-R61
-!i10b 1
-R77
-R78
-R79
-!i113 1
-R52
-Ecoreahblite_slavearbiter
-R49
-R4
-R6
-R5
-R50
-Z80 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd
-Z81 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd
-l0
-L30
-Vo=<B>em]KdZ?2MgGDj1T33
-!s100 H3WH]oK^<mRNDgR:B@hY<2
-R8
-31
-R61
-!i10b 1
-Z82 !s108 1414646221.431561
-Z83 !s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd|
-Z84 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd|
-!i113 1
-R52
-Acoreahblite_slavearbiter_arch
-R4
-R6
-R5
-DEx4 work 24 coreahblite_slavearbiter 0 22 o=<B>em]KdZ?2MgGDj1T33
-l72
-L44
-VF_5YI9Cf@WbRCLlz9:^ei0
-!s100 Qe5ETS9dH5F8=U^_?5F7l2
-R8
-31
-R61
-!i10b 1
-R82
-R83
-R84
-!i113 1
-R52
-Ecoreahblite_slavestage
-R49
-R4
-R6
-R5
-R50
-Z85 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavestage.vhd
-Z86 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavestage.vhd
-l0
-L32
-VZW1`MT:;;k4;b`UiNzoE13
-!s100 >d5EQQ>5SlaaI[@?g<0gz3
-R8
-31
-R61
-!i10b 1
-Z87 !s108 1414646221.516933
-Z88 !s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavestage.vhd|
-Z89 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavestage.vhd|
-!i113 1
-R52
-Atrans
-R4
-R6
-R5
-DEx4 work 22 coreahblite_slavestage 0 22 ZW1`MT:;;k4;b`UiNzoE13
-l118
-L79
-V3YLG[imPFQQXHf1X[T:7Z3
-!s100 5zcD`cVVleLOKP<1I?U0<3
-R8
-31
-R61
-!i10b 1
-R87
-R88
-R89
+R56
+R57
+R58
 !i113 1
 R52
 Pcoreahblite_support
@@ -659,8 +425,8 @@ R6
 R5
 R49
 R50
-R59
-R60
+R54
+R55
 l0
 L34
 V?BTcW4]GaBg=ImzIk@;lV3
@@ -668,29 +434,52 @@ V?BTcW4]GaBg=ImzIk@;lV3
 R8
 31
 b1
-R61
+R51
 !i10b 1
-R62
-R63
-R64
+R56
+R57
+R58
 !i113 1
 R52
 Bbody
-R58
+R53
 R4
 R6
 R5
 l0
 L38
-V27kccf2oOkLInbNm[i^9n1
-!s100 HAbJWN86`96L:BLQLzad`2
+Z62 V27kccf2oOkLInbNm[i^9n1
+Z63 !s100 HAbJWN86`96L:BLQLzad`2
 R8
 31
-R61
+R51
 !i10b 1
-R62
-R63
-R64
+R56
+R57
+R58
 !i113 1
 R52
 R37
+Pcoreparameters
+R4
+R48
+DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R6
+R5
+31
+!s110 1415033648
+!i10b 1
+R49
+R50
+8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/coreparameters.vhd
+F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/coreparameters.vhd
+l0
+L12
+V;DO1C7of5YSS<JdWh^2:]2
+!s100 KOJiC;3L[ZQf8Lo;USR0T3
+R8
+!s108 1415033648.929181
+!s90 -93|-explicit|-work|COREAHBLITE_LIB|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/coreparameters.vhd|
+!s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/coreparameters.vhd|
+!i113 1
+R52

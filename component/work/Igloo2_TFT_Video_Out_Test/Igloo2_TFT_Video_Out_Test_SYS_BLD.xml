@@ -191,7 +191,7 @@
 </header>
 <row>
  <cell>DDRC_ADDR_MAP_BANK_CR</cell>
- <cell>0x99f</cell>
+ <cell>0x99F</cell>
 </row>
 <row>
  <cell>DDRC_ADDR_MAP_COL_1_CR</cell>
@@ -199,7 +199,7 @@
 </row>
 <row>
  <cell>DDRC_ADDR_MAP_COL_2_CR</cell>
- <cell>0xffff</cell>
+ <cell>0xFFFF</cell>
 </row>
 <row>
  <cell>DDRC_ADDR_MAP_COL_3_CR</cell>
@@ -211,7 +211,7 @@
 </row>
 <row>
  <cell>DDRC_ADDR_MAP_ROW_2_CR</cell>
- <cell>0x7ff</cell>
+ <cell>0x777</cell>
 </row>
 <row>
  <cell>DDRC_AXI_FABRIC_PRI_ID_CR</cell>
@@ -223,7 +223,7 @@
 </row>
 <row>
  <cell>DDRC_CKE_RSTN_CYCLES_2_CR</cell>
- <cell>0x4</cell>
+ <cell>0x8</cell>
 </row>
 <row>
  <cell>DDRC_DEBUG_CR</cell>
@@ -339,7 +339,7 @@
 </row>
 <row>
  <cell>DDRC_HPR_QUEUE_PARAM_1_CR</cell>
- <cell>0x80f8</cell>
+ <cell>0x80F8</cell>
 </row>
 <row>
  <cell>DDRC_HPR_QUEUE_PARAM_2_CR</cell>
@@ -363,7 +363,7 @@
 </row>
 <row>
  <cell>DDRC_INIT_MR_CR</cell>
- <cell>0x3b</cell>
+ <cell>0x3B</cell>
 </row>
 <row>
  <cell>DDRC_LCB_MASK_1_SR</cell>
@@ -415,7 +415,7 @@
 </row>
 <row>
  <cell>DDRC_LPR_QUEUE_PARAM_1_CR</cell>
- <cell>0x80f8</cell>
+ <cell>0x80F8</cell>
 </row>
 <row>
  <cell>DDRC_LPR_QUEUE_PARAM_2_CR</cell>
@@ -703,7 +703,7 @@
 </row>
 <row>
  <cell>PHY_DLL_LOCK_DIFF_CR</cell>
- <cell>0x1</cell>
+ <cell>0xB</cell>
 </row>
 <row>
  <cell>PHY_DLL_SLAVE_VALUE_1_SR</cell>
@@ -2071,7 +2071,7 @@
 </row>
 <row>
  <cell>FIC0CLK_RATIO</cell>
- <cell>4</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>FIC0_AHBL_BYPASS</cell>
@@ -2095,7 +2095,7 @@
 </row>
 <row>
  <cell>GL0_OUT_0_FREQ</cell>
- <cell>25</cell>
+ <cell>50</cell>
 </row>
 <row>
  <cell>GL1_IS_USED</cell>

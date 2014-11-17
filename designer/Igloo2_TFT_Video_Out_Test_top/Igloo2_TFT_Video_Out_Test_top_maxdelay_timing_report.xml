@@ -1,0 +1,4021 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Timing Report Max Delay Analysis
+</title>
+<text>SmartTime Version 11.4.1.17</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v11.4 SP1 (Version 11.4.1.17)</text>
+<text>Date: Mon Nov 17 08:58:43 2014
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>IGLOO2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2GL010T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>484 FBGA</cell>
+</row>
+<row>
+ <cell>Temperature</cell>
+ <cell>COM</cell>
+</row>
+<row>
+ <cell>Voltage</cell>
+ <cell>COM</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Post-Layout</cell>
+</row>
+<row>
+ <cell>Data source</cell>
+ <cell>Production</cell>
+</row>
+<row>
+ <cell>Min Operating Condition</cell>
+ <cell>BEST</cell>
+</row>
+<row>
+ <cell>Max Operating Condition</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Scenario for Timing Analysis</cell>
+ <cell>Primary</cell>
+</row>
+</table>
+<text></text>
+<section>
+<name>Summary</name>
+<table>
+<header>
+ <cell>Clock Domain</cell>
+ <cell>Period (ns)</cell>
+ <cell>Frequency (MHz)</cell>
+ <cell>Required Period (ns)</cell>
+ <cell>Required Frequency (MHz)</cell>
+ <cell>External Setup (ns)</cell>
+ <cell>External Hold (ns)</cell>
+ <cell>Min Clock-To-Out (ns)</cell>
+ <cell>Max Clock-To-Out (ns)</cell>
+</header>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>15.855</cell>
+ <cell>63.072</cell>
+ <cell>20.000</cell>
+ <cell>50.000</cell>
+ <cell>1.008</cell>
+ <cell>0.660</cell>
+ <cell>4.530</cell>
+ <cell>8.837</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>4.454</cell>
+ <cell>224.517</cell>
+ <cell>20.000</cell>
+ <cell>50.000</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:CLK_CONFIG_APB</cell>
+ <cell>6.194</cell>
+ <cell>161.447</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+ <cell></cell>
+ <cell>Min Delay (ns)</cell>
+ <cell>Max Delay (ns)</cell>
+</header>
+<row>
+ <cell>Input to Output</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock Domain Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</name>
+<text></text>
+<section>
+<name>SET Register to Register</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Setup (ns)</cell>
+ <cell>Minimum Period (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>lineBuffer_0/inactive_horizontal[20]:CLK</cell>
+ <cell>lineBuffer_0/active_line_buffer_329[17]:EN</cell>
+ <cell>15.711</cell>
+ <cell>4.145</cell>
+ <cell>19.257</cell>
+ <cell>23.402</cell>
+ <cell>0.088</cell>
+ <cell>15.855</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>lineBuffer_0/inactive_horizontal[20]:CLK</cell>
+ <cell>lineBuffer_0/active_line_buffer_337[9]:EN</cell>
+ <cell>15.711</cell>
+ <cell>4.145</cell>
+ <cell>19.257</cell>
+ <cell>23.402</cell>
+ <cell>0.088</cell>
+ <cell>15.855</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>lineBuffer_0/inactive_horizontal[20]:CLK</cell>
+ <cell>lineBuffer_0/active_line_buffer_345[9]:EN</cell>
+ <cell>15.711</cell>
+ <cell>4.145</cell>
+ <cell>19.257</cell>
+ <cell>23.402</cell>
+ <cell>0.088</cell>
+ <cell>15.855</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>lineBuffer_0/inactive_horizontal[20]:CLK</cell>
+ <cell>lineBuffer_0/active_line_buffer_345[17]:EN</cell>
+ <cell>15.711</cell>
+ <cell>4.154</cell>
+ <cell>19.257</cell>
+ <cell>23.411</cell>
+ <cell>0.088</cell>
+ <cell>15.846</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>lineBuffer_0/inactive_horizontal[20]:CLK</cell>
+ <cell>lineBuffer_0/active_line_buffer_353[9]:EN</cell>
+ <cell>15.711</cell>
+ <cell>4.155</cell>
+ <cell>19.257</cell>
+ <cell>23.412</cell>
+ <cell>0.088</cell>
+ <cell>15.845</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: lineBuffer_0/inactive_horizontal[20]:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: lineBuffer_0/active_line_buffer_329[17]:EN</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>23.402</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>19.257</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4.145</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Clock generation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.049</cell>
+ <cell>2.049</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.271</cell>
+ <cell>2.320</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.165</cell>
+ <cell>2.485</cell>
+ <cell>16</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB11:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.302</cell>
+ <cell>2.787</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB11:YL</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>3.038</cell>
+ <cell>212</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal[20]:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB11_rgbl_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.508</cell>
+ <cell>3.546</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal[20]:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.092</cell>
+ <cell>3.638</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal_RNI4LBA1[18]:B</cell>
+ <cell>net</cell>
+ <cell>lineBuffer_0/inactive_horizontal[20]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.713</cell>
+ <cell>4.351</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal_RNI4LBA1[18]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.344</cell>
+ <cell>4.695</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal_RNI9H216[17]:C</cell>
+ <cell>net</cell>
+ <cell>lineBuffer_0/un1_active_line_buffer_06_i_0_34_i_a2_0_a2_0_a2_i_o3_18_10_4</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.273</cell>
+ <cell>5.968</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal_RNI9H216[17]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.344</cell>
+ <cell>6.312</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal_RNI8QJTA[31]:B</cell>
+ <cell>net</cell>
+ <cell>lineBuffer_0/un1_active_line_buffer_0_0_sqmuxa_or_i_i_0_a3_0_2</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.834</cell>
+ <cell>7.146</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal_RNI8QJTA[31]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.197</cell>
+ <cell>7.343</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal_RNIGT08B[31]:A</cell>
+ <cell>net</cell>
+ <cell>lineBuffer_0/N_311</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.568</cell>
+ <cell>7.911</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/inactive_horizontal_RNIGT08B[31]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG2</cell>
+ <cell>+</cell>
+ <cell>0.077</cell>
+ <cell>7.988</cell>
+ <cell>4806</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/active_line_buffer_329[17]:EN</cell>
+ <cell>net</cell>
+ <cell>lineBuffer_0/inactive_horizontal_RNIGT08B[31]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>11.269</cell>
+ <cell>19.257</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>19.257</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>20.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Clock generation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.049</cell>
+ <cell>22.049</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.271</cell>
+ <cell>22.320</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:YSn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.166</cell>
+ <cell>22.486</cell>
+ <cell>17</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB19:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_YNn_GSouth</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.308</cell>
+ <cell>22.794</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB19:YL</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>23.045</cell>
+ <cell>203</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/active_line_buffer_329[17]:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB19_rgbl_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.445</cell>
+ <cell>23.490</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/active_line_buffer_329[17]:EN</cell>
+ <cell>Library setup time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>-</cell>
+ <cell>0.088</cell>
+ <cell>23.402</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>23.402</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+</table>
+</section>
+<section>
+<name>SET External Setup</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Setup (ns)</cell>
+ <cell>External Setup (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>SEL_i_0</cell>
+ <cell>patternGen_1/pixel_r[0]:D</cell>
+ <cell>4.128</cell>
+ <cell></cell>
+ <cell>4.128</cell>
+ <cell></cell>
+ <cell>0.254</cell>
+ <cell>1.008</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>SEL_i_0</cell>
+ <cell>patternGen_1/pixel_r[1]:D</cell>
+ <cell>3.722</cell>
+ <cell></cell>
+ <cell>3.722</cell>
+ <cell></cell>
+ <cell>0.254</cell>
+ <cell>0.593</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>SEL_i_1</cell>
+ <cell>patternGen_2/pixel_r[0]:D</cell>
+ <cell>3.637</cell>
+ <cell></cell>
+ <cell>3.637</cell>
+ <cell></cell>
+ <cell>0.254</cell>
+ <cell>0.508</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>SEL_i_1</cell>
+ <cell>patternGen_2/pixel_r[1]:D</cell>
+ <cell>3.401</cell>
+ <cell></cell>
+ <cell>3.401</cell>
+ <cell></cell>
+ <cell>0.254</cell>
+ <cell>0.281</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>SEL_i</cell>
+ <cell>patternGen_0/pixel_r[1]:D</cell>
+ <cell>3.399</cell>
+ <cell></cell>
+ <cell>3.399</cell>
+ <cell></cell>
+ <cell>0.254</cell>
+ <cell>0.279</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: SEL_i_0</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: patternGen_1/pixel_r[0]:D</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>4.128</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>SEL_i_0</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SEL_i_0_ibuf/U0/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>SEL_i_0</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SEL_i_0_ibuf/U0/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>1.857</cell>
+ <cell>1.857</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SEL_i_0_ibuf/U0/U_IOINFF:A</cell>
+ <cell>net</cell>
+ <cell>SEL_i_0_ibuf/U0/YIN1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>1.857</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>SEL_i_0_ibuf/U0/U_IOINFF:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOINFF_BYPASS</cell>
+ <cell>+</cell>
+ <cell>0.083</cell>
+ <cell>1.940</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>patternGen_1/pixel_r_RNO[0]:B</cell>
+ <cell>net</cell>
+ <cell>SEL_i_0_c</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.307</cell>
+ <cell>3.247</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>patternGen_1/pixel_r_RNO[0]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG2</cell>
+ <cell>+</cell>
+ <cell>0.163</cell>
+ <cell>3.410</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>patternGen_1/pixel_r[0]:D</cell>
+ <cell>net</cell>
+ <cell>patternGen_1/color_sel_i_0</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.718</cell>
+ <cell>4.128</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4.128</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Clock generation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.049</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.244</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.149</cell>
+ <cell>N/C</cell>
+ <cell>16</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB9:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.275</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB9:YR</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.225</cell>
+ <cell>N/C</cell>
+ <cell>148</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>patternGen_1/pixel_r[0]:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB9_rgbr_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.432</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>patternGen_1/pixel_r[0]:D</cell>
+ <cell>Library setup time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>-</cell>
+ <cell>0.254</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+</table>
+</section>
+<section>
+<name>SET Clock to Output</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Clock to Out (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>lineBuffer_0/pixel_o[16]:CLK</cell>
+ <cell>pixel_o_0[18]</cell>
+ <cell>5.322</cell>
+ <cell></cell>
+ <cell>8.837</cell>
+ <cell></cell>
+ <cell>8.837</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>lineBuffer_0/pixel_o[17]:CLK</cell>
+ <cell>pixel_o_0[19]</cell>
+ <cell>4.799</cell>
+ <cell></cell>
+ <cell>8.314</cell>
+ <cell></cell>
+ <cell>8.314</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>lineBuffer_0/pixel_o[16]:CLK</cell>
+ <cell>pixel_o_0[22]</cell>
+ <cell>4.789</cell>
+ <cell></cell>
+ <cell>8.304</cell>
+ <cell></cell>
+ <cell>8.304</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>lineBuffer_0/pixel_o[11]:CLK</cell>
+ <cell>pixel_o_0[13]</cell>
+ <cell>4.725</cell>
+ <cell></cell>
+ <cell>8.262</cell>
+ <cell></cell>
+ <cell>8.262</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>lineBuffer_0/pixel_o[0]:CLK</cell>
+ <cell>pixel_o_0[2]</cell>
+ <cell>4.606</cell>
+ <cell></cell>
+ <cell>8.152</cell>
+ <cell></cell>
+ <cell>8.152</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: lineBuffer_0/pixel_o[16]:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: pixel_o_0[18]</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>8.837</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Clock generation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.049</cell>
+ <cell>2.049</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.271</cell>
+ <cell>2.320</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.165</cell>
+ <cell>2.485</cell>
+ <cell>16</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB14:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.299</cell>
+ <cell>2.784</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB14:YL</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>3.035</cell>
+ <cell>207</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/pixel_o[16]:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB14_rgbl_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.480</cell>
+ <cell>3.515</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>lineBuffer_0/pixel_o[16]:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.108</cell>
+ <cell>3.623</cell>
+ <cell>4</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>pixel_o_0_obuf[18]/U0/U_IOOUTFF:A</cell>
+ <cell>net</cell>
+ <cell>pixel_o_0_c[22]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.467</cell>
+ <cell>6.090</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>pixel_o_0_obuf[18]/U0/U_IOOUTFF:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOOUTFF_BYPASS</cell>
+ <cell>+</cell>
+ <cell>0.343</cell>
+ <cell>6.433</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>pixel_o_0_obuf[18]/U0/U_IOPAD:D</cell>
+ <cell>net</cell>
+ <cell>pixel_o_0_obuf[18]/U0/DOUT</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>6.433</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>pixel_o_0_obuf[18]/U0/U_IOPAD:PAD</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_TRI</cell>
+ <cell>+</cell>
+ <cell>2.404</cell>
+ <cell>8.837</cell>
+ <cell>0</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>pixel_o_0[18]</cell>
+ <cell>net</cell>
+ <cell>pixel_o_0[18]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>8.837</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>8.837</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Clock generation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.049</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>pixel_o_0[18]</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+</row>
+</table>
+</section>
+<section>
+<name>SET Register to Asynchronous</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Recovery (ns)</cell>
+ <cell>Minimum Period (ns)</cell>
+ <cell>Skew (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/FDDR_CORE_RESET_N_int:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:FPGA_MDDR_ARESET_N</cell>
+ <cell>1.769</cell>
+ <cell>16.594</cell>
+ <cell>5.290</cell>
+ <cell>21.884</cell>
+ <cell>1.765</cell>
+ <cell>3.406</cell>
+ <cell>-0.128</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/mask[30]:ALn</cell>
+ <cell>2.793</cell>
+ <cell>16.789</cell>
+ <cell>6.343</cell>
+ <cell>23.132</cell>
+ <cell>0.353</cell>
+ <cell>3.211</cell>
+ <cell>0.065</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/mask[23]:ALn</cell>
+ <cell>2.793</cell>
+ <cell>16.789</cell>
+ <cell>6.343</cell>
+ <cell>23.132</cell>
+ <cell>0.353</cell>
+ <cell>3.211</cell>
+ <cell>0.065</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/mask[27]:ALn</cell>
+ <cell>2.793</cell>
+ <cell>16.789</cell>
+ <cell>6.343</cell>
+ <cell>23.132</cell>
+ <cell>0.353</cell>
+ <cell>3.211</cell>
+ <cell>0.065</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/mask[19]:ALn</cell>
+ <cell>2.793</cell>
+ <cell>16.789</cell>
+ <cell>6.343</cell>
+ <cell>23.132</cell>
+ <cell>0.353</cell>
+ <cell>3.211</cell>
+ <cell>0.065</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/FDDR_CORE_RESET_N_int:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:FPGA_MDDR_ARESET_N</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>21.884</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>5.290</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>16.594</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Clock generation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.049</cell>
+ <cell>2.049</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.271</cell>
+ <cell>2.320</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.165</cell>
+ <cell>2.485</cell>
+ <cell>16</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB13:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.300</cell>
+ <cell>2.785</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB13:YR</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.250</cell>
+ <cell>3.035</cell>
+ <cell>161</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/FDDR_CORE_RESET_N_int:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB13_rgbr_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.486</cell>
+ <cell>3.521</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/FDDR_CORE_RESET_N_int:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.087</cell>
+ <cell>3.608</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MDDR_DDR_AXI_S_CORE_RESET_N_0_a4:B</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/FDDR_CORE_RESET_N_int</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.052</cell>
+ <cell>3.660</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MDDR_DDR_AXI_S_CORE_RESET_N_0_a4:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG2</cell>
+ <cell>+</cell>
+ <cell>0.381</cell>
+ <cell>4.041</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/IP_INTERFACE_271:B</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0_MDDR_DDR_AXI_S_CORE_RESET_N</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.040</cell>
+ <cell>5.081</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/IP_INTERFACE_271:IPB</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IP_INTERFACE</cell>
+ <cell>+</cell>
+ <cell>0.209</cell>
+ <cell>5.290</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:FPGA_MDDR_ARESET_N</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/FPGA_MDDR_ARESET_N_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>5.290</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5.290</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>20.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Clock generation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.049</cell>
+ <cell>22.049</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.271</cell>
+ <cell>22.320</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.165</cell>
+ <cell>22.485</cell>
+ <cell>16</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.308</cell>
+ <cell>22.793</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1:YR</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.250</cell>
+ <cell>23.043</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/IP_INTERFACE_268:B</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_YR</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.397</cell>
+ <cell>23.440</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/IP_INTERFACE_268:IPB</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IP_INTERFACE</cell>
+ <cell>+</cell>
+ <cell>0.209</cell>
+ <cell>23.649</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:CLK_BASE</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/CLK_BASE_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>23.649</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:FPGA_MDDR_ARESET_N</cell>
+ <cell>Library recovery time</cell>
+ <cell></cell>
+ <cell>ADLIB:MSS_010_IP</cell>
+ <cell>-</cell>
+ <cell>1.765</cell>
+ <cell>21.884</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>21.884</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+</table>
+</section>
+<section>
+<name>SET External Recovery</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Asynchronous to Register</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT to Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Setup (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core_q1:D</cell>
+ <cell>2.835</cell>
+ <cell>17.379</cell>
+ <cell>5.853</cell>
+ <cell>23.232</cell>
+ <cell>0.254</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled_q1:D</cell>
+ <cell>0.816</cell>
+ <cell>19.412</cell>
+ <cell>3.820</cell>
+ <cell>23.232</cell>
+ <cell>0.254</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core_q1:D</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>23.232</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>5.853</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>17.379</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:A</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:CLKOUT</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RCOSC_25_50MHZ_FAB</cell>
+ <cell>+</cell>
+ <cell>0.152</cell>
+ <cell>0.152</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/N_RCOSC_25_50MHZ_CLKINT</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.600</cell>
+ <cell>1.752</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.220</cell>
+ <cell>1.972</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.303</cell>
+ <cell>2.275</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:YL</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>2.526</cell>
+ <cell>19</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.492</cell>
+ <cell>3.018</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.087</cell>
+ <cell>3.105</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core_q1:D</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif3_core</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.748</cell>
+ <cell>5.853</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5.853</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>20.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Clock generation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.049</cell>
+ <cell>22.049</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.271</cell>
+ <cell>22.320</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:YSn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.166</cell>
+ <cell>22.486</cell>
+ <cell>17</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB27:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_YNn_GSouth</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.312</cell>
+ <cell>22.798</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB27:YR</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.250</cell>
+ <cell>23.048</cell>
+ <cell>154</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core_q1:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB27_rgbr_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.438</cell>
+ <cell>23.486</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core_q1:D</cell>
+ <cell>Library setup time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>-</cell>
+ <cell>0.254</cell>
+ <cell>23.232</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>23.232</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+</table>
+</section>
+</section>
+<section>
+<name>Clock Domain Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</name>
+<text></text>
+<section>
+<name>SET Register to Register</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Setup (ns)</cell>
+ <cell>Minimum Period (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[4]:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:EN</cell>
+ <cell>4.058</cell>
+ <cell>15.546</cell>
+ <cell>7.076</cell>
+ <cell>22.622</cell>
+ <cell>0.335</cell>
+ <cell>4.454</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[11]:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:EN</cell>
+ <cell>3.984</cell>
+ <cell>15.609</cell>
+ <cell>7.013</cell>
+ <cell>22.622</cell>
+ <cell>0.335</cell>
+ <cell>4.391</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[0]:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:EN</cell>
+ <cell>3.715</cell>
+ <cell>15.889</cell>
+ <cell>6.733</cell>
+ <cell>22.622</cell>
+ <cell>0.335</cell>
+ <cell>4.111</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[13]:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:EN</cell>
+ <cell>3.696</cell>
+ <cell>15.897</cell>
+ <cell>6.725</cell>
+ <cell>22.622</cell>
+ <cell>0.335</cell>
+ <cell>4.103</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[2]:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:EN</cell>
+ <cell>3.697</cell>
+ <cell>15.907</cell>
+ <cell>6.715</cell>
+ <cell>22.622</cell>
+ <cell>0.335</cell>
+ <cell>4.093</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[4]:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:EN</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>22.622</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>7.076</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>15.546</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:A</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:CLKOUT</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RCOSC_25_50MHZ_FAB</cell>
+ <cell>+</cell>
+ <cell>0.152</cell>
+ <cell>0.152</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/N_RCOSC_25_50MHZ_CLKINT</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.600</cell>
+ <cell>1.752</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.220</cell>
+ <cell>1.972</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.303</cell>
+ <cell>2.275</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:YL</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>2.526</cell>
+ <cell>19</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[4]:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.492</cell>
+ <cell>3.018</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[4]:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.108</cell>
+ <cell>3.126</cell>
+ <cell>3</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/un13_count_ddr_7:D</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[4]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.547</cell>
+ <cell>3.673</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/un13_count_ddr_7:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.371</cell>
+ <cell>4.044</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/un13_count_ddr:B</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/un13_count_ddr_7</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.596</cell>
+ <cell>4.640</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/un13_count_ddr:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.164</cell>
+ <cell>4.804</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:EN</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/un13_count_ddr</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.272</cell>
+ <cell>7.076</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>7.076</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>20.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:A</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:CLKOUT</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RCOSC_25_50MHZ_FAB</cell>
+ <cell>+</cell>
+ <cell>0.152</cell>
+ <cell>20.152</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/N_RCOSC_25_50MHZ_CLKINT</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.600</cell>
+ <cell>21.752</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:YSn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.221</cell>
+ <cell>21.973</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB0:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YNn_GSouth</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.308</cell>
+ <cell>22.281</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB0:YR</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.250</cell>
+ <cell>22.531</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB0_rgbr_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.426</cell>
+ <cell>22.957</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/ddr_settled:EN</cell>
+ <cell>Library setup time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>-</cell>
+ <cell>0.335</cell>
+ <cell>22.622</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>22.622</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+</table>
+</section>
+<section>
+<name>SET External Setup</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Clock to Output</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Register to Asynchronous</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Recovery (ns)</cell>
+ <cell>Minimum Period (ns)</cell>
+ <cell>Skew (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core:ALn</cell>
+ <cell>2.982</cell>
+ <cell>16.607</cell>
+ <cell>6.009</cell>
+ <cell>22.616</cell>
+ <cell>0.353</cell>
+ <cell>3.393</cell>
+ <cell>0.058</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[0]:ALn</cell>
+ <cell>2.982</cell>
+ <cell>16.607</cell>
+ <cell>6.009</cell>
+ <cell>22.616</cell>
+ <cell>0.353</cell>
+ <cell>3.393</cell>
+ <cell>0.058</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[10]:ALn</cell>
+ <cell>2.982</cell>
+ <cell>16.607</cell>
+ <cell>6.009</cell>
+ <cell>22.616</cell>
+ <cell>0.353</cell>
+ <cell>3.393</cell>
+ <cell>0.058</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr[12]:ALn</cell>
+ <cell>2.982</cell>
+ <cell>16.607</cell>
+ <cell>6.009</cell>
+ <cell>22.616</cell>
+ <cell>0.353</cell>
+ <cell>3.393</cell>
+ <cell>0.058</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr_enable_rcosc:ALn</cell>
+ <cell>2.982</cell>
+ <cell>16.607</cell>
+ <cell>6.009</cell>
+ <cell>22.616</cell>
+ <cell>0.353</cell>
+ <cell>3.393</cell>
+ <cell>0.058</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core:ALn</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>22.616</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>6.009</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>16.607</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:A</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:CLKOUT</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RCOSC_25_50MHZ_FAB</cell>
+ <cell>+</cell>
+ <cell>0.152</cell>
+ <cell>0.152</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/N_RCOSC_25_50MHZ_CLKINT</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.600</cell>
+ <cell>1.752</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.220</cell>
+ <cell>1.972</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.303</cell>
+ <cell>2.275</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:YL</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>2.526</cell>
+ <cell>19</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.501</cell>
+ <cell>3.027</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.087</cell>
+ <cell>3.114</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc_RNIK6M4:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.601</cell>
+ <cell>4.715</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc_RNIK6M4:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.220</cell>
+ <cell>4.935</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc_RNIK6M4/U0_RGB1:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc_RNIK6M4/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.311</cell>
+ <cell>5.246</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc_RNIK6M4/U0_RGB1:YL</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>5.497</cell>
+ <cell>17</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core:ALn</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc_0</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.512</cell>
+ <cell>6.009</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6.009</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>20.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:A</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:CLKOUT</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RCOSC_25_50MHZ_FAB</cell>
+ <cell>+</cell>
+ <cell>0.152</cell>
+ <cell>20.152</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/N_RCOSC_25_50MHZ_CLKINT</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.600</cell>
+ <cell>21.752</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.220</cell>
+ <cell>21.972</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.303</cell>
+ <cell>22.275</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:YL</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>22.526</cell>
+ <cell>19</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.443</cell>
+ <cell>22.969</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/release_sdif0_core:ALn</cell>
+ <cell>Library recovery time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>-</cell>
+ <cell>0.353</cell>
+ <cell>22.616</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>22.616</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+</table>
+</section>
+<section>
+<name>SET External Recovery</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Asynchronous to Register</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0 to Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Setup (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sdif0_areset_n_rcosc_q1:ALn</cell>
+ <cell>3.262</cell>
+ <cell>15.804</cell>
+ <cell>6.812</cell>
+ <cell>22.616</cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_rcosc:ALn</cell>
+ <cell>3.262</cell>
+ <cell>15.812</cell>
+ <cell>6.812</cell>
+ <cell>22.624</cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr_enable:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/count_ddr_enable_q1:D</cell>
+ <cell>2.389</cell>
+ <cell>16.832</cell>
+ <cell>5.893</cell>
+ <cell>22.725</cell>
+ <cell>0.254</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sdif0_areset_n_rcosc_q1:ALn</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>22.616</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>6.812</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>15.804</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Clock generation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.049</cell>
+ <cell>2.049</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_net</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.271</cell>
+ <cell>2.320</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST:YSn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.166</cell>
+ <cell>2.486</cell>
+ <cell>17</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB17:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_YNn_GSouth</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.309</cell>
+ <cell>2.795</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB17:YR</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.250</cell>
+ <cell>3.045</cell>
+ <cell>152</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CCC_0/GL0_INST/U0_RGB1_RGB17_rgbr_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.505</cell>
+ <cell>3.550</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.092</cell>
+ <cell>3.642</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int_RNIN6JD:A</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.684</cell>
+ <cell>4.326</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/MSS_HPMS_READY_int_RNIN6JD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG2</cell>
+ <cell>+</cell>
+ <cell>0.197</cell>
+ <cell>4.523</cell>
+ <cell>4</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sdif0_areset_n_rcosc_q1:ALn</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_i_0_i</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.289</cell>
+ <cell>6.812</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6.812</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>20.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:A</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>20.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:CLKOUT</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RCOSC_25_50MHZ_FAB</cell>
+ <cell>+</cell>
+ <cell>0.152</cell>
+ <cell>20.152</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/N_RCOSC_25_50MHZ_CLKINT</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.600</cell>
+ <cell>21.752</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.220</cell>
+ <cell>21.972</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.303</cell>
+ <cell>22.275</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1:YL</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>22.526</cell>
+ <cell>19</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sdif0_areset_n_rcosc_q1:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.443</cell>
+ <cell>22.969</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sdif0_areset_n_rcosc_q1:ALn</cell>
+ <cell>Library recovery time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>-</cell>
+ <cell>0.353</cell>
+ <cell>22.616</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>22.616</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+</table>
+</section>
+</section>
+<section>
+<name>Clock Domain Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:CLK_CONFIG_APB</name>
+<text></text>
+<section>
+<name>SET Register to Register</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Setup (ns)</cell>
+ <cell>Minimum Period (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/psel:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_0[11]:D</cell>
+ <cell>2.540</cell>
+ <cell></cell>
+ <cell>5.163</cell>
+ <cell></cell>
+ <cell>0.165</cell>
+ <cell>5.370</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/psel:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_0[9]:D</cell>
+ <cell>2.540</cell>
+ <cell></cell>
+ <cell>5.163</cell>
+ <cell></cell>
+ <cell>0.165</cell>
+ <cell>5.370</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/psel:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_0[4]:D</cell>
+ <cell>2.539</cell>
+ <cell></cell>
+ <cell>5.162</cell>
+ <cell></cell>
+ <cell>0.165</cell>
+ <cell>5.350</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/psel:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_0[14]:D</cell>
+ <cell>2.538</cell>
+ <cell></cell>
+ <cell>5.161</cell>
+ <cell></cell>
+ <cell>0.165</cell>
+ <cell>5.350</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/psel:CLK</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/soft_reset_reg[4]:EN</cell>
+ <cell>2.241</cell>
+ <cell></cell>
+ <cell>4.864</cell>
+ <cell></cell>
+ <cell>0.335</cell>
+ <cell>5.124</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/psel:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_0[11]:D</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>5.163</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:CLK_CONFIG_APB</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:CLK_CONFIG_APB</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.515</cell>
+ <cell>1.515</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.223</cell>
+ <cell>1.738</cell>
+ <cell>7</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1/U0_RGB1_RGB2:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.284</cell>
+ <cell>2.022</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1/U0_RGB1_RGB2:YR</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.182</cell>
+ <cell>2.204</cell>
+ <cell>21</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/psel:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1/U0_RGB1_RGB2_rgbr_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.419</cell>
+ <cell>2.623</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/psel:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.092</cell>
+ <cell>2.715</cell>
+ <cell>6</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/prdata_0_iv_0_0_a0[0]:B</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/psel</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.189</cell>
+ <cell>3.904</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/prdata_0_iv_0_0_a0[0]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG3</cell>
+ <cell>+</cell>
+ <cell>0.163</cell>
+ <cell>4.067</cell>
+ <cell>18</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/prdata_0_iv_0[11]:D</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/N_99</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.932</cell>
+ <cell>4.999</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/prdata_0_iv_0[11]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.096</cell>
+ <cell>5.095</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_0[11]:D</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/prdata[11]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.068</cell>
+ <cell>5.163</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5.163</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:CLK_CONFIG_APB</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP:CLK_CONFIG_APB</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>1.454</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1:YNn</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.220</cell>
+ <cell>N/C</cell>
+ <cell>7</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1/U0_RGB1_RGB2:An</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1/U0_YNn</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.274</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1/U0_RGB1_RGB2:YR</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.250</cell>
+ <cell>N/C</cell>
+ <cell>21</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_0[11]:CLK</cell>
+ <cell>net</cell>
+ <cell>Igloo2_TFT_Video_Out_Test_0/Igloo2_TFT_Video_Out_Test_HPMS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIU0V1/U0_RGB1_RGB2_rgbr_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.445</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>Igloo2_TFT_Video_Out_Test_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_0[11]:D</cell>
+ <cell>Library setup time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>-</cell>
+ <cell>0.165</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+</table>
+</section>
+<section>
+<name>SET External Setup</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Clock to Output</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Register to Asynchronous</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET External Recovery</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Asynchronous to Register</name>
+<text>No Path</text>
+</section>
+</section>
+<section>
+<name>Path Set Pin to Pin</name>
+<section>
+<name>SET Input to Output</name>
+<text>No Path</text>
+</section>
+</section>
+<section>
+<name>Path Set User Sets</name>
+</section>
+</doc>

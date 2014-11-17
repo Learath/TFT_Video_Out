@@ -125,7 +125,7 @@ begin
                     if (v_sync_i = '0') then
                         inactive_vertical <= 0;
                     end if;
-                    inactive_frame_buffer(inactive_horizontal, inactive_vertical) <= pixel_i;
+                    inactive_frame_buffer(inactive_horizontal,inactive_vertical) <= pixel_i;
                     if (inactive_horizontal < FrameWidth) then
                         inactive_horizontal <= inactive_horizontal + 1;
                     else

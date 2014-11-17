@@ -1,0 +1,402 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.4 SP1 11.4.1.17
+# Family: IGLOO2 , Die: M2GL010T , Package: 484 FBGA
+# Date generated: Mon Nov 17 09:09:55 2014 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io CLK_o           \
+    -pinname K16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SEL_i          \
+    -pinname L16      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io SEL_i_0        \
+    -pinname L18      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io SEL_i_1        \
+    -pinname K21      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io SWITCH         \
+    -pinname L20      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io backlight_en        \
+    -pinname C4            \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io h_sync_o            \
+    -pinname E5            \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[0]}      \
+    -pinname AB15          \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[1]}      \
+    -pinname AA15          \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[2]}      \
+    -pinname AB18          \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[3]}      \
+    -pinname AB19          \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[4]}      \
+    -pinname Y18           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[5]}      \
+    -pinname Y19           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[6]}      \
+    -pinname W16           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[7]}      \
+    -pinname V16           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[8]}      \
+    -pinname AA16          \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[9]}      \
+    -pinname AA17          \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[10]}     \
+    -pinname AB17          \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[11]}     \
+    -pinname AA18          \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[12]}     \
+    -pinname Y17           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[13]}     \
+    -pinname W17           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[14]}     \
+    -pinname U14           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[15]}     \
+    -pinname U15           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[16]}     \
+    -pinname V13           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[17]}     \
+    -pinname V14           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[18]}     \
+    -pinname G5            \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[19]}     \
+    -pinname G6            \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[20]}     \
+    -pinname C22           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[21]}     \
+    -pinname B22           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[22]}     \
+    -pinname Y15           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io {pixel_o_0[23]}     \
+    -pinname W15           \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io reset_o             \
+    -pinname F5            \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+set_io v_sync_o            \
+    -pinname E4            \
+    -fixed yes             \
+    -iostd LVCMOS33        \
+    -FF_IO_AVAIL No        \
+    -FF_IO_STATE TRISTATE  \
+    -OUT_DRIVE 4           \
+    -OUT_LOAD 5            \
+    -RES_PULL None         \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

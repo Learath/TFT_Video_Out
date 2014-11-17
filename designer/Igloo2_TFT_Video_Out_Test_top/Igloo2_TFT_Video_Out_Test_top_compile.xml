@@ -2,8 +2,8 @@
 <?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
 <doc>
 <title>Compile Report</title>
-<text>Microsemi Corporation - Microsemi Libero Software Release v11.4 (Version 11.4.0.112)</text>
-<text>Date: Thu Oct 30 01:18:25 2014
+<text>Microsemi Corporation - Microsemi Libero Software Release v11.4 SP1 (Version 11.4.1.17)</text>
+<text>Date: Mon Nov 17 08:03:08 2014
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -74,6 +74,10 @@
  <cell>Source</cell>
  <cell>/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn</cell>
 </row>
+<row>
+ <cell>Source</cell>
+ <cell>/home/nick/src/Igloo2_TFT_Video_Out_test/constraint/io/Igloo2_TFT_Video_Out_Test_top.io.pdc</cell>
+</row>
 </table>
 <section><name>Options</name></section>
 <table>
@@ -86,6 +90,10 @@
 <row>
  <cell>Abort Compile if errors are found in PDC file(s)</cell>
  <cell>true</cell>
+</row>
+<row>
+ <cell>Enable Design Separation Methodology</cell>
+ <cell>false</cell>
 </row>
 <row>
  <cell>Limit the number of high fanout nets to display to</cell>
@@ -102,15 +110,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>1085</cell>
+ <cell>6447</cell>
  <cell>12084</cell>
- <cell>8.98</cell>
+ <cell>53.35</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>603</cell>
+ <cell>10411</cell>
  <cell>12084</cell>
- <cell>4.99</cell>
+ <cell>86.16</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -120,15 +128,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>59</cell>
+ <cell>83</cell>
  <cell>231</cell>
- <cell>25.54</cell>
+ <cell>35.93</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>57</cell>
+ <cell>81</cell>
  <cell>231</cell>
- <cell>24.68</cell>
+ <cell>35.06</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -156,9 +164,9 @@
 </row>
 <row>
  <cell>Chip Global</cell>
- <cell>7</cell>
  <cell>8</cell>
- <cell>87.50</cell>
+ <cell>8</cell>
+ <cell>100.00</cell>
 </row>
 <row>
  <cell>CCC</cell>
@@ -212,8 +220,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>1085</cell>
- <cell>603</cell>
+ <cell>6447</cell>
+ <cell>10411</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -232,8 +240,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>1085</cell>
- <cell>603</cell>
+ <cell>6447</cell>
+ <cell>10411</cell>
 </row>
 </table>
 <section><name>HPMS Resource Usage</name></section>
@@ -290,10 +298,14 @@
 </row>
 <row>
  <cell>9</cell>
- <cell>1</cell>
+ <cell>2</cell>
 </row>
 <row>
- <cell>13</cell>
+ <cell>11</cell>
+ <cell>5</cell>
+</row>
+<row>
+ <cell>12</cell>
  <cell>1</cell>
 </row>
 <row>
@@ -302,19 +314,27 @@
 </row>
 <row>
  <cell>17</cell>
- <cell>2</cell>
+ <cell>5</cell>
 </row>
 <row>
- <cell>21</cell>
+ <cell>18</cell>
  <cell>1</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>3</cell>
 </row>
 <row>
  <cell>23</cell>
  <cell>1</cell>
 </row>
 <row>
+ <cell>27</cell>
+ <cell>1</cell>
+</row>
+<row>
  <cell>Total</cell>
- <cell>9</cell>
+ <cell>22</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -327,13 +347,13 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>2</cell>
+ <cell>5</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>35</cell>
+ <cell>56</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -367,11 +387,19 @@
  <cell>Bidirectional</cell>
 </header>
 <row>
+ <cell>LVCMOS33</cell>
+ <cell> 3.30v</cell>
+ <cell> N/A</cell>
+ <cell> 0</cell>
+ <cell> 28</cell>
+ <cell> 0</cell>
+</row>
+<row>
  <cell>LVCMOS25</cell>
  <cell> 2.50v</cell>
  <cell> N/A</cell>
+ <cell> 4</cell>
  <cell> 1</cell>
- <cell> 8</cell>
  <cell> 0</cell>
 </row>
 <row>
@@ -400,8 +428,8 @@
 </header>
 <row>
  <cell>Locked</cell>
- <cell> 50</cell>
- <cell>84.75%</cell>
+ <cell> 82</cell>
+ <cell>98.80%</cell>
 </row>
 <row>
  <cell>Placed</cell>
@@ -410,8 +438,8 @@
 </row>
 <row>
  <cell>UnPlaced</cell>
- <cell> 9</cell>
- <cell>15.25%</cell>
+ <cell> 1</cell>
+ <cell>1.20%</cell>
 </row>
 </table>
 <section><name>Nets assigned to chip global resources</name></section>
@@ -422,9 +450,9 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>510</cell>
+ <cell>10318</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0_FAB_CCC_GL0</cell>
+ <cell>Net   : CLK_o_net_0</cell>
 </row>
 <row>
  <cell></cell>
@@ -437,7 +465,22 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>458</cell>
+ <cell>9621</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.INIT_DONE_int_iso_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/INIT_DONE_int_iso_RNI83DA_0/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>462</cell>
  <cell>INT_NET</cell>
  <cell>Net   : Igloo2_TFT_Video_Out_Test_0/HPMS_READY</cell>
 </row>
@@ -482,7 +525,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>20</cell>
+ <cell>26</cell>
  <cell>INT_NET</cell>
  <cell>Net   : Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/sm0_areset_n_clk_base_0</cell>
 </row>
@@ -543,104 +586,104 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>66</cell>
+ <cell>4806</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/HREADY_i_3</cell>
+ <cell>Net   : lineBuffer_0/inactive_horizontal_RNIGT08B[31]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterstage_0/HREADY_M_iv</cell>
+ <cell>Driver: lineBuffer_0/inactive_horizontal_RNIGT08B[31]</cell>
 </row>
 <row>
- <cell>52</cell>
+ <cell>1686</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/count[1]</cell>
+ <cell>Net   : lineBuffer_0/active_horizontal[4]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/count[1]</cell>
+ <cell>Driver: lineBuffer_0/active_horizontal[4]</cell>
 </row>
 <row>
- <cell>52</cell>
+ <cell>1363</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[21]</cell>
+ <cell>Net   : lineBuffer_0/active_horizontal[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[21]</cell>
+ <cell>Driver: lineBuffer_0/active_horizontal[3]</cell>
 </row>
 <row>
- <cell>49</cell>
+ <cell>807</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/un1_d_HWRITE_0_sqmuxa_1_0</cell>
+ <cell>Net   : Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.INIT_DONE_int_iso</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/un1_d_HWRITE_0_sqmuxa_1_0</cell>
+ <cell>Driver: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/INIT_DONE_int_iso</cell>
 </row>
 <row>
- <cell>42</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterRegAddrSel</cell>
+ <cell>Net   : patternGen_0_PIXEL_o[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterstage_0/masterRegAddrSel</cell>
+ <cell>Driver: patternGen_0/pixel_r[0]</cell>
 </row>
 <row>
- <cell>39</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[10]</cell>
+ <cell>Net   : patternGen_0_PIXEL_o[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[10]</cell>
+ <cell>Driver: patternGen_0/pixel_r[1]</cell>
 </row>
 <row>
- <cell>37</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/N_198</cell>
+ <cell>Net   : patternGen_1_PIXEL_o[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/opcode_0_a3_0_0_a2</cell>
+ <cell>Driver: patternGen_1/pixel_r[0]</cell>
 </row>
 <row>
- <cell>36</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/slavestage_16/hsel2</cell>
+ <cell>Net   : patternGen_1_PIXEL_o[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/slavestage_16/hsel2</cell>
+ <cell>Driver: patternGen_1/pixel_r[1]</cell>
 </row>
 <row>
- <cell>36</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[8]</cell>
+ <cell>Net   : patternGen_2_PIXEL_o[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[8]</cell>
+ <cell>Driver: patternGen_2/pixel_r[0]</cell>
 </row>
 <row>
- <cell>36</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[7]</cell>
+ <cell>Net   : patternGen_2_PIXEL_o[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[7]</cell>
+ <cell>Driver: patternGen_2/pixel_r[1]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -651,104 +694,104 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>66</cell>
+ <cell>4806</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/HREADY_i_3</cell>
+ <cell>Net   : lineBuffer_0/inactive_horizontal_RNIGT08B[31]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterstage_0/HREADY_M_iv</cell>
+ <cell>Driver: lineBuffer_0/inactive_horizontal_RNIGT08B[31]</cell>
 </row>
 <row>
- <cell>52</cell>
+ <cell>1686</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/count[1]</cell>
+ <cell>Net   : lineBuffer_0/active_horizontal[4]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/count[1]</cell>
+ <cell>Driver: lineBuffer_0/active_horizontal[4]</cell>
 </row>
 <row>
- <cell>52</cell>
+ <cell>1363</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[21]</cell>
+ <cell>Net   : lineBuffer_0/active_horizontal[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[21]</cell>
+ <cell>Driver: lineBuffer_0/active_horizontal[3]</cell>
 </row>
 <row>
- <cell>49</cell>
+ <cell>807</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/un1_d_HWRITE_0_sqmuxa_1_0</cell>
+ <cell>Net   : Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.INIT_DONE_int_iso</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/un1_d_HWRITE_0_sqmuxa_1_0</cell>
+ <cell>Driver: Igloo2_TFT_Video_Out_Test_0/CORERESETP_0/INIT_DONE_int_iso</cell>
 </row>
 <row>
- <cell>42</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterRegAddrSel</cell>
+ <cell>Net   : patternGen_0_PIXEL_o[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/masterstage_0/masterRegAddrSel</cell>
+ <cell>Driver: patternGen_0/pixel_r[0]</cell>
 </row>
 <row>
- <cell>39</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[10]</cell>
+ <cell>Net   : patternGen_0_PIXEL_o[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[10]</cell>
+ <cell>Driver: patternGen_0/pixel_r[1]</cell>
 </row>
 <row>
- <cell>37</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/N_198</cell>
+ <cell>Net   : patternGen_1_PIXEL_o[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/opcode_0_a3_0_0_a2</cell>
+ <cell>Driver: patternGen_1/pixel_r[0]</cell>
 </row>
 <row>
- <cell>36</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/slavestage_16/hsel2</cell>
+ <cell>Net   : patternGen_1_PIXEL_o[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/CoreAHBLite_1/matrix4x16/slavestage_16/hsel2</cell>
+ <cell>Driver: patternGen_1/pixel_r[1]</cell>
 </row>
 <row>
- <cell>36</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[8]</cell>
+ <cell>Net   : patternGen_2_PIXEL_o[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[8]</cell>
+ <cell>Driver: patternGen_2/pixel_r[0]</cell>
 </row>
 <row>
- <cell>36</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[7]</cell>
+ <cell>Net   : patternGen_2_PIXEL_o[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Igloo2_TFT_Video_Out_Test_0/ConfigMaster_0/state[7]</cell>
+ <cell>Driver: patternGen_2/pixel_r[1]</cell>
 </row>
 </table>
 </doc>

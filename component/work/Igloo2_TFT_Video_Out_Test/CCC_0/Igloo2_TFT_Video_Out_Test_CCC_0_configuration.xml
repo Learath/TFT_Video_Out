@@ -8,7 +8,7 @@
 </header>
 <row>
  <cell>Date:</cell>
- <cell>Sun Oct 26 17:57:06 2014</cell>
+ <cell>Sun Nov  2 19:54:35 2014</cell>
 </row>
 <separator/>
 <row>
@@ -50,9 +50,9 @@
  <cell>primary clock</cell>
  <cell>PLL (0)</cell>
  <cell>100 MHz</cell>
- <cell>25 MHz</cell>
- <cell>25 MHz</cell>
- <cell>4 (GPD0)</cell>
+ <cell>50 MHz</cell>
+ <cell>50 MHz</cell>
+ <cell>2 (GPD0)</cell>
 </row>
 <separator/>
 <row>
@@ -267,7 +267,7 @@
 <row>
  <cell>FCCC_GPD0_CR</cell>
  <cell>0x12</cell>
- <cell>0x04</cell>
+ <cell>0x02</cell>
  <cell>GPD0 configuration register</cell>
 </row>
 <row>

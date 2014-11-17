@@ -1,0 +1,1 @@
+smartpower_report_power -clock_breakdown "TRUE" -rail_breakdown "TRUE" -type_breakdown "TRUE" {/home/nick/src/Igloo2_TFT_Video_Out_test/designer/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top_power_report.xml}

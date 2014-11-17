@@ -2,13 +2,13 @@
 rc:1 success:1
 /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn|o|0|0
 /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top_cck_prepass.rpt|o|0|0
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_comp.srs|i|1414646248|301909
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd|o|1414646252|356491
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap|o|1414646253|54301
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_comp.srs|i|1416227334|376867
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd|o|1416227342|1053160
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap|o|1416227344|671725
 /opt/microsemi/Libero_v11.4/Synplify/lib/generic/igloo2.v|i|1389720135|15419
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/syntmp/Igloo2_TFT_Video_Out_Test_top.plg|o|1414646250|0
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd|o|1414646252|356491
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/Igloo2_TFT_Video_Out_Test_top_premap.srr|o|1414646253|36931
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/syntmp/Igloo2_TFT_Video_Out_Test_top.plg|o|1416227336|0
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd|o|1416227342|1053160
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/Igloo2_TFT_Video_Out_Test_top_premap.srr|o|1416227344|37952
 /opt/microsemi/Libero_v11.4/Synplify/bin/m_generic|i|1401316484|345
 /opt/microsemi/Libero_v11.4/Synplify/linux/m_generic|i|1401316696|33255896
 /opt/microsemi/Libero_v11.4/Synplify/linux_a_64/m_generic|i|1401316699|35245000

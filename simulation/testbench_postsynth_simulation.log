@@ -1,0 +1,429 @@
+# do run.do
+# --- Using Linux Actel DirectCore AMBA BFM compiler
+# --- Compiling Actel DirectCore AMBA BFM source files ...
+# --- Done Compiling Actel DirectCore AMBA BFM source files.
+# INFO: Simulation library postsynth already exists
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# Model Technology ModelSim LE vmap 10.3a Lib Mapping Utility 2014.04 Apr 15 2014
+# vmap -modelsim_quiet postsynth postsynth 
+# Modifying modelsim.ini
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable smartfusion2 are found, only first occurence will be considered.
+# Model Technology ModelSim LE vmap 10.3a Lib Mapping Utility 2014.04 Apr 15 2014
+# vmap -modelsim_quiet smartfusion2 /opt/microsemi/Libero_v11.4/Libero/lib/modelsim/precompiled/vhdl/smartfusion2 
+# Modifying modelsim.ini
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# Model Technology ModelSim LE vmap 10.3a Lib Mapping Utility 2014.04 Apr 15 2014
+# vmap -modelsim_quiet SmartFusion2 /opt/microsemi/Libero_v11.4/Libero/lib/modelsim/precompiled/vhdl/smartfusion2 
+# Modifying modelsim.ini
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable SmartFusion2 are found, only first occurence will be considered.
+# Model Technology ModelSim LE vmap 10.3a Lib Mapping Utility 2014.04 Apr 15 2014
+# vmap -modelsim_quiet COREAHBLITE_LIB ../component/Actel/DirectCore/CoreAHBLite/5.0.100/mti/user_vhdl/COREAHBLITE_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.3a Compiler 2014.04 Apr 15 2014
+# Start time: 07:39:01 on Nov 17,2014
+# vcom -work COREAHBLITE_LIB -force_refresh 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package bfm_misc
+# -- Loading package bfm_textio
+# -- Loading package bfM_packAGE
+# -- Compiling entity bfm_AHbl
+# -- Compiling architecture BFMA1I10i of BFm_ahBL
+# -- Compiling entity BFM_ahbSLAve
+# -- Compiling architecture BFMA1Io1ol of bFM_ahbsLAVe
+# -- Compiling entity bfM_AHbslaVEext
+# -- Compiling architecture BFMA1io1OL of bfm_AHbslAVEext
+# -- Compiling entity bFM_maiN
+# -- Compiling architecture BFMA1i10I of bfM_Main
+# -- Compiling package bfm_misc
+# -- Compiling package body bfm_misc
+# -- Loading package bfm_misc
+# -- Loading package bfm_misc
+# -- Loading package bfm_textio
+# -- Compiling package bfM_packAGE
+# -- Compiling package body bfM_packAGE
+# -- Loading package bfM_packAGE
+# -- Compiling package bfm_textio
+# -- Compiling package body bfm_textio
+# -- Loading package bfm_textio
+# -- Loading package std_logic_arith
+# -- Loading package bfm_textio
+# -- Compiling entity bfm_textio_test
+# -- Compiling architecture TB of bfm_textio_test
+# -- Compiling package components
+# -- Loading package coreahblite_support
+# -- Compiling entity COREAHBLITE_ADDRDEC
+# -- Compiling architecture COREAHBLITE_ADDRDEC_arch of COREAHBLITE_ADDRDEC
+# -- Compiling package coreahblite_support
+# -- Compiling package body coreahblite_support
+# -- Loading package coreahblite_support
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package coreparameters
+# End time: 07:39:01 on Nov 17,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.3a Compiler 2014.04 Apr 15 2014
+# Start time: 07:39:01 on Nov 17,2014
+# vlog -work COREAHBLITE_LIB -force_refresh 
+# -- Skipping entity bfm_ahbl
+# -- Skipping entity bfm_ahbslave
+# -- Skipping entity bfm_ahbslaveext
+# -- Skipping entity bfm_main
+# -- Skipping package bfm_misc
+# -- Skipping package bfm_package
+# -- Skipping package bfm_textio
+# -- Skipping entity bfm_textio_test
+# -- Skipping package components
+# -- Skipping entity coreahblite_addrdec
+# -- Skipping package coreahblite_support
+# -- Skipping package coreparameters
+# End time: 07:39:01 on Nov 17,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.3a Compiler 2014.04 Apr 15 2014
+# Start time: 07:39:01 on Nov 17,2014
+# vcom -93 -explicit -work COREAHBLITE_LIB /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package components
+# End time: 07:39:02 on Nov 17,2014, Elapsed time: 0: 0: 1
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.3a Compiler 2014.04 Apr 15 2014
+# Start time: 07:39:02 on Nov 17,2014
+# vcom -93 -explicit -work COREAHBLITE_LIB /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package coreahblite_support
+# -- Compiling package body coreahblite_support
+# -- Loading package coreahblite_support
+# -- Loading package coreahblite_support
+# -- Compiling entity COREAHBLITE_ADDRDEC
+# -- Compiling architecture COREAHBLITE_ADDRDEC_arch of COREAHBLITE_ADDRDEC
+# End time: 07:39:02 on Nov 17,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.3a Compiler 2014.04 Apr 15 2014
+# Start time: 07:39:02 on Nov 17,2014
+# vcom -93 -explicit -work postsynth /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package coreconfigmaster_support
+# -- Compiling package body coreconfigmaster_support
+# -- Loading package coreconfigmaster_support
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package coreconfigmaster_support
+# -- Compiling entity CoreConfigMaster
+# -- Compiling architecture rtl of CoreConfigMaster
+# End time: 07:39:02 on Nov 17,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.3a Compiler 2014.04 Apr 15 2014
+# Start time: 07:39:02 on Nov 17,2014
+# vcom -93 -explicit -work postsynth /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xcounterZ0
+# -- Compiling architecture DEF_ARCH of xcounterZ0
+# -- Compiling entity xcounterZ1_pixel_counter_0_pixel_counter_0
+# -- Compiling architecture DEF_ARCH of xcounterZ1_pixel_counter_0_pixel_counter_0
+# -- Compiling entity patternGen_patternGen_0
+# -- Compiling architecture DEF_ARCH of patternGen_patternGen_0
+# -- Loading entity xcounterZ0
+# -- Loading entity xcounterZ1_pixel_counter_0_pixel_counter_0
+# -- Compiling entity Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC
+# -- Compiling architecture DEF_ARCH of Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC
+# -- Compiling entity CoreResetP
+# -- Compiling architecture DEF_ARCH of CoreResetP
+# -- Compiling entity Igloo2_TFT_Video_Out_Test_HPMS
+# -- Compiling architecture DEF_ARCH of Igloo2_TFT_Video_Out_Test_HPMS
+# -- Compiling entity Igloo2_TFT_Video_Out_Test_CCC_0_FCCC
+# -- Compiling architecture DEF_ARCH of Igloo2_TFT_Video_Out_Test_CCC_0_FCCC
+# -- Loading package vl_types
+# -- Loading entity RCOSC_25_50MHZ
+# -- Loading entity RCOSC_1MHZ
+# -- Loading entity XTLOSC
+# -- Compiling entity CoreConfigP
+# -- Compiling architecture DEF_ARCH of CoreConfigP
+# -- Compiling entity COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1
+# -- Compiling architecture DEF_ARCH of COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1
+# -- Compiling entity COREAHBLITE_MASTERSTAGE_1_1_85_65536
+# -- Compiling architecture DEF_ARCH of COREAHBLITE_MASTERSTAGE_1_1_85_65536
+# -- Loading entity COREAHBLITE_DEFAULTSLAVESM_default_slave_sm_1
+# -- Compiling entity COREAHBLITE_SLAVEARBITER_slave_arbiter_2
+# -- Compiling architecture DEF_ARCH of COREAHBLITE_SLAVEARBITER_slave_arbiter_2
+# -- Compiling entity COREAHBLITE_SLAVESTAGE_slavestage_16
+# -- Compiling architecture DEF_ARCH of COREAHBLITE_SLAVESTAGE_slavestage_16
+# -- Loading entity COREAHBLITE_SLAVEARBITER_slave_arbiter_2
+# -- Compiling entity COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0
+# -- Compiling architecture DEF_ARCH of COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0
+# -- Loading entity COREAHBLITE_MASTERSTAGE_1_1_85_65536
+# -- Loading entity COREAHBLITE_SLAVESTAGE_slavestage_16
+# -- Compiling entity CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0
+# -- Compiling architecture DEF_ARCH of CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0
+# -- Loading entity COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0
+# -- Compiling entity CoreConfigMaster
+# -- Compiling architecture DEF_ARCH of CoreConfigMaster
+# -- Compiling entity Igloo2_TFT_Video_Out_Test
+# -- Compiling architecture DEF_ARCH of Igloo2_TFT_Video_Out_Test
+# -- Loading entity Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC
+# -- Loading entity CoreResetP
+# -- Loading entity Igloo2_TFT_Video_Out_Test_HPMS
+# -- Loading entity Igloo2_TFT_Video_Out_Test_CCC_0_FCCC
+# -- Loading entity CoreConfigP
+# -- Loading entity CoreAHBLite_19_1_1_1_0_1_0_1_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0
+# -- Loading entity CoreConfigMaster
+# -- Compiling entity xcounterZ1_pixel_counter_0_pixel_counter_0_0
+# -- Compiling architecture DEF_ARCH of xcounterZ1_pixel_counter_0_pixel_counter_0_0
+# -- Compiling entity patternGen
+# -- Compiling architecture DEF_ARCH of patternGen
+# -- Loading entity xcounterZ1_pixel_counter_0_pixel_counter_0_0
+# -- Compiling entity DEBOUNCE
+# -- Compiling architecture DEF_ARCH of DEBOUNCE
+# -- Compiling entity xcounterZ1_pixel_counter_0_pixel_counter_0_1
+# -- Compiling architecture DEF_ARCH of xcounterZ1_pixel_counter_0_pixel_counter_0_1
+# -- Compiling entity patternGen_0
+# -- Compiling architecture DEF_ARCH of patternGen_0
+# -- Loading entity xcounterZ1_pixel_counter_0_pixel_counter_0_1
+# -- Compiling entity lineBuffer
+# -- Compiling architecture DEF_ARCH of lineBuffer
+# -- Compiling entity Igloo2_TFT_Video_Out_Test_top
+# -- Compiling architecture DEF_ARCH of Igloo2_TFT_Video_Out_Test_top
+# -- Loading entity patternGen_patternGen_0
+# -- Loading entity Igloo2_TFT_Video_Out_Test
+# -- Loading entity patternGen
+# -- Loading entity DEBOUNCE
+# -- Loading entity patternGen_0
+# -- Loading entity lineBuffer
+# End time: 07:39:07 on Nov 17,2014, Elapsed time: 0: 0: 5
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion2 -L postsynth -L COREAHBLITE_LIB -t 1fs postsynth.Igloo2_TFT_Video_Out_Test_top
+# ** Error: Failure to obtain a VHDL simulation license. Unable to checkout actelmsimvhdl license feature.
+# Error loading design
+# Start time: 07:39:07 on Nov 17,2014
+# End time: 07:39:07 on Nov 17,2014, Elapsed time: 0: 0: 0
+# Errors: 0, Warnings: 0

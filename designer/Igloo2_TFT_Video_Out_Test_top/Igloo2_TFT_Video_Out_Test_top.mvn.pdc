@@ -1,14 +1,14 @@
 # Microsemi Physical design constraints file
 
-# Version: v11.4 11.4.0.112
+# Version: v11.4 SP1 11.4.1.17
 
-# Design Name:  
+# Design Name: Igloo2_TFT_Video_Out_Test_top 
 
 # Input Netlist Format: EDIF 
 
-# Family: IGLOO2 , Die: M2GL010T , Package: 484 FBGA , Speed grade: -1 
+# Family: IGLOO2 , Die: M2GL010T , Package: 484 FBGA , Speed grade: STD 
 
-# Date generated: Thu Oct 30 01:18:25 2014 
+# Date generated: Mon Nov 17 09:09:55 2014 
 
 
 #
@@ -16,6 +16,10 @@
 #
 
 set_iobank Bank0 -vcci 1.80 -vref 1.00 -fixed no
+set_iobank Bank1 -vcci 3.30 -fixed no
+set_iobank Bank2 -vcci 2.50 -fixed no
+set_iobank Bank4 -vcci 3.30 -fixed no
+set_iobank Bank7 -vcci 3.30 -fixed no
 
 #
 # Local clock constraints
@@ -31,6 +35,7 @@ set_iobank Bank0 -vcci 1.80 -vref 1.00 -fixed no
 # I/O constraints
 #
 
+set_io CLK_o -DIRECTION OUTPUT -pinname K16 -fixed yes
 set_io DEVRST_N -DIRECTION INPUT -pinname R15
 set_io MDDR_ADDR\[0\] -DIRECTION OUTPUT -pinname B17 -fixed yes
 set_io MDDR_ADDR\[1\] -DIRECTION OUTPUT -pinname D16 -fixed yes
@@ -82,6 +87,38 @@ set_io MDDR_ODT -DIRECTION OUTPUT -pinname C20 -fixed yes
 set_io MDDR_RAS_N -DIRECTION OUTPUT -pinname F14 -fixed yes
 set_io MDDR_RESET_N -DIRECTION OUTPUT -pinname E15 -fixed yes
 set_io MDDR_WE_N -DIRECTION OUTPUT -pinname G14 -fixed yes
+set_io SEL_i -DIRECTION INPUT -pinname L16 -fixed yes
+set_io SEL_i_0 -DIRECTION INPUT -pinname L18 -fixed yes
+set_io SEL_i_1 -DIRECTION INPUT -pinname K21 -fixed yes
+set_io SWITCH -DIRECTION INPUT -pinname L20 -fixed yes
+set_io backlight_en -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname C4 -fixed yes
+set_io h_sync_o -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname E5 -fixed yes
+set_io pixel_o_0\[0\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname AB15 -fixed yes
+set_io pixel_o_0\[1\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname AA15 -fixed yes
+set_io pixel_o_0\[2\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname AB18 -fixed yes
+set_io pixel_o_0\[3\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname AB19 -fixed yes
+set_io pixel_o_0\[4\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname Y18 -fixed yes
+set_io pixel_o_0\[5\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname Y19 -fixed yes
+set_io pixel_o_0\[6\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname W16 -fixed yes
+set_io pixel_o_0\[7\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname V16 -fixed yes
+set_io pixel_o_0\[8\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname AA16 -fixed yes
+set_io pixel_o_0\[9\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname AA17 -fixed yes
+set_io pixel_o_0\[10\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname AB17 -fixed yes
+set_io pixel_o_0\[11\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname AA18 -fixed yes
+set_io pixel_o_0\[12\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname Y17 -fixed yes
+set_io pixel_o_0\[13\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname W17 -fixed yes
+set_io pixel_o_0\[14\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname U14 -fixed yes
+set_io pixel_o_0\[15\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname U15 -fixed yes
+set_io pixel_o_0\[16\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname V13 -fixed yes
+set_io pixel_o_0\[17\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname V14 -fixed yes
+set_io pixel_o_0\[18\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname G5 -fixed yes
+set_io pixel_o_0\[19\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname G6 -fixed yes
+set_io pixel_o_0\[20\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname C22 -fixed yes
+set_io pixel_o_0\[21\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname B22 -fixed yes
+set_io pixel_o_0\[22\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname Y15 -fixed yes
+set_io pixel_o_0\[23\] -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname W15 -fixed yes
+set_io reset_o -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname F5 -fixed yes
+set_io v_sync_o -DIRECTION OUTPUT -iostd LVCMOS33 -FF_IO_STATE TRISTATE -RES_PULL None -FF_IO_AVAIL No -OUT_DRIVE 4 -OUT_LOAD 5 -pinname E4 -fixed yes
 
 #
 # Core cell constraints

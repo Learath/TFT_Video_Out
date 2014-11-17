@@ -25,9 +25,9 @@ VcD=1h;0JTKVTXnI[1Qa1_1
 !s100 Hz`T>8DUl:5n16^SQFO7h0
 Z10 OW;C;10.3a;59
 31
-Z11 !s110 1414646220
+Z11 !s110 1414975049
 !i10b 1
-Z12 !s108 1414646220.416768
+Z12 !s108 1414975049.694211
 Z13 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd|
 Z14 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd|
 !i113 1
@@ -110,7 +110,7 @@ R10
 31
 R11
 !i10b 1
-Z18 !s108 1414646220.559588
+Z18 !s108 1414975049.843579
 Z19 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd|
 Z20 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd|
 !i113 1
@@ -147,11 +147,11 @@ V_`li63cDAlcKG?SMbjA6O0
 !s100 YLjeP@<^Y3b;=bmggndLD0
 R10
 31
-R11
+Z23 !s110 1414975050
 !i10b 1
-Z23 !s108 1414646220.748905
-Z24 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd|
-Z25 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd|
+Z24 !s108 1414975050.032655
+Z25 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd|
+Z26 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd|
 !i113 1
 R15
 Artl
@@ -165,11 +165,11 @@ VLeEi6jlmnANMHn>G^h?602
 !s100 [T8^0JV<MYVmgglWm8L>O1
 R10
 31
-R11
-!i10b 1
 R23
+!i10b 1
 R24
 R25
+R26
 !i113 1
 R15
 Ecoreresetp_pcie_hotreset
@@ -178,8 +178,8 @@ R3
 R6
 R7
 R0
-Z26 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
-Z27 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+Z27 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+Z28 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
 l0
 L35
 V?mQ[l0i>6m@zNBKJl:S721
@@ -188,9 +188,9 @@ R10
 31
 R11
 !i10b 1
-Z28 !s108 1414646220.661871
-Z29 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd|
-Z30 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd|
+Z29 !s108 1414975049.944974
+Z30 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd|
+Z31 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd|
 !i113 1
 R15
 Artl
@@ -206,20 +206,20 @@ R10
 31
 R11
 !i10b 1
-R28
 R29
 R30
+R31
 !i113 1
 R15
 Edebounce
-Z31 w1414467963
+Z32 w1414467963
 R4
 R5
 R6
 R7
 R0
-Z32 8/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd
-Z33 F/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd
+Z33 8/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd
+Z34 F/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd
 l0
 L26
 VbjhhE;e247IFnFZ0KlD@;1
@@ -228,9 +228,9 @@ R10
 31
 R11
 !i10b 1
-Z34 !s108 1414646220.240445
-Z35 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd|
-Z36 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd|
+Z35 !s108 1414975049.516568
+Z36 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd|
+Z37 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd|
 !i113 1
 R15
 Abehavioural
@@ -247,38 +247,38 @@ R10
 31
 R11
 !i10b 1
-R34
 R35
 R36
+R37
 !i113 1
 R15
 Eigloo2_tft_video_out_test
-Z37 w1414360629
-Z38 DPx15 coreahblite_lib 10 components 0 22 zGIlX`GP;PO0BBAGUf>bQ1
+Z38 w1414360629
+Z39 DPx15 coreahblite_lib 10 components 0 22 zGIlX`GP;PO0BBAGUf>bQ1
 R6
 R7
 R0
-Z39 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd
-Z40 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd
+Z40 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd
+Z41 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd
 l0
 L20
 VOfk8h1jPSB`l:5gMEKB3P2
 !s100 1g7XbzNAkTA;ICFTZ@P?O1
 R10
 31
-Z41 !s110 1414646222
+Z42 !s110 1414975051
 !i10b 1
-Z42 !s108 1414646222.305803
-Z43 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd|
-Z44 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd|
+Z43 !s108 1414975051.643707
+Z44 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd|
+Z45 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd|
 !i113 1
 R15
 Artl
 R3
 DEx15 coreahblite_lib 11 coreahblite 0 22 Ji?bZzlSgo`A[]4XacMXY2
-Z45 DPx7 verilog 8 vl_types 0 22 bmGnzhS4n>6F^Dki9hX>O3
+Z46 DPx7 verilog 8 vl_types 0 22 bmGnzhS4n>6F^Dki9hX>O3
 DEx12 smartfusion2 14 RCOSC_25_50MHZ 0 22 `JN@9S9cnhjKRR_L]QIcM3
-R38
+R39
 R6
 R7
 DEx4 work 25 igloo2_tft_video_out_test 0 22 Ofk8h1jPSB`l:5gMEKB3P2
@@ -288,11 +288,11 @@ V5Th[Lz[BUo49F2_;DIV`k2
 !s100 cL>aS>=O60T=eTRemGd^E3
 R10
 31
-R41
-!i10b 1
 R42
+!i10b 1
 R43
 R44
+R45
 !i113 1
 R15
 Eigloo2_tft_video_out_test_ccc_0_fccc
@@ -300,8 +300,8 @@ R1
 R6
 R7
 R0
-Z46 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd
-Z47 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd
+Z47 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd
+Z48 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd
 l0
 L8
 VhjhZoS^BD^3a2ndocZ>l92
@@ -310,14 +310,14 @@ R10
 31
 R11
 !i10b 1
-Z48 !s108 1414646220.318010
-Z49 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd|
-Z50 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd|
+Z49 !s108 1414975049.594494
+Z50 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd|
+Z51 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd|
 !i113 1
 R15
 Adef_arch
 DEx12 smartfusion2 6 XTLOSC 0 22 `JN@9S9cnhjKRR_L]QIcM3
-R45
+R46
 DEx12 smartfusion2 10 RCOSC_1MHZ 0 22 `JN@9S9cnhjKRR_L]QIcM3
 R6
 R7
@@ -330,29 +330,29 @@ R10
 31
 R11
 !i10b 1
-R48
 R49
 R50
+R51
 !i113 1
 R15
 Eigloo2_tft_video_out_test_fabosc_0_osc
-Z51 w1414360628
+Z52 w1414360628
 R6
 R7
 R0
-Z52 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd
-Z53 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd
+Z53 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd
+Z54 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd
 l0
 L8
 Vf8XOD]IT8WIT62h5MPidN3
 !s100 EQ5Rz:5M8P^0KVF4:h]la0
 R10
 31
-R11
+R23
 !i10b 1
-Z54 !s108 1414646220.869569
-Z55 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd|
-Z56 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd|
+Z55 !s108 1414975050.152912
+Z56 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd|
+Z57 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd|
 !i113 1
 R15
 Adef_arch
@@ -365,31 +365,31 @@ V@Q95n?7MKI2Q<1WkFHfEn2
 !s100 ]AL7;XnQ>P2EQM??:NOa>2
 R10
 31
-R11
+R23
 !i10b 1
-R54
 R55
 R56
+R57
 !i113 1
 R15
 Eigloo2_tft_video_out_test_hpms
-Z57 w1414360622
+Z58 w1414360622
 R6
 R7
 R0
-Z58 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd
-Z59 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd
+Z59 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd
+Z60 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd
 l0
 L17
 V<G1MYNQ8dARW[F@cnO45<1
 !s100 TL^EOclGII^8IRnOJEBz=1
 R10
 31
-R11
+R23
 !i10b 1
-Z60 !s108 1414646220.959122
-Z61 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd|
-Z62 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd|
+Z61 !s108 1414975050.242335
+Z62 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd|
+Z63 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd|
 !i113 1
 R15
 Artl
@@ -402,77 +402,77 @@ V=^4mo`^1W3a4hZ6dzQ5lW0
 !s100 n=32Bn^LHfMY`RAbFNVhB2
 R10
 31
-!s110 1414646221
+R23
 !i10b 1
-R60
 R61
 R62
+R63
 !i113 1
 R15
 Eigloo2_tft_video_out_test_top
-Z63 w1414644353
+Z64 w1414974981
 R6
 R7
 R0
-Z64 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd
-Z65 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd
+Z65 8/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd
+Z66 F/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd
 l0
 L17
-Vhz>JDc@457P_H_k4]5bK32
-!s100 Mk;B906?`c]RkC2;6WLYE0
+Vdh7CLhVf@;E]B7kRoH6XW3
+!s100 C0MLE6FGSKTIn2dA@2bWh1
 R10
 31
-R41
+Z67 !s110 1414975052
 !i10b 1
-Z66 !s108 1414646222.650261
-Z67 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd|
-Z68 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd|
+Z68 !s108 1414975051.991087
+Z69 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd|
+Z70 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd|
 !i113 1
 R15
 Artl
 R6
 R7
-DEx4 work 29 igloo2_tft_video_out_test_top 0 22 hz>JDc@457P_H_k4]5bK32
-l170
-L47
-V_=jALj`o65G3zJeR;X:En2
-!s100 @H1>iENQM?fHEBUSVbLk@2
+Z71 DEx4 work 29 igloo2_tft_video_out_test_top 0 22 dh7CLhVf@;E]B7kRoH6XW3
+l193
+L55
+Z72 V7ci>R;CJ2;SYRdchH5:TX1
+Z73 !s100 ;0cJ@I9L?JC2DKl>F[[YQ2
 R10
 31
-R41
-!i10b 1
-R66
 R67
+!i10b 1
 R68
+R69
+R70
 !i113 1
 R15
 Epatterngen
-Z69 w1414646206
-Z70 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z74 w1414646206
+Z75 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
 R3
 R4
 R5
 R6
 R7
 R0
-Z71 8/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd
-Z72 F/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd
+Z76 8/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd
+Z77 F/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd
 l0
 L35
 VMK^TQ<88h@kL?oiF=9B[N2
 !s100 b7mSAal1j>feM`QWme<=C2
 R10
 31
-R41
+R42
 !i10b 1
-Z73 !s108 1414646222.555850
-Z74 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd|
-Z75 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd|
+Z78 !s108 1414975051.893147
+Z79 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd|
+Z80 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd|
 !i113 1
 R15
 Abehavioral
-Z76 DEx4 work 8 xcounter 0 22 F`7C3l@GY=OKYg71jLThM3
-R70
+Z81 DEx4 work 8 xcounter 0 22 F`7C3l@GY=OKYg71jLThM3
+R75
 R3
 R4
 R5
@@ -485,33 +485,33 @@ V[M5Wn_8:38hU8I0i=K76L1
 !s100 1<;?lJZ_VB]cIgeY1Q::V2
 R10
 31
-R41
+R42
 !i10b 1
-R73
-R74
-R75
+R78
+R79
+R80
 !i113 1
 R15
 Excounter
-Z77 w1414362443
+Z82 w1414362443
 R4
 R5
 R6
 R7
 R0
-Z78 8/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd
-Z79 F/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd
+Z83 8/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd
+Z84 F/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd
 l0
 L28
 VF`7C3l@GY=OKYg71jLThM3
 !s100 YFo?5TdiTSzDHO]gO1AL03
 R10
 31
-R41
+R42
 !i10b 1
-Z80 !s108 1414646222.479475
-Z81 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd|
-Z82 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd|
+Z85 !s108 1414975051.815661
+Z86 !s90 -93|-explicit|-work|presynth|/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd|
+Z87 !s107 /home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd|
 !i113 1
 R15
 Abehavioral
@@ -519,17 +519,17 @@ R4
 R5
 R6
 R7
-R76
+R81
 l47
 L42
 VRl@oN[cCg73`o6?obID_^0
 !s100 S0Y_WbTNfZ9YUn6I[AD3e3
 R10
 31
-R41
+R42
 !i10b 1
-R80
-R81
-R82
+R85
+R86
+R87
 !i113 1
 R15

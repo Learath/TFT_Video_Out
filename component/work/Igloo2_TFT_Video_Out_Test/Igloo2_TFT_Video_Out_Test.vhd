@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Sun Oct 26 17:57:08 2014
+-- Created by SmartDesign Sun Nov  2 19:54:37 2014
 -- Version: v11.4 11.4.0.112
 ----------------------------------------------------------------------
 
@@ -672,14 +672,14 @@ signal CORECONFIGP_0_MDDR_APBmslave_PADDR_0_10to2                : std_logic_vec
 signal CORECONFIGP_0_MDDR_APBmslave_PADDR_0                      : std_logic_vector(10 downto 2);
 signal CORECONFIGP_0_MDDR_APBmslave_PADDR                        : std_logic_vector(15 downto 2);
 
-signal CORECONFIGP_0_MDDR_APBmslave_PRDATA                       : std_logic_vector(15 downto 0);
 signal CORECONFIGP_0_MDDR_APBmslave_PRDATA_0_31to16              : std_logic_vector(31 downto 16);
 signal CORECONFIGP_0_MDDR_APBmslave_PRDATA_0_15to0               : std_logic_vector(15 downto 0);
 signal CORECONFIGP_0_MDDR_APBmslave_PRDATA_0                     : std_logic_vector(31 downto 0);
+signal CORECONFIGP_0_MDDR_APBmslave_PRDATA                       : std_logic_vector(15 downto 0);
 
+signal CORECONFIGP_0_MDDR_APBmslave_PWDATA                       : std_logic_vector(31 downto 0);
 signal CORECONFIGP_0_MDDR_APBmslave_PWDATA_0_15to0               : std_logic_vector(15 downto 0);
 signal CORECONFIGP_0_MDDR_APBmslave_PWDATA_0                     : std_logic_vector(15 downto 0);
-signal CORECONFIGP_0_MDDR_APBmslave_PWDATA                       : std_logic_vector(31 downto 0);
 
 signal Igloo2_TFT_Video_Out_Test_HPMS_0_FIC_2_APB_MASTER_PADDR   : std_logic_vector(15 downto 2);
 signal Igloo2_TFT_Video_Out_Test_HPMS_0_FIC_2_APB_MASTER_PADDR_0_16to16: std_logic_vector(16 to 16);

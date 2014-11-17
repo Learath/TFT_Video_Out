@@ -1,5 +1,5 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-top|work.Igloo2_TFT_Video_Out_Test_top|-prodtype|synplify_pro|-primux|-dspmac|-pqdpadd|-fixsmult|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-top|work.Igloo2_TFT_Video_Out_Test_top|-prodtype|synplify_pro|-primux|-dspmac|-pqdpadd|-fixsmult|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"/opt/microsemi/Libero_v11.4/Synplify/linux_a_64/c_vhdl":1389676094
 #CUR:"/opt/microsemi/Libero_v11.4/Synplify/lib/vhd/location.map":1389821196
 #CUR:"/opt/microsemi/Libero_v11.4/Synplify/lib/vhd/std.vhd":1389675875
@@ -10,29 +10,30 @@
 #CUR:"/opt/microsemi/Libero_v11.4/Synplify/lib/vhd/arith.vhd":1389675875
 #CUR:"/opt/microsemi/Libero_v11.4/Synplify/lib/vhd/unsigned.vhd":1389675875
 #CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd":1414467963
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd":1414360627
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd":1414976076
 #CUR:"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":1389720135
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/SgCore/OSC/1.0.102/osc_comps.vhd":1414360628
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS_syn.vhd":1414360619
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/components.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd":1414362443
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd":1414360628
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd":1414360622
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavestage.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":1414360627
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd":1414360629
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":1414646206
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/SgCore/OSC/1.0.102/osc_comps.vhd":1414976077
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS_syn.vhd":1414976068
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_addrdec.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/components.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/lineBuffer.vhd":1416181534
 #CUR:"/opt/microsemi/Libero_v11.4/Synplify/lib/vhd/math_real.vhd":1389676085
-#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd":1414644353
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd":1414362443
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/FABOSC_0/Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC.vhd":1414976077
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd":1414976072
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavestage.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd":1414976076
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd":1414976078
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":1414646206
+#CUR:"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd":1416227313
 0 "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd" vhdl
 1 "/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/CCC_0/Igloo2_TFT_Video_Out_Test_CCC_0_FCCC.vhd" vhdl
 2 "/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd" vhdl
@@ -52,9 +53,10 @@
 16 "/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite.vhd" vhdl
 17 "/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/components.vhd" vhdl
 18 "/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd" vhdl
-19 "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd" vhdl
-20 "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd" vhdl
-21 "/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd" vhdl
+19 "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/lineBuffer.vhd" vhdl
+20 "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd" vhdl
+21 "/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd" vhdl
+22 "/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_top/Igloo2_TFT_Video_Out_Test_top.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
@@ -77,11 +79,12 @@
 17 -1
 18 1 2 16 3 5 7 9 17 
 19 -1
-20 19 
-21 0 18 20 
+20 -1
+21 20 
+22 0 18 19 21 
 
 # Dependency Lists (Users Of)
-0 21 
+0 22 
 1 18 
 2 18 
 3 18 
@@ -99,10 +102,11 @@
 15 16 
 16 18 
 17 18 
-18 21 
-19 20 
+18 22 
+19 22 
 20 21 
-21 -1
+21 22 
+22 -1
 
 # Design Unit to File Association
 arch work debounce behavioural 0
@@ -151,12 +155,14 @@ arch coreahblite_lib coreahblite coreahblite_arch 16
 module coreahblite_lib coreahblite 16
 arch work igloo2_tft_video_out_test rtl 18
 module work igloo2_tft_video_out_test 18
-arch work xcounter behavioral 19
-module work xcounter 19
-arch work patterngen behavioral 20
-module work patterngen 20
-arch work igloo2_tft_video_out_test_top rtl 21
-module work igloo2_tft_video_out_test_top 21
+arch work linebuffer behavioral 19
+module work linebuffer 19
+arch work xcounter behavioral 20
+module work xcounter 20
+arch work patterngen behavioral 21
+module work patterngen 21
+arch work igloo2_tft_video_out_test_top rtl 22
+module work igloo2_tft_video_out_test_top 22
 
 
 # Configuration files used

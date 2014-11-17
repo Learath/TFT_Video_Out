@@ -5,6 +5,7 @@
 @N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":35:7:35:16|Synthesizing work.patterngen.behavioral 
 @N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd":28:7:28:14|Synthesizing work.xcounter.behavioral 
 @N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/xcounter.vhd":28:7:28:14|Synthesizing work.xcounter.behavioral 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/lineBuffer.vhd":26:7:26:16|Synthesizing work.linebuffer.behavioral 
 @N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test/Igloo2_TFT_Video_Out_Test.vhd":20:7:20:31|Synthesizing work.igloo2_tft_video_out_test.rtl 
 @N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":779:10:779:17|Synthesizing smartfusion2.sysreset.syn_black_box 
 @N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd":17:7:17:36|Synthesizing work.igloo2_tft_video_out_test_hpms.rtl 
@@ -48,5 +49,17 @@
 @N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":787:10:787:12|Synthesizing smartfusion2.ccc.syn_black_box 
 @N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":569:10:569:12|Synthesizing smartfusion2.gnd.syn_black_box 
 @N: CD630 :"/opt/microsemi/Libero_v11.4/Synplify/lib/generic/smartfusion2.vhd":575:10:575:12|Synthesizing smartfusion2.vcc.syn_black_box 
-@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/frameBuffer.vhd":26:7:26:17|Synthesizing work.framebuffer.behavioral 
+@N: CD630 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd":26:7:26:14|Synthesizing work.debounce.behavioural 
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigMaster/2.1.102/rtl/vhdl/core/coreconfigmaster.vhd":628:8:628:9|Trying to extract state machine for register state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":399:8:399:9|Trying to extract state machine for register arbRegSMCurrentState
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":517:8:517:9|Trying to extract state machine for register state
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state
+@N: CL201 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state
 

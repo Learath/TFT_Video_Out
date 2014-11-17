@@ -3,35 +3,35 @@ Resource Usage Report for Igloo2_TFT_Video_Out_Test_top
 Mapping to part: m2gl010tfbga484-1
 Cell usage:
 CCC             1 use
-CLKINT          7 uses
+CLKINT          8 uses
 MSS_010         1 use
 RCOSC_25_50MHZ  1 use
 RCOSC_25_50MHZ_FAB  1 use
-CFG1           5 uses
-CFG2           196 uses
-CFG3           185 uses
-CFG4           559 uses
+CFG1           8 uses
+CFG2           1093 uses
+CFG3           851 uses
+CFG4           4158 uses
 
 Carry primitives used for arithmetic functions:
-ARI1           137 uses
+ARI1           331 uses
 
 
 Sequential Cells: 
-SLE            603 uses
+SLE            10411 uses
 
 DSP Blocks:    0
 
-I/O ports: 60
-I/O primitives: 59
+I/O ports: 84
+I/O primitives: 83
 BIBUF          20 uses
-INBUF          2 uses
-OUTBUF         35 uses
+INBUF          5 uses
+OUTBUF         56 uses
 OUTBUF_DIFF    1 use
 SYSRESET       1 use
 
 
-Global Clock Buffers: 7
+Global Clock Buffers: 8
 
 
-Total LUTs:    1082
+Total LUTs:    6441
 

@@ -1,7 +1,7 @@
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Thu Oct 30 01:18:00 2014
+# Timing Report written on Mon Nov 17 07:38:22 2014
 #
 
 
@@ -20,12 +20,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 0.278
+Worst slack in design: 0.315
 
                                                                              Requested     Estimated     Requested     Estimated               Clock        Clock              
 Starting Clock                                                               Frequency     Frequency     Period        Period        Slack     Type         Group              
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     107.5 MHz     10.000        9.307         0.693     inferred     Inferred_clkgroup_0
+Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     102.4 MHz     10.000        9.763         0.237     inferred     Inferred_clkgroup_0
 Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     400.2 MHz     10.000        2.499         7.501     inferred     Inferred_clkgroup_2
 Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock               100.0 MHz     153.9 MHz     10.000        6.499         2.274     inferred     Inferred_clkgroup_1
 System                                                                       100.0 MHz     NA            10.000        NA            NA        system       system_clkgroup    
@@ -40,7 +40,7 @@ Clocks                                                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                                                                  Ending                                                                    |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               |  0.000       0.278  |  No paths    -      |  No paths    -      |  No paths    -    
+Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               |  0.000       0.315  |  No paths    -      |  No paths    -      |  No paths    -    
 Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock            |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
 Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
 Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock            Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
@@ -69,41 +69,41 @@ Detailed Report for Clock: Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred
 Starting Points with Worst Slack
 ********************************
 
-                                                                     Starting                                                                                                     Arrival          
-Instance                                                             Reference                                                       Type     Pin     Net                         Time        Slack
-                                                                     Clock                                                                                                                         
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_state[0]                Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[0]                0.066       0.456
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG1_DONE_q1             Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       CONFIG1_DONE_q1             0.053       0.494
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG2_DONE_q1             Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       CONFIG2_DONE_q1             0.053       0.494
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_q1     0.053       0.494
-DEBOUNCE_0.INTERRUPT                                                 Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       DEBOUNCE_0_INTERRUPT        0.053       0.494
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.POWER_ON_RESET_N_q1         Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       POWER_ON_RESET_N_q1         0.053       0.494
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.RESET_N_M2F_q1              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_q1              0.053       0.494
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.ddr_settled_q1              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ddr_settled_q1              0.053       0.494
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif0_core_q1       Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       release_sdif3_core_q1       0.053       0.494
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif3_spll_lock_q1          Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sdif3_spll_lock_q1          0.053       0.494
-===================================================================================================================================================================================================
+                                                                     Starting                                                                                                       Arrival          
+Instance                                                             Reference                                                       Type     Pin     Net                           Time        Slack
+                                                                     Clock                                                                                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG1_DONE_q1             Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       CONFIG1_DONE_q1               0.053       0.494
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG2_DONE_q1             Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       CONFIG2_DONE_q1               0.053       0.494
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_q1       0.053       0.494
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.POWER_ON_RESET_N_q1         Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       POWER_ON_RESET_N_q1           0.053       0.494
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.RESET_N_M2F_q1              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_q1                0.053       0.494
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.ddr_settled_q1              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ddr_settled_q1                0.053       0.494
+lineBuffer_0.inactive_line_buffer_0[0]                               Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       inactive_line_buffer_0[6]     0.053       0.494
+lineBuffer_0.inactive_line_buffer_0[1]                               Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       inactive_line_buffer_0[7]     0.053       0.494
+lineBuffer_0.inactive_line_buffer_0[10]                              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       inactive_line_buffer_0[8]     0.053       0.494
+lineBuffer_0.inactive_line_buffer_0[11]                              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       inactive_line_buffer_0[9]     0.053       0.494
+=====================================================================================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                                                           Starting                                                                                                     Required          
-Instance                                                                   Reference                                                       Type     Pin     Net                         Time         Slack
-                                                                           Clock                                                                                                                          
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.INIT_DONE_int                     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sm0_state[0]                0.205        0.278
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG1_DONE_clk_base             Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       CONFIG1_DONE_q1             0.155        0.315
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG2_DONE_clk_base             Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       CONFIG2_DONE_q1             0.155        0.315
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       FIC_2_APB_M_PRESET_N_q1     0.155        0.315
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.POWER_ON_RESET_N_clk_base         Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       POWER_ON_RESET_N_q1         0.155        0.315
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.RESET_N_M2F_clk_base              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RESET_N_M2F_q1              0.155        0.315
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.ddr_settled_clk_base              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       ddr_settled_q1              0.155        0.315
-patternGen_0.pixel_r[1]                                                    Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       DEBOUNCE_0_INTERRUPT        0.155        0.315
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.release_sdif0_core_clk_base       Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       release_sdif3_core_q1       0.155        0.315
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sdif3_spll_lock_q2                Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sdif3_spll_lock_q1          0.155        0.315
-==========================================================================================================================================================================================================
+                                                                           Starting                                                                                                        Required          
+Instance                                                                   Reference                                                       Type     Pin     Net                            Time         Slack
+                                                                           Clock                                                                                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG1_DONE_clk_base             Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       CONFIG1_DONE_q1                0.155        0.315
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG2_DONE_clk_base             Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       CONFIG2_DONE_q1                0.155        0.315
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base     Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       FIC_2_APB_M_PRESET_N_q1        0.155        0.315
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.POWER_ON_RESET_N_clk_base         Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       POWER_ON_RESET_N_q1            0.155        0.315
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.RESET_N_M2F_clk_base              Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RESET_N_M2F_q1                 0.155        0.315
+lineBuffer_0.active_line_buffer_0[0]                                       Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       inactive_line_buffer_0[6]      0.155        0.315
+lineBuffer_0.active_line_buffer_0[1]                                       Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       inactive_line_buffer_0[7]      0.155        0.315
+lineBuffer_0.active_line_buffer_0[8]                                       Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       inactive_line_buffer_0[8]      0.155        0.315
+lineBuffer_0.active_line_buffer_0[9]                                       Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       inactive_line_buffer_0[9]      0.155        0.315
+lineBuffer_0.active_line_buffer_0[16]                                      Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       inactive_line_buffer_0[22]     0.155        0.315
+=============================================================================================================================================================================================================
 
 
 
@@ -112,26 +112,26 @@ Worst Path Information
 
 
 Path information for path number 1: 
-    Propagation time:                        0.483
+    Propagation time:                        0.470
     + Clock delay at starting point:         0.000 (ideal)
     - Requested Period:                      0.000
-    - Hold time:                             0.205
+    - Hold time:                             0.155
     - Clock delay at ending point:           0.000 (ideal)
-    = Slack (critical) :                     0.277
+    = Slack (critical) :                     0.315
 
     Number of logic level(s):                0
-    Starting point:                          Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_state[0] / Q
-    Ending point:                            Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.INIT_DONE_int / EN
+    Starting point:                          Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG1_DONE_q1 / Q
+    Ending point:                            Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG1_DONE_clk_base / D
     The start point is clocked by            Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
     The end   point is clocked by            Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                      Pin      Pin               Arrival     No. of    
-Name                                                       Type     Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------------------------------------
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.sm0_state[0]      SLE      Q        Out     0.066     0.066       -         
-sm0_state[0]                                               Net      -        -       0.417     -           1         
-Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.INIT_DONE_int     SLE      EN       In      -         0.483       -         
-=====================================================================================================================
+Instance / Net                                                              Pin      Pin               Arrival     No. of    
+Name                                                               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG1_DONE_q1           SLE      Q        Out     0.053     0.053       -         
+CONFIG1_DONE_q1                                                    Net      -        -       0.417     -           1         
+Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.CONFIG1_DONE_clk_base     SLE      D        In      -         0.470       -         
+=============================================================================================================================
 
 
 
@@ -193,7 +193,7 @@ Path information for path number 1:
     - Requested Period:                      0.000
     - Hold time:                             0.155
     - Clock delay at ending point:           0.000 (ideal)
-    = Slack (non-critical) :                 0.315
+    = Slack (critical) :                     0.315
 
     Number of logic level(s):                0
     Starting point:                          Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr_enable_q1 / Q
@@ -269,7 +269,7 @@ Path information for path number 1:
     - Requested Period:                      0.000
     - Hold time:                             0.155
     - Clock delay at ending point:           0.000 (ideal)
-    = Slack (non-critical) :                 0.315
+    = Slack (critical) :                     0.315
 
     Number of logic level(s):                0
     Starting point:                          Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.INIT_DONE_q1 / Q

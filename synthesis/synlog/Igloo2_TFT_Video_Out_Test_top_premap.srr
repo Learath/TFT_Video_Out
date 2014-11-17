@@ -9,16 +9,16 @@ Printing clock  summary report in "/home/nick/src/Igloo2_TFT_Video_Out_test/synt
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled 
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 139MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 116MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
 
 @W: BN283 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/work/Igloo2_TFT_Video_Out_Test_HPMS/Igloo2_TFT_Video_Out_Test_HPMS.vhd":2007:0:2007:13|Expected property MEMORYFILE of instance MSS_ADLIB_INST to be binary -- found ENVM_init.mem.
 @W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":5307:4:5307:16|Removing user instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_0.matrix4x16.slavestage_16,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_0.matrix4x16.slavestage_15
@@ -52,6 +52,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":4989:4:4989:16|Removing user instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.slavestage_10,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.slavestage_1
 @W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":4512:4:4512:15|Removing user instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.slavestage_1,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_1.matrix4x16.slavestage_0
 @W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1059:8:1059:9|Removing sequential instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int,  because it is equivalent to instance Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.FDDR_CORE_RESET_N_int
+@W: BN132 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/lineBuffer.vhd":70:8:70:9|Removing sequential instance lineBuffer_0.reset_o,  because it is equivalent to instance lineBuffer_0.backlight_en
 @N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":528:8:528:9|Removing sequential instance FDDR_PENABLE_0 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
 @N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF0_PENABLE_0 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
 @N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF1_PENABLE_0 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
@@ -59,9 +60,12 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF3_PENABLE_0 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP(rtl) because there are no references to its outputs 
 @N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP(rtl) because there are no references to its outputs 
 @N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP(rtl) because there are no references to its outputs 
-@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Removing sequential instance valid_r of view:PrimLib.dff(prim) in hierarchy view:work.patternGen(behavioral) because there are no references to its outputs 
-@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Removing sequential instance line_end_r of view:PrimLib.sdffr(prim) in hierarchy view:work.patternGen(behavioral) because there are no references to its outputs 
-@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Removing sequential instance frame_end_r of view:PrimLib.sdffr(prim) in hierarchy view:work.patternGen(behavioral) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Removing sequential instance valid_r of view:PrimLib.dff(prim) in hierarchy view:work.patternGen_patternGen_0(behavioral) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Removing sequential instance line_end_r of view:PrimLib.sdffr(prim) in hierarchy view:work.patternGen_patternGen_0(behavioral) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Removing sequential instance line_end_r of view:PrimLib.sdffr(prim) in hierarchy view:work.patternGen_patternGen_1(behavioral) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Removing sequential instance frame_end_r of view:PrimLib.sdffr(prim) in hierarchy view:work.patternGen_patternGen_1(behavioral) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Removing sequential instance line_end_r of view:PrimLib.sdffr(prim) in hierarchy view:work.patternGen_patternGen_2(behavioral) because there are no references to its outputs 
+@N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/patternGen.vhd":103:8:103:9|Removing sequential instance frame_end_r of view:PrimLib.sdffr(prim) in hierarchy view:work.patternGen_patternGen_2(behavioral) because there are no references to its outputs 
 @N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":237:8:237:9|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:coreahblite_lib.COREAHBLITE_MASTERSTAGE_2_1_0_0_masterstage_1(coreahblite_masterstage_arch) because there are no references to its outputs 
 @N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":237:8:237:9|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:coreahblite_lib.COREAHBLITE_MASTERSTAGE_2_1_0_0_masterstage_1(coreahblite_masterstage_arch) because there are no references to its outputs 
 @N: BN362 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_masterstage.vhd":237:8:237:9|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:coreahblite_lib.COREAHBLITE_MASTERSTAGE_2_1_0_0_masterstage_1(coreahblite_masterstage_arch) because there are no references to its outputs 
@@ -130,7 +134,7 @@ Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100
 Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock               100.0 MHz     10.000        inferred     Inferred_clkgroup_1
 =========================================================================================================================================
 
-@W: MT530 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd":78:3:78:4|Found inferred clock Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock which controls 577 sequential elements including DEBOUNCE_0.INTERRUPT. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/nick/src/Igloo2_TFT_Video_Out_test/hdl/Debounce.vhd":78:3:78:4|Found inferred clock Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL0_net_inferred_clock which controls 39267 sequential elements including DEBOUNCE_0.INTERRUPT. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd":517:8:517:9|Found inferred clock Igloo2_TFT_Video_Out_Test_HPMS|FIC_2_APB_M_PCLK_inferred_clock which controls 110 sequential elements including Igloo2_TFT_Video_Out_Test_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd":1519:8:1519:9|Found inferred clock Igloo2_TFT_Video_Out_Test_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 31 sequential elements including Igloo2_TFT_Video_Out_Test_0.CORERESETP_0.count_ddr[13:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"/home/nick/src/Igloo2_TFT_Video_Out_test/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":72:8:72:9|Found inferred clock Igloo2_TFT_Video_Out_Test_CCC_0_FCCC|GL2_net_inferred_clock which controls 78 sequential elements including Igloo2_TFT_Video_Out_Test_0.CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm.defSlaveSMCurrentState. This clock has no specified timing constraint which may adversely impact design performance. 
@@ -139,9 +143,9 @@ Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap.
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 79MB peak: 146MB)
+At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 125MB peak: 201MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Thu Oct 30 01:17:33 2014
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
+# Mon Nov 17 07:29:04 2014
 
 ###########################################################]

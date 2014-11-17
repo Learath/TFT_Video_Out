@@ -1,16 +1,16 @@
 /opt/microsemi/Libero_v11.4/Synplify/bin/m_generic  -prodtype  synplify_pro  -encrypt  -pro  -rundir  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis  -part M2GL010T  -package FBGA484  -grade -1   -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000   -opcond COMWC  -report_path 0  -RWCheckOnRam 0    -summaryfile /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/report/Igloo2_TFT_Video_Out_Test_top_fpga_mapper.xml -top_level_module  work.Igloo2_TFT_Video_Out_Test_top  -flow mapping  -mp 1 -prjfile  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/scratchproject.prs  -implementation synthesis -licensetype  synplifypro  -oedif  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn  -freq 100.000  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd  -sap  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap  -otap  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.tap  -omap  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.map  -devicelib  /opt/microsemi/Libero_v11.4/Synplify/lib/generic/igloo2.v  -sap  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap  -ologparam  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/syntmp/Igloo2_TFT_Video_Out_Test_top.plg  -osyn  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.srm  -prjdir  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/  -prjname  Igloo2_TFT_Video_Out_Test_top_syn  -log  /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/Igloo2_TFT_Video_Out_Test_top_fpga_mapper.srr 
 rc:1 success:1
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/scratchproject.prs|o|1414645549|4611
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn|o|1414646280|1416966
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd|i|1414646252|356491
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap|o|1414646253|54301
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/scratchproject.prs|o|1416227325|4698
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn|o|1416227898|12610889
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synwork/Igloo2_TFT_Video_Out_Test_top_prem.srd|i|1416227342|1053160
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap|o|1416227344|671725
 /home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.tap|o|0|0
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.map|o|1414646280|27
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.map|o|1416227903|27
 /opt/microsemi/Libero_v11.4/Synplify/lib/generic/igloo2.v|i|1389720135|15419
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap|o|1414646253|54301
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/syntmp/Igloo2_TFT_Video_Out_Test_top.plg|o|1414646280|3906
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.srm|o|1414646279|236923
-/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/Igloo2_TFT_Video_Out_Test_top_fpga_mapper.srr|o|1414646280|85187
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.sap|o|1416227344|671725
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/syntmp/Igloo2_TFT_Video_Out_Test_top.plg|o|1416227903|3908
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.srm|o|1416227893|853532
+/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/synlog/Igloo2_TFT_Video_Out_Test_top_fpga_mapper.srr|o|1416227903|6462135
 /opt/microsemi/Libero_v11.4/Synplify/bin/m_generic|i|1401316484|345
 /opt/microsemi/Libero_v11.4/Synplify/linux/m_generic|i|1401316696|33255896
 /opt/microsemi/Libero_v11.4/Synplify/linux_a_64/m_generic|i|1401316699|35245000

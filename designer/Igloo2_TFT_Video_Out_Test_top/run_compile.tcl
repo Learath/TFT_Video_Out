@@ -70,6 +70,10 @@ set_compile_info \
     -name {"Source"} \
     -value {"/home/nick/src/Igloo2_TFT_Video_Out_test/synthesis/Igloo2_TFT_Video_Out_Test_top.edn"}
 set_compile_info \
+    -category {"Source Files"} \
+    -name {"Source"} \
+    -value {"/home/nick/src/Igloo2_TFT_Video_Out_test/constraint/io/Igloo2_TFT_Video_Out_Test_top.io.pdc"}
+set_compile_info \
     -category {"Options"} \
     -name {"Merge User SDC file(s) with Existing Timing Constraints"} \
     -value {"true"}
@@ -77,6 +81,10 @@ set_compile_info \
     -category {"Options"} \
     -name {"Abort Compile if errors are found in PDC file(s)"} \
     -value {"true"}
+set_compile_info \
+    -category {"Options"} \
+    -name {"Enable Design Separation Methodology"} \
+    -value {"false"}
 set_compile_info \
     -category {"Options"} \
     -name {"Limit the number of high fanout nets to display to"} \
@@ -87,4 +95,5 @@ compile \
     -fam IGLOO2 \
     -die PA4MGL1000 \
     -pkg fg484 \
+    -pdc_file {/home/nick/src/Igloo2_TFT_Video_Out_test/constraint/io/Igloo2_TFT_Video_Out_Test_top.io.pdc} \
     -merge_pdc 0
